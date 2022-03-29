@@ -25,7 +25,7 @@
 
 那就试试`search=<script>alert(1)</script>`，结果弹框了，这里应该是服务端把GET请求的search原封不动的返回了
 
-
+![](../.gitbook/assets/0pbIdCfWqxzriUaQ9G09eVPr8l3qRUN0RbUK9HPsyC8.png)
 
 输入`<>`提示SQL语法错误，信息为`check the manual that corresponds to your MariaDB server version for the right syntax to use near '<>' at line 1`
 
