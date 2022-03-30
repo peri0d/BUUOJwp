@@ -33,7 +33,17 @@ UPDATE users SET info = '123' WHERE name = 'aaa'
 select info from users where name = 'aaa'
 ```
 
-二次注入一般多存在注册登录
+修改info尝试二次注入无果，再去注册登录处测试`bbb' union select database()#`&#x20;
+
+```
+insert into users (id,name,pass,info) values (1,'bbb' union select database()#','aaa','something')
+```
+
+在info那个查询处&#x20;
+
+```
+select info from users where name = 'bbb' union select database()#'
+```
 
 注册
 
