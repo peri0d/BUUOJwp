@@ -36,7 +36,7 @@ select info from users where name = 'aaa'
 修改info尝试二次注入无果，再去注册登录处测试`bbb' union select database()#`&#x20;
 
 ```
-insert into users (id,name,pass,info) values (1,'bbb' union select database()#','aaa','something')
+insert into users (id,name,pass,info) values (1,'bbb\' union select database()#','aaa','something')
 ```
 
 在info那个查询处&#x20;
