@@ -18,6 +18,7 @@
 ## PHP综合
 
 * [\[网鼎杯 2020 朱雀组\]phpweb](php-zong-he/wang-ding-bei-2020-zhu-que-zu-phpweb.md)
+* [\[网鼎杯 2018\]Fakebook](php-zong-he/wang-ding-bei-2018fakebook.md)
 
 ## CVE
 
