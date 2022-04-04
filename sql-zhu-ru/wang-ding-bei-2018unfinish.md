@@ -15,7 +15,7 @@
 
 如果注册处用户名是`1234"`，会302跳转，如果是`1234'`就还会是注册页面，这说明是用`'`闭合语句的。并且如果语句执行失败会是注册页面。
 
-![](.gitbook/assets/image\_rc8BLEiHfGofkRf4RiBrnr.png)
+![](../.gitbook/assets/image\_rc8BLEiHfGofkRf4RiBrnr.png)
 
 可以猜出来后端代码
 
@@ -28,7 +28,7 @@ select name from table where email='123@qq.com'
 
 先构造insert的报错注入，`' or updatexml(1,concat(0x7e,database()),0) or '`，结果返回`nnnnoooo!!!`
 
-![](.gitbook/assets/image\_eXk5YwzymYzxjmDKfgmBwj.png)
+![](../.gitbook/assets/image\_eXk5YwzymYzxjmDKfgmBwj.png)
 
 经过一番尝试，发现是过滤了`,`，那就不能用if语句盲注，可以用`case when`
 
@@ -91,7 +91,7 @@ for i in range(1,50):
 
 `0'+ascii(substr(database() from 1 for 1))+'0`。这会在name处回显查询的值
 
-![](.gitbook/assets/image\_nYgUtF4c3KCzfNNbPLAu9E.png)
+![](../.gitbook/assets/image\_nYgUtF4c3KCzfNNbPLAu9E.png)
 
 ## 小结
 

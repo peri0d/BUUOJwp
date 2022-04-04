@@ -11,11 +11,11 @@
 
 直接给了提示
 
-![](.gitbook/assets/image\_sfYfyc8b6nSC7hNBpnQ9we.png)
+![](../.gitbook/assets/image\_sfYfyc8b6nSC7hNBpnQ9we.png)
 
 用户名输入`admin' or 1=1 #`会提示`hacker`
 
-![](.gitbook/assets/image\_aTeFgtrh9rxPGfq913aP7U.png)
+![](../.gitbook/assets/image\_aTeFgtrh9rxPGfq913aP7U.png)
 
 发现只要存在`'`就会弹出hacker，再看一下给的语句，如果过滤了`'`，那可以用的方式就剩下转义，但是转义之后无法把最后面的单引号取掉
 
@@ -47,7 +47,7 @@ select * from users where username='\' and passwd=';%00'
 select * from users where username='\' and passwd='||1;%00'
 ```
 
-![](.gitbook/assets/image\_iiKK5H3SSVyENVqTy4uuMq.png)
+![](../.gitbook/assets/image\_iiKK5H3SSVyENVqTy4uuMq.png)
 
 最后payload应该是这样子
 
@@ -61,7 +61,7 @@ username=\&passwd=||(select/**/passwd/**/regexp/**/"^a");%00
 username=\&passwd=||(passwd/**/regexp/**/"^y");%00
 ```
 
-![](.gitbook/assets/image\_uR9gVsK8RJHuT4HcsLxDcp.png)
+![](../.gitbook/assets/image\_uR9gVsK8RJHuT4HcsLxDcp.png)
 
 exp
 
@@ -107,7 +107,7 @@ for j in range(50):
 
 结果是`yoU_Will_neVer_knoW7788990`，再全转成小写`you_will_never_know7788990`
 
-![](.gitbook/assets/image\_d85KV9HrnSr64Yoe4nRkS9.png)
+![](../.gitbook/assets/image\_d85KV9HrnSr64Yoe4nRkS9.png)
 
 flag条件是输入的password和数据库中的相同，在提示中写了
 
@@ -115,7 +115,7 @@ flag条件是输入的password和数据库中的相同，在提示中写了
 $_POST['passwd'] === admin's password
 ```
 
-![](.gitbook/assets/image\_b8uTnXzfo6qzZYwzx6saov.png)
+![](../.gitbook/assets/image\_b8uTnXzfo6qzZYwzx6saov.png)
 
 ## 小结
 

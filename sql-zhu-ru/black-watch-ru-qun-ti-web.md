@@ -8,11 +8,11 @@
 
 ## wp
 
-![](.gitbook/assets/image\_kbvyQHwi5MfQyJEr29UMnf.png)
+![](../.gitbook/assets/image\_kbvyQHwi5MfQyJEr29UMnf.png)
 
 一开始并没有什么发现，后来F12找请求包时，发现请求热点内容的URL
 
-![](.gitbook/assets/image\_5UkYbvqTSPV95Zpy7qiycM.png)
+![](../.gitbook/assets/image\_5UkYbvqTSPV95Zpy7qiycM.png)
 
 分别访问如下地址，只有`id=2/2`可以访问，其他均返回`hack`，初步判断数值型注入
 
