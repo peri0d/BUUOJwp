@@ -13,3 +13,16 @@
 * [\[NCTF2019\]SQLi](sql-zhu-ru/nctf2019-sqli.md)
 * [\[CISCN2019 华北赛区 Day1 Web5\]CyberPunk](sql-zhu-ru/ciscn2019-hua-bei-sai-qu-day1-web5cyberpunk.md)
 * [\[WUSTCTF2020\]颜值成绩查询](sql-zhu-ru/wustctf2020-yan-zhi-cheng-ji-cha-xun.md)
+
+## PHP综合
+
+* [\[网鼎杯 2020 朱雀组\]phpweb](php-zong-he/wang-ding-bei-2020-zhu-que-zu-phpweb.md)
+
+## Copy of PHP
+
+* [Copy of Page 1](copy-of-php/copy-of-page-1.md)
+* [Copy of Copy of Page 1](copy-of-php/copy-of-copy-of-page-1.md)
+
+## Group 1
+
+* [Page 2](group-1/page-2.md)
