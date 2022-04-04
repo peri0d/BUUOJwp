@@ -13,6 +13,7 @@
 * [\[NCTF2019\]SQLi](sql-zhu-ru/nctf2019-sqli.md)
 * [\[CISCN2019 华北赛区 Day1 Web5\]CyberPunk](sql-zhu-ru/ciscn2019-hua-bei-sai-qu-day1-web5cyberpunk.md)
 * [\[WUSTCTF2020\]颜值成绩查询](sql-zhu-ru/wustctf2020-yan-zhi-cheng-ji-cha-xun.md)
+* [\[强网杯 2019\]随便注](sql-zhu-ru/qiang-wang-bei-2019-sui-bian-zhu.md)
 
 ## PHP综合
 
