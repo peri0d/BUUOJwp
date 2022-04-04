@@ -18,11 +18,11 @@
 
 * [\[网鼎杯 2020 朱雀组\]phpweb](php-zong-he/wang-ding-bei-2020-zhu-que-zu-phpweb.md)
 
-## Copy of PHP
+## CVE
 
-* [Copy of Page 1](copy-of-php/copy-of-page-1.md)
-* [Copy of Copy of Page 1](copy-of-php/copy-of-copy-of-page-1.md)
+* [Copy of Copy of Page 1](cve/copy-of-copy-of-page-1.md)
+* [\[HCTF 2018\]WarmUp](cve/hctf-2018-warmup.md)
 
-## Group 1
+## Python-tornado
 
-* [Page 2](group-1/page-2.md)
+* [\[护网杯 2018\]easy\_tornado](python-tornado/hu-wang-bei-2018easytornado.md)
