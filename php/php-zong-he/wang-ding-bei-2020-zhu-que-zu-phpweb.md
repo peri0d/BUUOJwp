@@ -11,11 +11,11 @@
 
 burp抓包发现显示报错信息
 
-![](../.gitbook/assets/image\_s75G2mQJRECdxqH5RSYjtB.png)
+![](../../.gitbook/assets/image\_s75G2mQJRECdxqH5RSYjtB.png)
 
 试着去修改POST内容，发现后端使用的是call\_user\_func这个函数
 
-![](../.gitbook/assets/image\_uSxNKFfmSx2r3FMxcaicbN.png)
+![](../../.gitbook/assets/image\_uSxNKFfmSx2r3FMxcaicbN.png)
 
 POST内容func=readfile\&p=index.php可以获取源码
 
@@ -60,7 +60,7 @@ flag四处找一下就可以发现，一般就网站根目录，根目录，home
 
 最后读取flag
 
-![](../.gitbook/assets/image\_fcfoJ6nrbqQXseCcNJpcqB.png)
+![](../../.gitbook/assets/image\_fcfoJ6nrbqQXseCcNJpcqB.png)
 
 ## 小结
 
