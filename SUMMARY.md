@@ -13,3 +13,4 @@
 
 * [\[网鼎杯2018\]Unfinish](wang-ding-bei-2018unfinish.md)
 * [\[Black Watch 入群题\]Web](black-watch-ru-qun-ti-web.md)
+* [\[NCTF2019\]SQLi](nctf2019-sqli.md)
