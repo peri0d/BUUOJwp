@@ -32,4 +32,12 @@
 * [Flask](python/flask/README.md)
   * [\[HCTF 2018\]admin](python/flask/hctf-2018-admin.md)
 
-## 非常规web
+## XPath注入
+
+* [\[NPUCTF2020\]ezlogin](xpath-zhu-ru/npuctf2020-ezlogin.md)
+
+## XXE
+
+* [\[CSAWQual 2019\]Web\_Unagi](xxe/csawqual-2019-web\_unagi.md)
+* [\[BSidesCF 2019\]SVGMagic](xxe/bsidescf-2019-svgmagic.md)
+* [\[GoogleCTF2019 Quals\]Bnv](xxe/googlectf2019-quals-bnv.md)
