@@ -65,7 +65,7 @@ payload：`1 || 1=1 limit 0,1`，使用`1 || 1=1`会列出所有的id，需要�
 
 ### 核心代码
 
-```
+```php
 if(isset($_GET['search'])){
   $search = $_GET['search'];
   if(preg_match('/(union|sleep|\'|\"| or |-|benchmark)/i', $search)){
