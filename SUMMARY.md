@@ -21,13 +21,15 @@
 
 * [PHP特性](php/php-te-xing/README.md)
   * [\[HCTF 2018\]WarmUp](php/php-te-xing/hctf-2018-warmup.md)
+  * [\[SUCTF 2018\]annonymous](php/php-te-xing/suctf-2018-annonymous.md)
+* [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
+  * [bestphp's revenge](php/php-fan-xu-lie-hua/bestphps-revenge.md)
+  * [\[ZJCTF 2019\]NiZhuanSiWei](php/php-fan-xu-lie-hua/zjctf-2019-nizhuansiwei.md)
+* [ThinkPHP](php/thinkphp/README.md)
+  * [\[RoarCTF 2019\]Simple Upload](php/thinkphp/roarctf-2019-simple-upload.md)
 * [PHP综合](php/php-zong-he/README.md)
   * [\[网鼎杯 2020 朱雀组\]phpweb](php/php-zong-he/wang-ding-bei-2020-zhu-que-zu-phpweb.md)
   * [\[网鼎杯 2018\]Fakebook](php/php-zong-he/wang-ding-bei-2018fakebook.md)
-* [ThinkPHP](php/thinkphp/README.md)
-  * [\[RoarCTF 2019\]Simple Upload](php/thinkphp/roarctf-2019-simple-upload.md)
-* [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
-  * [bestphp's revenge](php/php-fan-xu-lie-hua/bestphps-revenge.md)
 
 ## Python
 
@@ -49,3 +51,7 @@
 ## XSS
 
 * [\[GWCTF 2019\]mypassword](xss/gwctf-2019-mypassword.md)
+
+## 命令执行/代码执行
+
+* [EasyBypass](ming-ling-zhi-hang-dai-ma-zhi-hang/easybypass.md)
