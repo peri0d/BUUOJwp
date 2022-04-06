@@ -24,6 +24,10 @@
 * [PHP综合](php/php-zong-he/README.md)
   * [\[网鼎杯 2020 朱雀组\]phpweb](php/php-zong-he/wang-ding-bei-2020-zhu-que-zu-phpweb.md)
   * [\[网鼎杯 2018\]Fakebook](php/php-zong-he/wang-ding-bei-2018fakebook.md)
+* [ThinkPHP](php/thinkphp/README.md)
+  * [\[RoarCTF 2019\]Simple Upload](php/thinkphp/roarctf-2019-simple-upload.md)
+* [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
+  * [bestphp's revenge](php/php-fan-xu-lie-hua/bestphps-revenge.md)
 
 ## Python
 
@@ -41,3 +45,7 @@
 * [\[CSAWQual 2019\]Web\_Unagi](xxe/csawqual-2019-web\_unagi.md)
 * [\[BSidesCF 2019\]SVGMagic](xxe/bsidescf-2019-svgmagic.md)
 * [\[GoogleCTF2019 Quals\]Bnv](xxe/googlectf2019-quals-bnv.md)
+
+## XSS
+
+* [\[GWCTF 2019\]mypassword](xss/gwctf-2019-mypassword.md)
