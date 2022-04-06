@@ -5,9 +5,9 @@
 ## 考点
 
 * MySQL sql\_mode
-*
+* SQL注入fuzz
 
-
+## wp
 
 * [easy\_sql github](https://github.com/team-su/SUCTF-2019/tree/master/Web/easy\_sql)
 *   打开靶机，是这样的界面
@@ -33,3 +33,6 @@
 *   等同于 `select *,1 from Flag`
 
     ![](https://wcgimages.oss-cn-shenzhen.aliyuncs.com/buuoj/su\_ezsql\_5.png)
+
+## 小结
+
