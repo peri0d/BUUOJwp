@@ -36,3 +36,5 @@
 
 ## 小结
 
+1. sql\_mode的 PIPES\_AS\_CONCAT 将 || 视为字符串的连接操作符而非 "或" 运算符
+2. 在fuzz时需要注意的页面有<mark style="background-color:orange;">正常页面</mark>、<mark style="background-color:orange;">语句执行错误页面</mark>、<mark style="background-color:orange;">waf页面</mark>
