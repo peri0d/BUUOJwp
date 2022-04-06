@@ -1,5 +1,6 @@
 ---
 description: BUUOJ上WEB分类下的write up
+layout: landing
 ---
 
 # README
