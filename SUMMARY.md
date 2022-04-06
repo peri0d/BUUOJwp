@@ -15,6 +15,7 @@
 * [\[强网杯 2019\]随便注](sql-zhu-ru/qiang-wang-bei-2019-sui-bian-zhu.md)
 * [\[b01lers2020\]Life on Mars](sql-zhu-ru/b01lers2020-life-on-mars.md)
 * [\[CISCN2019 华北赛区 Day2 Web1\]Hack World](sql-zhu-ru/ciscn2019-hua-bei-sai-qu-day2-web1hack-world.md)
+* [\[SUCTF 2019\]EasySQL](sql-zhu-ru/suctf-2019-easysql.md)
 
 ## PHP
 
