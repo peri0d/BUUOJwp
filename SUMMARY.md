@@ -23,6 +23,8 @@
 * [\[极客大挑战 2019\]BabySQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019babysql.md)
 * [\[极客大挑战 2019\]HardSQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019hardsql.md)
 * [\[极客大挑战 2019\]FinalSQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019finalsql.md)
+* [\[RoarCTF 2019\]Online Proxy](sql-zhu-ru/roarctf-2019-online-proxy.md)
+* [\[BJDCTF2020\]Easy MD5](sql-zhu-ru/bjdctf2020-easy-md5.md)
 
 ## 命令执行/代码执行
 

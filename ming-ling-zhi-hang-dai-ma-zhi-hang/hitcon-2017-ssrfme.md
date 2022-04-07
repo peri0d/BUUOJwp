@@ -54,3 +54,7 @@ GET是Lib for WWW in Perl的命令，底层调用了open，pen存在命令执行
 ```
 
 再去访问`sandbox/230317844a87b41e353b096d0d6a5145/bash -c /readflag|`即可
+
+## 小结
+
+1. [https://www.cnblogs.com/remon535/p/13089590.html](https://www.cnblogs.com/remon535/p/13089590.html)
