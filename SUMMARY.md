@@ -58,6 +58,7 @@
   * [\[护网杯 2018\]easy\_tornado](python/tornado/hu-wang-bei-2018easytornado.md)
 * [Flask](python/flask/README.md)
   * [\[HCTF 2018\]admin](python/flask/hctf-2018-admin.md)
+  * [\[De1CTF 2019\]SSRF Me](python/flask/de1ctf-2019-ssrf-me.md)
 
 ## 文件上传
 
