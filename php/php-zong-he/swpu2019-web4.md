@@ -6,6 +6,7 @@
 
 * PDO场景下的SQL注入
 * SQL盲注
+* 代码审计
 
 ## wp
 
@@ -289,3 +290,7 @@ if __name__ == '__main__':
 favicon.ico和flag.php在同一个路径下，把favicon.ico改成flag.php即可\
 最终payload\
 ?r=User/Index\&img\_file=/../flag.php
+
+## 小结
+
+1. SQL注入要注意可以执行多条语句的情况，使用16进制+mysql预处理
