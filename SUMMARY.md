@@ -25,11 +25,16 @@
 * [\[极客大挑战 2019\]FinalSQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019finalsql.md)
 * [\[RoarCTF 2019\]Online Proxy](sql-zhu-ru/roarctf-2019-online-proxy.md)
 * [\[BJDCTF2020\]Easy MD5](sql-zhu-ru/bjdctf2020-easy-md5.md)
+* [\[网鼎杯 2018\]Comment](sql-zhu-ru/wang-ding-bei-2018comment.md)
+* [\[BJDCTF 2nd\]简单注入](sql-zhu-ru/bjdctf-2nd-jian-dan-zhu-ru.md)
+* [\[SWPU2019\]Web1](sql-zhu-ru/swpu2019-web1.md)
+* [\[GYCTF2020\]Blacklist](sql-zhu-ru/gyctf2020-blacklist.md)
 
 ## 命令执行/代码执行
 
 * [\[HITCON 2017\]SSRFme](ming-ling-zhi-hang-dai-ma-zhi-hang/hitcon-2017-ssrfme.md)
 * [EasyBypass](ming-ling-zhi-hang-dai-ma-zhi-hang/easybypass.md)
+* [\[RoarCTF 2019\]Easy Calc](ming-ling-zhi-hang-dai-ma-zhi-hang/roarctf-2019-easy-calc.md)
 
 ## XXE
 
@@ -62,6 +67,7 @@
   * [\[网鼎杯 2018\]Fakebook](php/php-zong-he/wang-ding-bei-2018fakebook.md)
   * [\[强网杯 2019\] UPLOAD](php/php-zong-he/qiang-wang-bei-2019-upload.md)
   * [\[SWPU2019\]Web4](php/php-zong-he/swpu2019-web4.md)
+  * [\[CISCN2019 总决赛 Day2 Web1\]Easyweb](php/php-zong-he/ciscn2019-zong-jue-sai-day2-web1easyweb.md)
 
 ## Python
 
