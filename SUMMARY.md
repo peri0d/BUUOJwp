@@ -17,6 +17,12 @@
 * [\[b01lers2020\]Life on Mars](sql-zhu-ru/b01lers2020-life-on-mars.md)
 * [\[CISCN2019 华北赛区 Day2 Web1\]Hack World](sql-zhu-ru/ciscn2019-hua-bei-sai-qu-day2-web1hack-world.md)
 * [\[SUCTF 2019\]EasySQL](sql-zhu-ru/suctf-2019-easysql.md)
+* [\[GXYCTF2019\]BabySQli](sql-zhu-ru/gxyctf2019-babysqli.md)
+* [\[GYCTF2020\]Ezsqli](sql-zhu-ru/gyctf2020-ezsqli.md)
+* [\[极客大挑战 2019\]LoveSQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019lovesql.md)
+* [\[极客大挑战 2019\]BabySQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019babysql.md)
+* [\[极客大挑战 2019\]HardSQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019hardsql.md)
+* [\[极客大挑战 2019\]FinalSQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019finalsql.md)
 
 ## 命令执行/代码执行
 
