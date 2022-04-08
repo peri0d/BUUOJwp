@@ -73,6 +73,12 @@
   * [\[强网杯 2019\] UPLOAD](php/php-zong-he/qiang-wang-bei-2019-upload.md)
   * [\[SWPU2019\]Web4](php/php-zong-he/swpu2019-web4.md)
   * [\[CISCN2019 总决赛 Day2 Web1\]Easyweb](php/php-zong-he/ciscn2019-zong-jue-sai-day2-web1easyweb.md)
+  * [\[2020 新春红包题\]1](php/php-zong-he/2020-xin-chun-hong-bao-ti-1.md)
+  * [\[GKCTF 2021\]easycms](php/php-zong-he/gkctf-2021-easycms.md)
+  * [\[GXYCTF2019\]BabysqliV3.0](php/php-zong-he/gxyctf2019-babysqliv3.0.md)
+  * [\[N1CTF 2018\]eating\_cms](php/php-zong-he/n1ctf-2018-eating\_cms.md)
+  * [\[安洵杯 2019\]不是文件上传](php/php-zong-he/an-xun-bei-2019-bu-shi-wen-jian-shang-chuan.md)
+  * [\[极客大挑战 2020\]Greatphp](php/php-zong-he/ji-ke-da-tiao-zhan-2020greatphp.md)
 * [SSTI](php/ssti/README.md)
   * [\[BJDCTF2020\]Cookie is so stable](php/ssti/bjdctf2020-cookie-is-so-stable.md)
 
