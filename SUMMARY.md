@@ -83,6 +83,9 @@
 * [Flask](python/flask/README.md)
   * [\[HCTF 2018\]admin](python/flask/hctf-2018-admin.md)
   * [\[De1CTF 2019\]SSRF Me](python/flask/de1ctf-2019-ssrf-me.md)
+  * [\[CISCN2019 华东南赛区\]Web4](python/flask/ciscn2019-hua-dong-nan-sai-qu-web4.md)
+* [其他类型](python/qi-ta-lei-xing/README.md)
+  * [\[DDCTF 2019\]homebrew event loop](python/qi-ta-lei-xing/ddctf-2019-homebrew-event-loop.md)
 
 ## Java
 
@@ -92,6 +95,7 @@
 
 * [\[MRCTF2020\]你传你🐎呢](wen-jian-shang-chuan/mrctf2020-ni-chuan-ni-ni.md)
 * [\[GXYCTF2019\]BabyUpload](wen-jian-shang-chuan/gxyctf2019-babyupload.md)
+* [\[XNUCA2019Qualifier\]EasyPHP](wen-jian-shang-chuan/xnuca2019qualifier-easyphp.md)
 
 ## 非常规web
 
