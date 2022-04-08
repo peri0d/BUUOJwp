@@ -32,6 +32,7 @@
 
 ## 命令执行/代码执行
 
+* [\[ACTF2020 新生赛\]Exec](ming-ling-zhi-hang-dai-ma-zhi-hang/actf2020-xin-sheng-sai-exec.md)
 * [\[HITCON 2017\]SSRFme](ming-ling-zhi-hang-dai-ma-zhi-hang/hitcon-2017-ssrfme.md)
 * [EasyBypass](ming-ling-zhi-hang-dai-ma-zhi-hang/easybypass.md)
 * [\[RoarCTF 2019\]Easy Calc](ming-ling-zhi-hang-dai-ma-zhi-hang/roarctf-2019-easy-calc.md)
@@ -53,14 +54,18 @@
 ## PHP
 
 * [PHP特性](php/php-te-xing/README.md)
+  * [\[GWCTF 2019\]我有一个数据库](php/php-te-xing/gwctf-2019-wo-you-yi-ge-shu-ju-ku.md)
+  * [\[ACTF2020 新生赛\]Include](php/php-te-xing/actf2020-xin-sheng-sai-include.md)
   * [\[HCTF 2018\]WarmUp](php/php-te-xing/hctf-2018-warmup.md)
   * [\[SUCTF 2018\]annonymous](php/php-te-xing/suctf-2018-annonymous.md)
   * [\[极客大挑战 2020\]Roamphp1 Welcome](php/php-te-xing/ji-ke-da-tiao-zhan-2020roamphp1-welcome.md)
   * [\[网鼎杯 2020 半决赛\]AliceWebsite](php/php-te-xing/wang-ding-bei-2020-ban-jue-sai-alicewebsite.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
+  * [\[MRCTF2020\]Ezpop](php/php-fan-xu-lie-hua/mrctf2020-ezpop.md)
   * [bestphp's revenge](php/php-fan-xu-lie-hua/bestphps-revenge.md)
   * [\[ZJCTF 2019\]NiZhuanSiWei](php/php-fan-xu-lie-hua/zjctf-2019-nizhuansiwei.md)
 * [ThinkPHP](php/thinkphp/README.md)
+  * [\[BJDCTF 2nd\]old-hack](php/thinkphp/bjdctf-2nd-old-hack.md)
   * [\[RoarCTF 2019\]Simple Upload](php/thinkphp/roarctf-2019-simple-upload.md)
 * [PHP综合](php/php-zong-he/README.md)
   * [\[网鼎杯 2020 朱雀组\]phpweb](php/php-zong-he/wang-ding-bei-2020-zhu-que-zu-phpweb.md)
@@ -68,6 +73,8 @@
   * [\[强网杯 2019\] UPLOAD](php/php-zong-he/qiang-wang-bei-2019-upload.md)
   * [\[SWPU2019\]Web4](php/php-zong-he/swpu2019-web4.md)
   * [\[CISCN2019 总决赛 Day2 Web1\]Easyweb](php/php-zong-he/ciscn2019-zong-jue-sai-day2-web1easyweb.md)
+* [SSTI](php/ssti/README.md)
+  * [\[BJDCTF2020\]Cookie is so stable](php/ssti/bjdctf2020-cookie-is-so-stable.md)
 
 ## Python
 
@@ -83,6 +90,7 @@
 
 ## 文件上传
 
+* [\[MRCTF2020\]你传你🐎呢](wen-jian-shang-chuan/mrctf2020-ni-chuan-ni-ni.md)
 * [\[GXYCTF2019\]BabyUpload](wen-jian-shang-chuan/gxyctf2019-babyupload.md)
 
 ## 非常规web

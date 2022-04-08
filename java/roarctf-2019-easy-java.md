@@ -11,7 +11,7 @@
 
 进去之后，没找到注册，就点一下 help
 
-![](../.gitbook/assets/Image.png)
+![](<../.gitbook/assets/Image (1).png>)
 
 可以看到这样的页面，不难想到这是文件下载，但是 GET 请求什么都下不了，这时候不妨试一试 POST 请求
 
