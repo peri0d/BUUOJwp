@@ -69,6 +69,7 @@
   * [\[RoarCTF 2019\]Simple Upload](php/thinkphp/roarctf-2019-simple-upload.md)
 * [PHP综合](php/php-zong-he/README.md)
   * [\[BUUCTF 2018\]Online Tool](php/php-zong-he/buuctf-2018-online-tool.md)
+  * [\[网鼎杯 2020 朱雀组\]Nmap](php/php-zong-he/wang-ding-bei-2020-zhu-que-zu-nmap.md)
   * [\[网鼎杯 2020 朱雀组\]phpweb](php/php-zong-he/wang-ding-bei-2020-zhu-que-zu-phpweb.md)
   * [\[网鼎杯 2018\]Fakebook](php/php-zong-he/wang-ding-bei-2018fakebook.md)
   * [\[强网杯 2019\] UPLOAD](php/php-zong-he/qiang-wang-bei-2019-upload.md)
