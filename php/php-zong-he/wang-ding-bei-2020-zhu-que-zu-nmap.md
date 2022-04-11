@@ -45,7 +45,7 @@ nmap -Pn -T4 -F --host-timeout 1000ms -oX xml/47cae -o xxxx \127.0.0.1 \\
 127.0.0.1' -iL /flag -o xxxx
 ```
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 ## 小结
 

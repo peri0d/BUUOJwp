@@ -54,6 +54,8 @@
 ## PHP
 
 * [PHP特性](php/php-te-xing/README.md)
+  * [\[NPUCTF2020\]ReadlezPHP](php/php-te-xing/npuctf2020-readlezphp.md)
+  * [\[BSidesCF 2020\]Had a bad day](php/php-te-xing/bsidescf-2020-had-a-bad-day.md)
   * [\[GWCTF 2019\]我有一个数据库](php/php-te-xing/gwctf-2019-wo-you-yi-ge-shu-ju-ku.md)
   * [\[ACTF2020 新生赛\]Include](php/php-te-xing/actf2020-xin-sheng-sai-include.md)
   * [\[HCTF 2018\]WarmUp](php/php-te-xing/hctf-2018-warmup.md)
@@ -68,6 +70,7 @@
   * [\[BJDCTF 2nd\]old-hack](php/thinkphp/bjdctf-2nd-old-hack.md)
   * [\[RoarCTF 2019\]Simple Upload](php/thinkphp/roarctf-2019-simple-upload.md)
 * [PHP综合](php/php-zong-he/README.md)
+  * [\[MRCTF2020\]套娃](php/php-zong-he/mrctf2020-tao-wa.md)
   * [\[BUUCTF 2018\]Online Tool](php/php-zong-he/buuctf-2018-online-tool.md)
   * [\[网鼎杯 2020 朱雀组\]Nmap](php/php-zong-he/wang-ding-bei-2020-zhu-que-zu-nmap.md)
   * [\[网鼎杯 2020 朱雀组\]phpweb](php/php-zong-he/wang-ding-bei-2020-zhu-que-zu-phpweb.md)
@@ -82,6 +85,7 @@
   * [\[安洵杯 2019\]不是文件上传](php/php-zong-he/an-xun-bei-2019-bu-shi-wen-jian-shang-chuan.md)
   * [\[极客大挑战 2020\]Greatphp](php/php-zong-he/ji-ke-da-tiao-zhan-2020greatphp.md)
 * [SSTI](php/ssti/README.md)
+  * [\[CISCN2019 华东南赛区\]Web11](php/ssti/ciscn2019-hua-dong-nan-sai-qu-web11.md)
   * [\[BJDCTF2020\]Cookie is so stable](php/ssti/bjdctf2020-cookie-is-so-stable.md)
 
 ## Python
@@ -108,3 +112,7 @@
 ## 非常规web
 
 * [\[FireshellCTF2020\]Caas](fei-chang-gui-web/fireshellctf2020-caas.md)
+
+## 未确定
+
+* [\[BJDCTF2020\]EasySearch](wei-que-ding/bjdctf2020-easysearch.md)
