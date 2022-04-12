@@ -81,7 +81,7 @@ function dechange($v){
 
 flag.php的密文为`ZmpdYSZmXGI=`
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 ## 小结
 
