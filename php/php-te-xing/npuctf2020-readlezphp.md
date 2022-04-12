@@ -12,7 +12,7 @@
 
 有个页面`time.php?source`
 
-![](<../../.gitbook/assets/image (12) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1).png>)
 
 访问后得到源码，是php反序列化
 
