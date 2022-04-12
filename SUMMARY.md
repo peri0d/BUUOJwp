@@ -36,6 +36,7 @@
 * [\[HITCON 2017\]SSRFme](ming-ling-zhi-hang-dai-ma-zhi-hang/hitcon-2017-ssrfme.md)
 * [EasyBypass](ming-ling-zhi-hang-dai-ma-zhi-hang/easybypass.md)
 * [\[RoarCTF 2019\]Easy Calc](ming-ling-zhi-hang-dai-ma-zhi-hang/roarctf-2019-easy-calc.md)
+* [\[极客大挑战 2019\]RCE ME](ming-ling-zhi-hang-dai-ma-zhi-hang/ji-ke-da-tiao-zhan-2019rce-me.md)
 
 ## XXE
 
@@ -96,8 +97,9 @@
   * [\[HCTF 2018\]admin](python/flask/hctf-2018-admin.md)
   * [\[De1CTF 2019\]SSRF Me](python/flask/de1ctf-2019-ssrf-me.md)
   * [\[CISCN2019 华东南赛区\]Web4](python/flask/ciscn2019-hua-dong-nan-sai-qu-web4.md)
-* [其他类型](python/qi-ta-lei-xing/README.md)
-  * [\[DDCTF 2019\]homebrew event loop](python/qi-ta-lei-xing/ddctf-2019-homebrew-event-loop.md)
+* [综合](python/zong-he/README.md)
+  * [\[DDCTF 2019\]homebrew event loop](python/zong-he/ddctf-2019-homebrew-event-loop.md)
+  * [\[CISCN2019 华北赛区 Day1 Web2\]ikun](python/zong-he/ciscn2019-hua-bei-sai-qu-day1-web2ikun.md)
 
 ## Java
 
@@ -116,3 +118,5 @@
 ## 未确定
 
 * [\[BJDCTF2020\]EasySearch](wei-que-ding/bjdctf2020-easysearch.md)
+
+## JWT
