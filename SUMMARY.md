@@ -87,14 +87,9 @@
   * [\[N1CTF 2018\]eating\_cms](php/php-zong-he/n1ctf-2018-eating\_cms.md)
   * [\[安洵杯 2019\]不是文件上传](php/php-zong-he/an-xun-bei-2019-bu-shi-wen-jian-shang-chuan.md)
   * [\[极客大挑战 2020\]Greatphp](php/php-zong-he/ji-ke-da-tiao-zhan-2020greatphp.md)
-* [SSTI](php/ssti/README.md)
-  * [\[CISCN2019 华东南赛区\]Web11](php/ssti/ciscn2019-hua-dong-nan-sai-qu-web11.md)
-  * [\[BJDCTF2020\]Cookie is so stable](php/ssti/bjdctf2020-cookie-is-so-stable.md)
 
 ## Python
 
-* [tornado](python/tornado/README.md)
-  * [\[护网杯 2018\]easy\_tornado](python/tornado/hu-wang-bei-2018easytornado.md)
 * [Flask](python/flask/README.md)
   * [\[HCTF 2018\]admin](python/flask/hctf-2018-admin.md)
   * [\[De1CTF 2019\]SSRF Me](python/flask/de1ctf-2019-ssrf-me.md)
@@ -102,6 +97,15 @@
 * [综合](python/zong-he/README.md)
   * [\[DDCTF 2019\]homebrew event loop](python/zong-he/ddctf-2019-homebrew-event-loop.md)
   * [\[CISCN2019 华北赛区 Day1 Web2\]ikun](python/zong-he/ciscn2019-hua-bei-sai-qu-day1-web2ikun.md)
+
+## SSTI
+
+* [PHP](ssti/php/README.md)
+  * [\[CISCN2019 华东南赛区\]Web11](ssti/php/ciscn2019-hua-dong-nan-sai-qu-web11.md)
+  * [\[BJDCTF2020\]Cookie is so stable](ssti/php/bjdctf2020-cookie-is-so-stable.md)
+* [Python](ssti/python/README.md)
+  * [\[CSCCTF 2019 Qual\]FlaskLight](ssti/python/cscctf-2019-qual-flasklight.md)
+  * [\[护网杯 2018\]easy\_tornado](ssti/python/hu-wang-bei-2018easytornado.md)
 
 ## Java
 
@@ -115,10 +119,13 @@
 
 ## 非常规web
 
+* [\[b01lers2020\]Welcome to Earth](fei-chang-gui-web/b01lers2020-welcome-to-earth.md)
 * [\[FireshellCTF2020\]Caas](fei-chang-gui-web/fireshellctf2020-caas.md)
 
 ## 未确定
 
 * [\[BJDCTF2020\]EasySearch](wei-que-ding/bjdctf2020-easysearch.md)
 
-## JWT
+## JavaScript
+
+* [\[HFCTF2020\]EasyLogin](javascript/hfctf2020-easylogin.md)

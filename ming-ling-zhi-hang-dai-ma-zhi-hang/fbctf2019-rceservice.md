@@ -12,7 +12,7 @@
 
 直接输`ls`会给出错误，显示提交的参数是`?cmd=ls`
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 要求输入json，输入`{"cmd":"ls"}`
 
