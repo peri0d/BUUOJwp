@@ -10,13 +10,13 @@
 
 ## wp
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 两个按钮，点一下，页面跳转到index.php?category=woofers
 
 尝试php伪协议文件包含，`index.php?category=php://filter/read=convert.base64-encode/resource=index.php`，得到报错无法包含<mark style="color:red;">index.php.php</mark>
 
-![](<../../.gitbook/assets/image (9) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 改一下payload，`index.php?category=php://filter/read=convert.base64-encode/resource=index`
 

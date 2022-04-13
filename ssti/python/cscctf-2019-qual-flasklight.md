@@ -8,15 +8,15 @@
 
 ## wp
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 F12，给了提示
 
-![](<../../.gitbook/assets/image (19) (1).png>)
+![](<../../.gitbook/assets/image (19) (1) (1).png>)
 
 题目是名字Flask，尝试一下SSTI
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 然后找可以利用的类
 

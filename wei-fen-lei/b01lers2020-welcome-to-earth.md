@@ -6,11 +6,11 @@
 
 直接访问发现从`/`跳转到了`/die`，抓包发现主页存在路径`/chase`
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 访问后又有其他路径，接着访问有`/shoot`目录，然后是`/door`目录
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 到这可以猜到大概意思是要不断访问出现的路径，其格式大概是这样`window.location='/shoot/'`
 
