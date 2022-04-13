@@ -6,7 +6,7 @@
 
 直接选择buy Flag Cookie，然后抓包，发现cookie中有一串base64
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (28).png>)
 
 
 
@@ -22,4 +22,4 @@
 eyJtb25leSI6IDUwMCwgImhpc3RvcnkiOiBbXX0=
 ```
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (9).png>)

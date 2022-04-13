@@ -16,11 +16,11 @@
 
 访问`/door`目录是给了一个js文件
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 再访问js文件才能得到下一个目录，`/open`目录也是同理
 
-![](<../.gitbook/assets/image (17) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1).png>)
 
 用如下脚本，得到了第一阶段的结果
 

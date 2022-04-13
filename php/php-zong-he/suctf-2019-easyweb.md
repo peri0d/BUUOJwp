@@ -66,7 +66,7 @@ ASCII范围不包含
 '"`~_&.,|=[
 ```
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 可以看出来没有过滤的是`$^{}%();`等等。一般来说，PHP传参是`$_GET["a"]`这种形式，但是在PHP7也可以这样`${_GET}{a}`
 
@@ -82,7 +82,7 @@ paylaod: `_=${%ff%ff%ff%ff^%a0%b8%ba%ab}{%ff}();&%ff=phpinfo` 相当于 `_=${_GE
 
 不确定中间件不确定PHP版本，看一下phpinfo，得到信息<mark style="color:orange;">`PHP7.2`</mark>和<mark style="color:orange;">`apache2`</mark>，REMOTE\_ADDR是10.244.80.46
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (7).png>)
 
 这样思路就明确了，上传`.htaccess`让服务器把图片文件解析成木马，但有几个问题
 
@@ -146,7 +146,7 @@ print(response.text)
 
 连接成功后发现权限好像不对，输什么都是返回ret=127，看了一下phpinfo，是要进行bypass\_disable\_function，用蚁剑自带的插件就可以。因为是PHP7.2，所以用了PHP7 Backtrace UAF进行bypass。
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
 ## 小结
 

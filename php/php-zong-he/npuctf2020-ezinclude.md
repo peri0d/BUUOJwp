@@ -22,11 +22,11 @@ Set-Cookie: Hash=fa25e54758d5d5c1927781a6ede89f8a; expires=Fri, 25-Feb-2022 05:5
 
 这就相当于告诉了name和pass，访问`/?name=&pass=fa25e54758d5d5c1927781a6ede89f8a`跳转到404页面，用burp抓包可以看到未跳转的页面
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (10).png>)
 
 访问flflflflag.php，发现是404，再抓包
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (30).png>)
 
 是一个文件包含，直接尝试PHP伪协议`php://filter/read=convert.base64-encode/resource=index.php`
 
@@ -123,11 +123,11 @@ print(r.content)
 
 我说怎么一直system不动，原来给ban了，所以用session.upload\_progress进行文件包含也是可以的。
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 写入shell后用蚁剑然后bypass
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (15).png>)
 
 ## 小结
 

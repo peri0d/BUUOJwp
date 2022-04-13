@@ -32,8 +32,9 @@
 
 ## 命令执行/代码执行
 
+* [\[ISITDTU 2019\]EasyPHP](ming-ling-zhi-hang-dai-ma-zhi-hang/isitdtu-2019-easyphp.md)
 * [\[红明谷CTF 2021\]write\_shell](ming-ling-zhi-hang-dai-ma-zhi-hang/hong-ming-gu-ctf-2021writeshell.md)
-* [\[RoarCTF 2019\]Easy Calc](ming-ling-zhi-hang-dai-ma-zhi-hang/roarctf-2019-easy-calc.md)
+* [未完成\[RoarCTF 2019\]Easy Calc](ming-ling-zhi-hang-dai-ma-zhi-hang/wei-wan-cheng-roarctf-2019easy-calc.md)
 * [\[极客大挑战 2019\]RCE ME](ming-ling-zhi-hang-dai-ma-zhi-hang/ji-ke-da-tiao-zhan-2019rce-me.md)
 * [EasyBypass](ming-ling-zhi-hang-dai-ma-zhi-hang/easybypass.md)
 * [\[FBCTF2019\]RCEService](ming-ling-zhi-hang-dai-ma-zhi-hang/fbctf2019-rceservice.md)
@@ -74,6 +75,8 @@
 ## PHP
 
 * [PHP特性](php/php-te-xing/README.md)
+  * [\[MRCTF2020\]Ezaudit](php/php-te-xing/mrctf2020-ezaudit.md)
+  * [\[BJDCTF2020\]EzPHP](php/php-te-xing/bjdctf2020-ezphp.md)
   * [\[NPUCTF2020\]ReadlezPHP](php/php-te-xing/npuctf2020-readlezphp.md)
   * [\[BSidesCF 2020\]Had a bad day](php/php-te-xing/bsidescf-2020-had-a-bad-day.md)
   * [\[GWCTF 2019\]我有一个数据库](php/php-te-xing/gwctf-2019-wo-you-yi-ge-shu-ju-ku.md)
@@ -83,6 +86,8 @@
   * [\[极客大挑战 2020\]Roamphp1 Welcome](php/php-te-xing/ji-ke-da-tiao-zhan-2020roamphp1-welcome.md)
   * [\[网鼎杯 2020 半决赛\]AliceWebsite](php/php-te-xing/wang-ding-bei-2020-ban-jue-sai-alicewebsite.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
+  * [\[EIS 2019\]EzPOP](php/php-fan-xu-lie-hua/eis-2019-ezpop.md)
+  * [\[GYCTF2020\]Easyphp](php/php-fan-xu-lie-hua/gyctf2020-easyphp.md)
   * [\[MRCTF2020\]Ezpop](php/php-fan-xu-lie-hua/mrctf2020-ezpop.md)
   * [bestphp's revenge](php/php-fan-xu-lie-hua/bestphps-revenge.md)
   * [\[ZJCTF 2019\]NiZhuanSiWei](php/php-fan-xu-lie-hua/zjctf-2019-nizhuansiwei.md)
@@ -131,7 +136,8 @@
 
 ## 未分类
 
+* [\[GXYCTF2019\]StrongestMind](wei-fen-lei/gxyctf2019-strongestmind.md)
 * [\[watevrCTF-2019\]Cookie Store](wei-fen-lei/watevrctf-2019-cookie-store.md)
-* [\[b01lers2020\]Welcome to Earth](wei-fen-lei/b01lers2020-welcome-to-earth.md)
-* [\[FireshellCTF2020\]Caas](wei-fen-lei/fireshellctf2020-caas.md)
-* [\[BJDCTF2020\]EasySearch](wei-fen-lei/bjdctf2020-easysearch.md)
+* [\[b01lers2020\]Welcome to Earth](fei-chang-gui-web/b01lers2020-welcome-to-earth.md)
+* [\[FireshellCTF2020\]Caas](fei-chang-gui-web/fireshellctf2020-caas.md)
+* [\[BJDCTF2020\]EasySearch](wei-que-ding/bjdctf2020-easysearch.md)

@@ -230,3 +230,4 @@ echo urlencode(serialize($a));
 1. [http://althims.com/2020/01/29/buu-new-year/](http://althims.com/2020/01/29/buu-new-year/)
 2. [https://www.zhaoj.in/read-6397.html](https://www.zhaoj.in/read-6397.html)
 3. [https://www.anquanke.com/post/id/194036](https://www.anquanke.com/post/id/194036)
+4. 修改自[\[EIS 2019\]EzPOP](../php-fan-xu-lie-hua/eis-2019-ezpop.md)

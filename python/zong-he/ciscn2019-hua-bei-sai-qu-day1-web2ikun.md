@@ -19,7 +19,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhYWEifQ.bJejEdbt0h9U-vvn
 
 在[jwt.io](https://jwt.io)上看一下，提示需要密钥
 
-![](<../../.gitbook/assets/image (13) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
 可以使用[`jwtcrack`](https://github.com/brendan-rius/c-jwt-cracker)破解密钥，结果是1Kun，username改成admin，重新生成JWT
 
@@ -52,7 +52,7 @@ for i in range(1,999999):
         break
 ```
 
-![](<../../.gitbook/assets/image (16) (1) (1).png>)
+![](<../../.gitbook/assets/image (16) (1) (1) (1).png>)
 
 给的钱不够，应该是个逻辑漏洞，抓包看看，在结算的时候，有个折扣的参数，这里是打了8折
 
@@ -135,7 +135,7 @@ c__builtin__%0Aeval%0Ap0%0A%28S%22open%28%27/flag.txt%27%2C%27r%27%29.read%28%29
 
 提交payload
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
 结果
 

