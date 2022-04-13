@@ -13,7 +13,7 @@ F12在`/static/app.js`中看到提示koa框架，百度一下找到[koa的框架
 
 尝试直接访问app.js可以得到koa项目入口
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 在`/static/app.js`中可以看到访问的都是api，所以这里的处理逻辑应该都是api，尝试出来代码位置是`/controllers/api.js`，代码放最后。可以看到它有一个获取token的过程
 
@@ -27,7 +27,7 @@ const token = ctx.header.authorization || ctx.request.body.authorization || ctx.
 
 去[`https://jwt.io/`](https://jwt.io)可以看到解码后的内容
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 把`alg`改成`none`，JWT中当`alg`为`none`，`secret`为空时，后端将不执行签名验证。
 
@@ -66,7 +66,7 @@ payload
 eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzZWNyZXRpZCI6W10sInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6ImFkbWluIiwiaWF0IjoxNjQwMTYzNDMyfQ.
 ```
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 controllers/api.js
 

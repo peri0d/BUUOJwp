@@ -154,7 +154,7 @@ res = requests.get(url=url, cookies=cookies)
 print(res.text)
 ```
 
-![](https://wcgimages.oss-cn-shenzhen.aliyuncs.com/de1ctf/ssrf\_me\_3.PNG)
+<img src="https://wcgimages.oss-cn-shenzhen.aliyuncs.com/de1ctf/ssrf_me_3.PNG" alt="" data-size="original">
 
 ### 字符串拼接
 
@@ -179,7 +179,7 @@ print(res.text)
 
 *   直接访问 `/De1ta?param=flag.txt` 构造 cookie `action=readscan;sign=7cde191de87fe3ddac26e19acae1525e` 即可
 
-    ![](https://wcgimages.oss-cn-shenzhen.aliyuncs.com/de1ctf/ssrf\_me\_2.PNG)
+    <img src="https://wcgimages.oss-cn-shenzhen.aliyuncs.com/de1ctf/ssrf_me_2.PNG" alt="" data-size="original">
 
 ### local\_file
 

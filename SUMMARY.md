@@ -95,6 +95,7 @@
   * [\[De1CTF 2019\]SSRF Me](python/flask/de1ctf-2019-ssrf-me.md)
   * [\[CISCN2019 华东南赛区\]Web4](python/flask/ciscn2019-hua-dong-nan-sai-qu-web4.md)
 * [综合](python/zong-he/README.md)
+  * [\[网鼎杯 2020 白虎组\]PicDown](python/zong-he/wang-ding-bei-2020-bai-hu-zu-picdown.md)
   * [\[DDCTF 2019\]homebrew event loop](python/zong-he/ddctf-2019-homebrew-event-loop.md)
   * [\[CISCN2019 华北赛区 Day1 Web2\]ikun](python/zong-he/ciscn2019-hua-bei-sai-qu-day1-web2ikun.md)
 

@@ -12,7 +12,7 @@
 
 F12，给了提示
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (19) (1).png>)
 
 题目是名字Flask，尝试一下SSTI
 

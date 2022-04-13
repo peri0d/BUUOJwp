@@ -52,7 +52,7 @@ for i in range(1,999999):
         break
 ```
 
-![](<../../.gitbook/assets/image (16) (1).png>)
+![](<../../.gitbook/assets/image (16) (1) (1).png>)
 
 给的钱不够，应该是个逻辑漏洞，抓包看看，在结算的时候，有个折扣的参数，这里是打了8折
 
@@ -131,7 +131,7 @@ c__builtin__%0Aeval%0Ap0%0A%28S%22open%28%27/flag.txt%27%2C%27r%27%29.read%28%29
 
 回到`/b1g_m4mber`，把输入框的`hidden`删掉
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 提交payload
 

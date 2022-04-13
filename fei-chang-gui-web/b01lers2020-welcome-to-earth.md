@@ -20,7 +20,7 @@
 
 再访问js文件才能得到下一个目录，`/open`目录也是同理
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 用如下脚本，得到了第一阶段的结果
 
