@@ -8,7 +8,7 @@
 
 ## wp
 
-![](<../../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1).png>)
 
 F12，给了提示
 

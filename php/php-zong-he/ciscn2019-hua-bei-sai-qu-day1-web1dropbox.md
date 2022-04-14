@@ -15,7 +15,7 @@ flag在/flag.txt
 
 burp抓包，在下载的时候可以修改下载的文件，进而获取文件源码，修改为`filename=../../index.php`
 
-![](<../../.gitbook/assets/image (14) (1) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 读取download.php，发现可以进行文件读取但是读取不了flag。并且它设置了open\_basedir，只能访问当前目录，/tmp和/etc
 

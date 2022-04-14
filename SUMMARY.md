@@ -96,6 +96,7 @@
   * [\[BJDCTF 2nd\]old-hack](php/thinkphp/bjdctf-2nd-old-hack.md)
   * [\[RoarCTF 2019\]Simple Upload](php/thinkphp/roarctf-2019-simple-upload.md)
 * [PHP综合](php/php-zong-he/README.md)
+  * [\[SUCTF 2019\]Upload Labs 2](php/php-zong-he/suctf-2019-upload-labs-2.md)
   * [\[NPUCTF2020\]ezinclude](php/php-zong-he/npuctf2020-ezinclude.md)
   * [\[SUCTF 2019\]EasyWeb](php/php-zong-he/suctf-2019-easyweb.md)
   * [\[CISCN2019 华北赛区 Day1 Web1\]Dropbox](php/php-zong-he/ciscn2019-hua-bei-sai-qu-day1-web1dropbox.md)
