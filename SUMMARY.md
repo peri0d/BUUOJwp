@@ -41,6 +41,7 @@
 * [\[FBCTF2019\]RCEService](ming-ling-zhi-hang-dai-ma-zhi-hang/fbctf2019-rceservice.md)
 * [\[ACTF2020 新生赛\]Exec](ming-ling-zhi-hang-dai-ma-zhi-hang/actf2020-xin-sheng-sai-exec.md)
 * [\[HITCON 2017\]SSRFme](ming-ling-zhi-hang-dai-ma-zhi-hang/hitcon-2017-ssrfme.md)
+* [\[GXYCTF2019\]Ping Ping Ping](ming-ling-zhi-hang-dai-ma-zhi-hang/gxyctf2019-ping-ping-ping.md)
 
 ## XXE
 
@@ -73,10 +74,13 @@
 * [\[MRCTF2020\]你传你🐎呢](wen-jian-shang-chuan/mrctf2020-ni-chuan-ni-ni.md)
 * [\[GXYCTF2019\]BabyUpload](wen-jian-shang-chuan/gxyctf2019-babyupload.md)
 * [\[XNUCA2019Qualifier\]EasyPHP](wen-jian-shang-chuan/xnuca2019qualifier-easyphp.md)
+* [\[极客大挑战 2019\]Upload](wen-jian-shang-chuan/ji-ke-da-tiao-zhan-2019upload.md)
+* [\[ACTF2020 新生赛\]Upload](wen-jian-shang-chuan/actf2020-xin-sheng-sai-upload.md)
 
 ## PHP
 
 * [PHP特性](php/php-te-xing/README.md)
+  * [\[MRCTF2020\]Ez\_bypass](php/php-te-xing/mrctf2020-ez\_bypass.md)
   * [\[MRCTF2020\]Ezaudit](php/php-te-xing/mrctf2020-ezaudit.md)
   * [\[BJDCTF2020\]EzPHP](php/php-te-xing/bjdctf2020-ezphp.md)
   * [\[NPUCTF2020\]ReadlezPHP](php/php-te-xing/npuctf2020-readlezphp.md)
@@ -140,6 +144,7 @@
 
 ## 未分类
 
+* [\[ACTF2020 新生赛\]BackupFile](wei-fen-lei/actf2020-xin-sheng-sai-backupfile.md)
 * [\[极客大挑战 2019\]Secret File](wei-fen-lei/ji-ke-da-tiao-zhan-2019secret-file.md)
 * [\[极客大挑战 2019\]Knife](wei-fen-lei/ji-ke-da-tiao-zhan-2019knife.md)
 * [\[极客大挑战 2019\]Http](wei-fen-lei/ji-ke-da-tiao-zhan-2019http.md)
