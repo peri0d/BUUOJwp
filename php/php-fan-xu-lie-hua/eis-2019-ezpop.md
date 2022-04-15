@@ -147,7 +147,7 @@ $a->complete = 2;
 echo urlencode(serialize($a));
 ```
 
-![](<../../.gitbook/assets/image (32).png>)
+![](<../../.gitbook/assets/image (32) (1).png>)
 
 ## 小结
 

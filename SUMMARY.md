@@ -19,14 +19,15 @@
 * [\[SUCTF 2019\]EasySQL](sql-zhu-ru/suctf-2019-easysql.md)
 * [\[GXYCTF2019\]BabySQli](sql-zhu-ru/gxyctf2019-babysqli.md)
 * [\[GYCTF2020\]Ezsqli](sql-zhu-ru/gyctf2020-ezsqli.md)
+* [\[极客大挑战 2019\]EasySQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019easysql.md)
 * [\[极客大挑战 2019\]LoveSQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019lovesql.md)
 * [\[极客大挑战 2019\]BabySQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019babysql.md)
 * [\[极客大挑战 2019\]HardSQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019hardsql.md)
 * [\[极客大挑战 2019\]FinalSQL](sql-zhu-ru/ji-ke-da-tiao-zhan-2019finalsql.md)
 * [\[RoarCTF 2019\]Online Proxy](sql-zhu-ru/roarctf-2019-online-proxy.md)
 * [\[BJDCTF2020\]Easy MD5](sql-zhu-ru/bjdctf2020-easy-md5.md)
-* [\[网鼎杯 2018\]Comment](sql-zhu-ru/wang-ding-bei-2018comment.md)
 * [\[BJDCTF 2nd\]简单注入](sql-zhu-ru/bjdctf-2nd-jian-dan-zhu-ru.md)
+* [\[网鼎杯 2018\]Comment](sql-zhu-ru/wang-ding-bei-2018comment.md)
 * [\[SWPU2019\]Web1](sql-zhu-ru/swpu2019-web1.md)
 * [\[GYCTF2020\]Blacklist](sql-zhu-ru/gyctf2020-blacklist.md)
 
@@ -138,7 +139,10 @@
 
 ## 未分类
 
+* [\[极客大挑战 2019\]Knife](wei-fen-lei/ji-ke-da-tiao-zhan-2019knife.md)
+* [\[极客大挑战 2019\]Http](wei-fen-lei/ji-ke-da-tiao-zhan-2019http.md)
 * [\[极客大挑战 2019\]BuyFlag](wei-fen-lei/ji-ke-da-tiao-zhan-2019buyflag.md)
+* [\[极客大挑战 2019\]Havefun](wei-fen-lei/ji-ke-da-tiao-zhan-2019havefun.md)
 * [\[GXYCTF2019\]StrongestMind](wei-fen-lei/gxyctf2019-strongestmind.md)
 * [\[watevrCTF-2019\]Cookie Store](wei-fen-lei/watevrctf-2019-cookie-store.md)
 * [\[b01lers2020\]Welcome to Earth](fei-chang-gui-web/b01lers2020-welcome-to-earth.md)

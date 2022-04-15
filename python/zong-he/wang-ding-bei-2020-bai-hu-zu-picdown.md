@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
 ![](<../../.gitbook/assets/image (19) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (6) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1).png>)
 
 由于无回显，这又是用的python2，所以直接用python反弹shell即可
 
