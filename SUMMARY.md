@@ -93,6 +93,7 @@
   * [\[MRCTF2020\]Ezpop](php/php-fan-xu-lie-hua/mrctf2020-ezpop.md)
   * [bestphp's revenge](php/php-fan-xu-lie-hua/bestphps-revenge.md)
   * [\[ZJCTF 2019\]NiZhuanSiWei](php/php-fan-xu-lie-hua/zjctf-2019-nizhuansiwei.md)
+  * [\[极客大挑战 2019\]PHP](php/php-fan-xu-lie-hua/ji-ke-da-tiao-zhan-2019php.md)
 * [ThinkPHP](php/thinkphp/README.md)
   * [\[GYCTF2020\]EasyThinking](php/thinkphp/gyctf2020-easythinking.md)
   * [\[BJDCTF 2nd\]old-hack](php/thinkphp/bjdctf-2nd-old-hack.md)
@@ -139,6 +140,7 @@
 
 ## 未分类
 
+* [\[极客大挑战 2019\]Secret File](wei-fen-lei/ji-ke-da-tiao-zhan-2019secret-file.md)
 * [\[极客大挑战 2019\]Knife](wei-fen-lei/ji-ke-da-tiao-zhan-2019knife.md)
 * [\[极客大挑战 2019\]Http](wei-fen-lei/ji-ke-da-tiao-zhan-2019http.md)
 * [\[极客大挑战 2019\]BuyFlag](wei-fen-lei/ji-ke-da-tiao-zhan-2019buyflag.md)
