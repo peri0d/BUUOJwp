@@ -13,7 +13,7 @@
 
 注册登录后，在change password处给了源码
 
-![](<../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 打开可以看到是flask的源码，结合题目，可以判断要伪造admin。在config.py中找到`SECRET_KEY = os.environ.get('SECRET_KEY') or 'ckj123'`
 

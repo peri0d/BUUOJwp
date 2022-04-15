@@ -6,7 +6,7 @@
 
 直接访问发现从`/`跳转到了`/die`，抓包发现主页存在路径`/chase`
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 访问后又有其他路径，接着访问有`/shoot`目录，然后是`/door`目录
 
@@ -20,7 +20,7 @@
 
 再访问js文件才能得到下一个目录，`/open`目录也是同理
 
-![](<../.gitbook/assets/image (17) (1) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1) (1).png>)
 
 用如下脚本，得到了第一阶段的结果
 

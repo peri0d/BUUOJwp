@@ -24,7 +24,7 @@
 
 尝试读取flag，发现可以直接读`http://b7ce4ee5-2c98-41db-beae-1955d540e6bf.node4.buuoj.cn:81/page?url=/flag`访问得到一个图片，应该是非预期了。
 
-![](<../../.gitbook/assets/image (17) (1).png>)
+![](<../../.gitbook/assets/image (17) (1) (1).png>)
 
 读取`/proc/self/cmdline`文件，得到`python2 app.py`
 
@@ -99,7 +99,7 @@ if __name__ == '__main__':
 
 可以看到`app.py`在读取`/tmp/secret.txt`后把它删除，然后我们要在`/no_one_know_the_manager`传递一个和`secret.txt`内容相同的字符串才能getshell。虽然它删除了文件，但是是有读取缓存的，在`/proc/pid/fd/`中，一个一个试不难试出来在`/proc/self/fd/3`
 
-![](<../../.gitbook/assets/image (19) (1).png>)
+![](<../../.gitbook/assets/image (19) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (6) (1).png>)
 
