@@ -138,6 +138,7 @@
 
 ## 未分类
 
+* [\[极客大挑战 2019\]BuyFlag](wei-fen-lei/ji-ke-da-tiao-zhan-2019buyflag.md)
 * [\[GXYCTF2019\]StrongestMind](wei-fen-lei/gxyctf2019-strongestmind.md)
 * [\[watevrCTF-2019\]Cookie Store](wei-fen-lei/watevrctf-2019-cookie-store.md)
 * [\[b01lers2020\]Welcome to Earth](fei-chang-gui-web/b01lers2020-welcome-to-earth.md)
