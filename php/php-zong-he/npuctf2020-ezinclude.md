@@ -123,7 +123,7 @@ print(r.content)
 
 我说怎么一直system不动，原来给ban了，所以用session.upload\_progress进行文件包含也是可以的。
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 写入shell后用蚁剑然后bypass
 

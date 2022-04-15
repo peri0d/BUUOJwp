@@ -33,6 +33,7 @@
 
 ## 命令执行/代码执行
 
+* [\[CISCN 2019 初赛\]Love Math](ming-ling-zhi-hang-dai-ma-zhi-hang/ciscn-2019-chu-sai-love-math.md)
 * [\[ISITDTU 2019\]EasyPHP](ming-ling-zhi-hang-dai-ma-zhi-hang/isitdtu-2019-easyphp.md)
 * [\[红明谷CTF 2021\]write\_shell](ming-ling-zhi-hang-dai-ma-zhi-hang/hong-ming-gu-ctf-2021writeshell.md)
 * [未完成\[RoarCTF 2019\]Easy Calc](ming-ling-zhi-hang-dai-ma-zhi-hang/wei-wan-cheng-roarctf-2019easy-calc.md)
@@ -66,6 +67,7 @@
   * [\[RootersCTF2019\]I\_<3\_Flask](ssti/python/rootersctf2019-i\_less-than-3\_flask.md)
   * [\[CSCCTF 2019 Qual\]FlaskLight](ssti/python/cscctf-2019-qual-flasklight.md)
   * [\[护网杯 2018\]easy\_tornado](ssti/python/hu-wang-bei-2018easytornado.md)
+  * [\[WesternCTF2018\]shrine](ssti/python/westernctf2018-shrine.md)
 
 ## 文件上传
 
@@ -92,6 +94,7 @@
   * [\[极客大挑战 2020\]Roamphp1 Welcome](php/php-te-xing/ji-ke-da-tiao-zhan-2020roamphp1-welcome.md)
   * [\[网鼎杯 2020 半决赛\]AliceWebsite](php/php-te-xing/wang-ding-bei-2020-ban-jue-sai-alicewebsite.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
+  * [\[安洵杯 2019\]easy\_serialize\_php](php/php-fan-xu-lie-hua/an-xun-bei-2019easyserializephp.md)
   * [\[EIS 2019\]EzPOP](php/php-fan-xu-lie-hua/eis-2019-ezpop.md)
   * [\[GYCTF2020\]Easyphp](php/php-fan-xu-lie-hua/gyctf2020-easyphp.md)
   * [\[MRCTF2020\]Ezpop](php/php-fan-xu-lie-hua/mrctf2020-ezpop.md)
