@@ -16,7 +16,7 @@
 
 一开始以为PicDown是下载图片，试了一下发现就是SSRF
 
-![](<../../.gitbook/assets/image (18) (1) (1).png>)
+![](<../../.gitbook/assets/image (18) (1) (1) (1).png>)
 
 尝试目录穿越文件读取，最后有个app用户
 

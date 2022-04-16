@@ -16,7 +16,7 @@
 
 删除check再上传
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 说明还存在过滤，可能是对文件内容或是文件头的过滤。继续上传PHP文件
 

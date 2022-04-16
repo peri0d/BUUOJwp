@@ -17,7 +17,7 @@
 
 试试上传正常图片
 
-![](<../.gitbook/assets/image (26) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1).png>)
 
 这儿可以猜测是`exif_imagetype()`函数判断是不是图片，在文件头添加图片头就可以绕过了，例如gif的文件头GIF89a
 

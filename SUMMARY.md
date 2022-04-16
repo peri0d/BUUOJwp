@@ -82,8 +82,11 @@
 ## PHP
 
 * [PHP特性](php/php-te-xing/README.md)
+  * [\[Zer0pts2020\]Can you guess it?](php/php-te-xing/zer0pts2020-can-you-guess-it.md)
+  * [\[WUSTCTF2020\]朴实无华](php/php-te-xing/wustctf2020-pu-shi-wu-hua.md)
   * [\[BJDCTF2020\]Mark loves cat](php/php-te-xing/bjdctf2020-mark-loves-cat.md)
   * [\[MRCTF2020\]Ez\_bypass](php/php-te-xing/mrctf2020-ez\_bypass.md)
+  * [\[GWCTF 2019\]枯燥的抽奖](php/php-te-xing/gwctf-2019-ku-zao-de-chou-jiang.md)
   * [\[MRCTF2020\]Ezaudit](php/php-te-xing/mrctf2020-ezaudit.md)
   * [\[BJDCTF2020\]EzPHP](php/php-te-xing/bjdctf2020-ezphp.md)
   * [\[NPUCTF2020\]ReadlezPHP](php/php-te-xing/npuctf2020-readlezphp.md)
