@@ -45,7 +45,7 @@ if (isset($_POST['guess'])) {
 
 这就不难想到，可以使用`/index.php/config.php/`实现读取`config.php` 但是源码的正则匹配是匹配尾部的，即尾部不能出现`config.php`或者`config.php/`
 
-但是`basename()`函数有一个问题，它会去掉文件名开头的非ASCII值，例如`var_dump(basename("config.php/\xff"));` 结果为：`config.php`
+但是`basename()`函数有一个问题，它会去掉文件名开头的非ASCII值，例如<mark style="color:orange;">`var_dump(basename("config.php/\xff"));`</mark>和<mark style="color:orange;">`var_dump(basename("\xffconfig.php"));`</mark>结果为：`config.php`
 
 本题的payload也就很容易写出：
 
