@@ -4,7 +4,9 @@
 
 ## 考点
 
-
+* 代码审计
+* extract对session进行变量覆盖
+* php反序列化逃逸
 
 ## wp
 
