@@ -82,6 +82,7 @@
 ## PHP
 
 * [PHP特性](php/php-te-xing/README.md)
+  * [\[BJDCTF2020\]Mark loves cat](php/php-te-xing/bjdctf2020-mark-loves-cat.md)
   * [\[MRCTF2020\]Ez\_bypass](php/php-te-xing/mrctf2020-ez\_bypass.md)
   * [\[MRCTF2020\]Ezaudit](php/php-te-xing/mrctf2020-ezaudit.md)
   * [\[BJDCTF2020\]EzPHP](php/php-te-xing/bjdctf2020-ezphp.md)
