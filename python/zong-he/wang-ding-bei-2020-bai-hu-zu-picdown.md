@@ -20,7 +20,7 @@
 
 尝试目录穿越文件读取，最后有个app用户
 
-![](<../../.gitbook/assets/image (20) (1).png>)
+![](<../../.gitbook/assets/image (20) (1) (1).png>)
 
 尝试读取flag，发现可以直接读`http://b7ce4ee5-2c98-41db-beae-1955d540e6bf.node4.buuoj.cn:81/page?url=/flag`访问得到一个图片，应该是非预期了。
 

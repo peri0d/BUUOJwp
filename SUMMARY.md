@@ -85,6 +85,7 @@
 ## PHP
 
 * [PHP特性](php/php-te-xing/README.md)
+  * [\[安洵杯 2019\]easy\_web](php/php-te-xing/an-xun-bei-2019easyweb.md)
   * [\[Zer0pts2020\]Can you guess it?](php/php-te-xing/zer0pts2020-can-you-guess-it.md)
   * [\[WUSTCTF2020\]朴实无华](php/php-te-xing/wustctf2020-pu-shi-wu-hua.md)
   * [\[BJDCTF2020\]Mark loves cat](php/php-te-xing/bjdctf2020-mark-loves-cat.md)
