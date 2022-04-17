@@ -32,3 +32,20 @@ GIF89a
 ![](<../.gitbook/assets/image (8).png>)
 
 访问成功解析，再传shell即可。
+
+## 小结
+
+1. 最后总结一下CTF文件上传题中常用的php拓展名:
+
+```
+利用中间件解析漏洞绕过检查，实战常用
+上传.user.ini或.htaccess将合法拓展名文件当作php文件解析
+%00截断绕过
+php3文件
+php4文件
+php5文件
+php7文件
+phtml文件
+phps文件
+pht文件
+```
