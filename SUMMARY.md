@@ -48,6 +48,8 @@
 
 ## XXE
 
+* [\[NCTF2019\]Fake XML cookbook](xxe/nctf2019-fake-xml-cookbook.md)
+* [\[NCTF2019\]True XML cookbook](xxe/nctf2019-true-xml-cookbook.md)
 * [\[CSAWQual 2019\]Web\_Unagi](xxe/csawqual-2019-web\_unagi.md)
 * [\[BSidesCF 2019\]SVGMagic](xxe/bsidescf-2019-svgmagic.md)
 * [\[GoogleCTF2019 Quals\]Bnv](xxe/googlectf2019-quals-bnv.md)
@@ -64,6 +66,7 @@
 
 * [PHP](ssti/php/README.md)
   * [\[CISCN2019 华东南赛区\]Web11](ssti/php/ciscn2019-hua-dong-nan-sai-qu-web11.md)
+  * [\[BJDCTF2020\]The mystery of ip](ssti/php/bjdctf2020-the-mystery-of-ip.md)
   * [\[BJDCTF2020\]Cookie is so stable](ssti/php/bjdctf2020-cookie-is-so-stable.md)
 * [Python](ssti/python/README.md)
   * [\[GYCTF2020\]FlaskApp](ssti/python/gyctf2020-flaskapp.md)
@@ -85,6 +88,7 @@
 ## PHP
 
 * [PHP特性](php/php-te-xing/README.md)
+  * [\[HarekazeCTF2019\]encode\_and\_encode](php/php-te-xing/harekazectf2019-encode\_and\_encode.md)
   * [\[安洵杯 2019\]easy\_web](php/php-te-xing/an-xun-bei-2019easyweb.md)
   * [\[Zer0pts2020\]Can you guess it?](php/php-te-xing/zer0pts2020-can-you-guess-it.md)
   * [\[WUSTCTF2020\]朴实无华](php/php-te-xing/wustctf2020-pu-shi-wu-hua.md)

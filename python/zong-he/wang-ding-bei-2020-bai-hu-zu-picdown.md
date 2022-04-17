@@ -99,7 +99,7 @@ if __name__ == '__main__':
 
 可以看到`app.py`在读取`/tmp/secret.txt`后把它删除，然后我们要在`/no_one_know_the_manager`传递一个和`secret.txt`内容相同的字符串才能getshell。虽然它删除了文件，但是是有读取缓存的，在`/proc/pid/fd/`中，一个一个试不难试出来在`/proc/self/fd/3`
 
-![](<../../.gitbook/assets/image (19) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (19) (1) (1) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (6) (1) (1) (1).png>)
 

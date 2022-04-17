@@ -65,7 +65,7 @@ if($function == 'highlight_file'){
 
 提示看phpinfo，在里面发现`auto_append_file d0g3_f1ag.php`，说明要看d0g3\_f1ag.php。且`session.serialize_handler`为`php`
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (27) (1).png>)
 
 现在的目的很明确，就是要读取`d0g3_f1ag.php`这个文件，利用逃逸使 session 中的 img 字段为 `ZDBnM19mMWFnLnBocA==` 即 `base64_encode(d0g3_f1ag.php)` ，然后在 `show_image` 中读取。
 
