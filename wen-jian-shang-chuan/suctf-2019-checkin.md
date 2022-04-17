@@ -23,7 +23,7 @@
 
 然后制作图片马上传
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 &#x20;上传条件
 

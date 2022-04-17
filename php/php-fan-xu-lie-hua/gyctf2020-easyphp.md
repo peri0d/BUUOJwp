@@ -210,4 +210,4 @@ age=123&nickname=***************************************************unionunionun
 
 再用admin加上任意密码登录即可
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)

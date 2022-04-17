@@ -23,7 +23,7 @@ const token = ctx.header.authorization || ctx.request.body.authorization || ctx.
 
 在登录处抓包，可以发现登录时都会加上一个`authorization`参数
 
-![](<../.gitbook/assets/image (15) (1).png>)
+![](<../.gitbook/assets/image (15) (1) (1).png>)
 
 去[`https://jwt.io/`](https://jwt.io)可以看到解码后的内容
 

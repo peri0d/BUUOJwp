@@ -127,7 +127,7 @@ print(r.content)
 
 写入shell后用蚁剑然后bypass
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/image (15) (1).png>)
 
 ## 小结
 

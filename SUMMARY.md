@@ -5,6 +5,7 @@
 
 ## SQL注入
 
+* [\[RCTF2015\]EasySQL](sql-zhu-ru/rctf2015-easysql.md)
 * [\[RootersCTF2019\]babyWeb](sql-zhu-ru/rootersctf2019-babyweb.md)
 * [\[SUCTF 2018\]MultiSQL](sql-zhu-ru/suctf-2018-multisql.md)
 * [October 2019 Twice SQL Injection](sql-zhu-ru/october-2019-twice-sql-injection.md)
@@ -33,6 +34,7 @@
 
 ## 命令执行/代码执行
 
+* [\[GXYCTF2019\]禁止套娃](ming-ling-zhi-hang-dai-ma-zhi-hang/gxyctf2019-jin-zhi-tao-wa.md)
 * [\[CISCN 2019 初赛\]Love Math](ming-ling-zhi-hang-dai-ma-zhi-hang/ciscn-2019-chu-sai-love-math.md)
 * [\[ISITDTU 2019\]EasyPHP](ming-ling-zhi-hang-dai-ma-zhi-hang/isitdtu-2019-easyphp.md)
 * [\[红明谷CTF 2021\]write\_shell](ming-ling-zhi-hang-dai-ma-zhi-hang/hong-ming-gu-ctf-2021writeshell.md)
@@ -64,6 +66,7 @@
   * [\[CISCN2019 华东南赛区\]Web11](ssti/php/ciscn2019-hua-dong-nan-sai-qu-web11.md)
   * [\[BJDCTF2020\]Cookie is so stable](ssti/php/bjdctf2020-cookie-is-so-stable.md)
 * [Python](ssti/python/README.md)
+  * [\[GYCTF2020\]FlaskApp](ssti/python/gyctf2020-flaskapp.md)
   * [\[RootersCTF2019\]I\_<3\_Flask](ssti/python/rootersctf2019-i\_less-than-3\_flask.md)
   * [\[CSCCTF 2019 Qual\]FlaskLight](ssti/python/cscctf-2019-qual-flasklight.md)
   * [\[护网杯 2018\]easy\_tornado](ssti/python/hu-wang-bei-2018easytornado.md)
@@ -98,6 +101,7 @@
   * [\[极客大挑战 2020\]Roamphp1 Welcome](php/php-te-xing/ji-ke-da-tiao-zhan-2020roamphp1-welcome.md)
   * [\[网鼎杯 2020 半决赛\]AliceWebsite](php/php-te-xing/wang-ding-bei-2020-ban-jue-sai-alicewebsite.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
+  * [\[SWPUCTF2018\] SimplePHP](php/php-fan-xu-lie-hua/swpuctf2018-simplephp.md)
   * [\[安洵杯 2019\]easy\_serialize\_php](php/php-fan-xu-lie-hua/an-xun-bei-2019easyserializephp.md)
   * [\[EIS 2019\]EzPOP](php/php-fan-xu-lie-hua/eis-2019-ezpop.md)
   * [\[GYCTF2020\]Easyphp](php/php-fan-xu-lie-hua/gyctf2020-easyphp.md)
