@@ -106,6 +106,7 @@
   * [\[极客大挑战 2020\]Roamphp1 Welcome](php/php-te-xing/ji-ke-da-tiao-zhan-2020roamphp1-welcome.md)
   * [\[网鼎杯 2020 半决赛\]AliceWebsite](php/php-te-xing/wang-ding-bei-2020-ban-jue-sai-alicewebsite.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
+  * [\[BJDCTF2020\]ZJCTF，不过如此](php/php-fan-xu-lie-hua/bjdctf2020zjctf-bu-guo-ru-ci.md)
   * [\[SWPUCTF2018\] SimplePHP](php/php-fan-xu-lie-hua/swpuctf2018-simplephp.md)
   * [\[安洵杯 2019\]easy\_serialize\_php](php/php-fan-xu-lie-hua/an-xun-bei-2019easyserializephp.md)
   * [\[EIS 2019\]EzPOP](php/php-fan-xu-lie-hua/eis-2019-ezpop.md)
@@ -160,10 +161,13 @@
 
 ## 未分类
 
+* [\[BSidesCF 2019\]Futurella](wei-fen-lei/bsidescf-2019-futurella.md)
 * [\[ACTF2020 新生赛\]BackupFile](wei-fen-lei/actf2020-xin-sheng-sai-backupfile.md)
 * [\[极客大挑战 2019\]Secret File](wei-fen-lei/ji-ke-da-tiao-zhan-2019secret-file.md)
 * [\[极客大挑战 2019\]Knife](wei-fen-lei/ji-ke-da-tiao-zhan-2019knife.md)
 * [\[极客大挑战 2019\]Http](wei-fen-lei/ji-ke-da-tiao-zhan-2019http.md)
+* [\[MRCTF2020\]PYWebsite](wei-fen-lei/mrctf2020-pywebsite.md)
+* [\[BSidesCF 2019\]Kookie](wei-fen-lei/bsidescf-2019-kookie.md)
 * [\[极客大挑战 2019\]BuyFlag](wei-fen-lei/ji-ke-da-tiao-zhan-2019buyflag.md)
 * [\[极客大挑战 2019\]Havefun](wei-fen-lei/ji-ke-da-tiao-zhan-2019havefun.md)
 * [\[GXYCTF2019\]StrongestMind](wei-fen-lei/gxyctf2019-strongestmind.md)
