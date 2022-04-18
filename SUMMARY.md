@@ -77,6 +77,7 @@
 
 ## 文件上传
 
+* [\[HarekazeCTF2019\]Avatar Uploader 1](wen-jian-shang-chuan/harekazectf2019-avatar-uploader-1.md)
 * [\[SUCTF 2019\]CheckIn](wen-jian-shang-chuan/suctf-2019-checkin.md)
 * [\[WUSTCTF2020\]CV Maker](wen-jian-shang-chuan/wustctf2020-cv-maker.md)
 * [\[MRCTF2020\]你传你🐎呢](wen-jian-shang-chuan/mrctf2020-ni-chuan-ni-ni.md)

