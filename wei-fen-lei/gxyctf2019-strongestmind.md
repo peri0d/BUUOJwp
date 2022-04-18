@@ -4,7 +4,7 @@
 
 ## wp
 
-![](<../.gitbook/assets/image (29) (1).png>)
+![](<../.gitbook/assets/image (29) (1) (1).png>)
 
 写脚本计算1000次
 

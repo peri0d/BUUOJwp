@@ -12,7 +12,7 @@
 
 除了一个框啥都没有，F12看到了请求的参数`/page?url=`
 
-![](<../../.gitbook/assets/image (16) (1).png>)
+![](<../../.gitbook/assets/image (16) (1) (1).png>)
 
 一开始以为PicDown是下载图片，试了一下发现就是SSRF
 

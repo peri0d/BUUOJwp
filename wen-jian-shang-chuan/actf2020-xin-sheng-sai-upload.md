@@ -10,7 +10,7 @@
 
 传一个php测试一下
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29) (1).png>)
 
 ![](<../.gitbook/assets/image (27) (1) (1).png>)
 

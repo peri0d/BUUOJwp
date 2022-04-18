@@ -146,7 +146,7 @@ print(response.text)
 
 连接成功后发现权限好像不对，输什么都是返回ret=127，看了一下phpinfo，是要进行bypass\_disable\_function，用蚁剑自带的插件就可以。因为是PHP7.2，所以用了PHP7 Backtrace UAF进行bypass。
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (16) (1).png>)
 
 ## 小结
 

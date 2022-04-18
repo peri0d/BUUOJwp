@@ -66,7 +66,7 @@ payload
 eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzZWNyZXRpZCI6W10sInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6ImFkbWluIiwiaWF0IjoxNjQwMTYzNDMyfQ.
 ```
 
-![](<../.gitbook/assets/image (16) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1).png>)
 
 controllers/api.js
 
