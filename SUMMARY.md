@@ -82,9 +82,10 @@
 * [\[WUSTCTF2020\]CV Maker](wen-jian-shang-chuan/wustctf2020-cv-maker.md)
 * [\[MRCTF2020\]你传你🐎呢](wen-jian-shang-chuan/mrctf2020-ni-chuan-ni-ni.md)
 * [\[GXYCTF2019\]BabyUpload](wen-jian-shang-chuan/gxyctf2019-babyupload.md)
-* [\[XNUCA2019Qualifier\]EasyPHP](wen-jian-shang-chuan/xnuca2019qualifier-easyphp.md)
 * [\[极客大挑战 2019\]Upload](wen-jian-shang-chuan/ji-ke-da-tiao-zhan-2019upload.md)
 * [\[ACTF2020 新生赛\]Upload](wen-jian-shang-chuan/actf2020-xin-sheng-sai-upload.md)
+* [\[XNUCA2019Qualifier\]EasyPHP](wen-jian-shang-chuan/xnuca2019qualifier-easyphp.md)
+* [\[羊城杯2020\]easyphp](wen-jian-shang-chuan/yang-cheng-bei-2020easyphp.md)
 
 ## PHP
 

