@@ -29,7 +29,7 @@ if($this->id)        $_SESSION['login']=1;
 
 再看update.php，先判断`$_SESSION['login']`是否为1，不为1就\*\*`echo`**而不是**`die`\*\*。那后面的代码还可以执行啊。
 
-![](<../../.gitbook/assets/image (19) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (19) (1) (1) (1) (1).png>)
 
 然后到`User::update()`，先反序列化`Info`类再实例化`UpdateHelper`
 

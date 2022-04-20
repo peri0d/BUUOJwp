@@ -147,15 +147,17 @@
 
 ## Python
 
+* [\[SCTF2019\]Flag Shop](python/sctf2019-flag-shop.md)
+* [逻辑漏洞](python/luo-ji-lou-dong/README.md)
+  * [\[DDCTF 2019\]homebrew event loop](python/luo-ji-lou-dong/ddctf-2019-homebrew-event-loop.md)
+  * [\[CISCN2019 华北赛区 Day1 Web2\]ikun](python/luo-ji-lou-dong/ciscn2019-hua-bei-sai-qu-day1-web2ikun.md)
 * [Flask](python/flask/README.md)
   * [\[HCTF 2018\]admin](python/flask/hctf-2018-admin.md)
   * [\[De1CTF 2019\]SSRF Me](python/flask/de1ctf-2019-ssrf-me.md)
   * [\[CISCN2019 华东南赛区\]Web4](python/flask/ciscn2019-hua-dong-nan-sai-qu-web4.md)
+  * [\[CISCN2019 华东南赛区\]Double Secret](python/flask/ciscn2019-hua-dong-nan-sai-qu-double-secret.md)
 * [综合](python/zong-he/README.md)
-  * [\[CISCN2019 华东南赛区\]Double Secret](python/zong-he/ciscn2019-hua-dong-nan-sai-qu-double-secret.md)
   * [\[网鼎杯 2020 白虎组\]PicDown](python/zong-he/wang-ding-bei-2020-bai-hu-zu-picdown.md)
-  * [\[DDCTF 2019\]homebrew event loop](python/zong-he/ddctf-2019-homebrew-event-loop.md)
-  * [\[CISCN2019 华北赛区 Day1 Web2\]ikun](python/zong-he/ciscn2019-hua-bei-sai-qu-day1-web2ikun.md)
 
 ## Java
 

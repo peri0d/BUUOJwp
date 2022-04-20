@@ -23,7 +23,7 @@
 
 再去读`/proc/net/arp`
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 看到内网有存活的主机，尝试访问，提示失败
 

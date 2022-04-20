@@ -22,7 +22,7 @@ Set-Cookie: Hash=fa25e54758d5d5c1927781a6ede89f8a; expires=Fri, 25-Feb-2022 05:5
 
 这就相当于告诉了name和pass，访问`/?name=&pass=fa25e54758d5d5c1927781a6ede89f8a`跳转到404页面，用burp抓包可以看到未跳转的页面
 
-![](<../../.gitbook/assets/image (10) (1) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 访问flflflflag.php，发现是404，再抓包
 
