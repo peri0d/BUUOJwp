@@ -152,4 +152,4 @@ echo urlencode(serialize($a));
 ## 小结
 
 1. [谈一谈php://filter的妙用](https://www.leavesongs.com/PENETRATION/php-filter-magic.html)
-2. [\[2020 新春红包题\]1](../php-zong-he/2020-xin-chun-hong-bao-ti-1.md)是它的增强版
+2. [\[2020 新春红包题\]1](2020-xin-chun-hong-bao-ti-1.md)是它的增强版

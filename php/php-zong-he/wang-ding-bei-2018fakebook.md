@@ -6,6 +6,7 @@
 
 * 报错注入
 * PHP反序列化
+* 注入+反序列化
 * SSRF
 
 ## wp
@@ -49,13 +50,11 @@ O:8:"UserInfo":3:{s:4:"name";s:9:"\11111111";s:3:"age";i:1;s:4:"blog";s:13:"www.
 ?no=0/**/union/**/select/**/1,2,3,4
 ```
 
-
-
 经过扫描，存在flag.php和robots.txt，在robots.txt文件中发现备份文件，user.php.bak，下载然后审计
 
 发现如下代码，而php的curl存在ssrf，可以利用file协议读取文件
 
-```
+```php
     function get($url)
     {
         $ch = curl_init();
@@ -75,7 +74,7 @@ O:8:"UserInfo":3:{s:4:"name";s:9:"\11111111";s:3:"age";i:1;s:4:"blog";s:13:"www.
 
 构造的序列化代码如下
 
-```
+```php
 class UserInfo
 {
     public $name = "test";

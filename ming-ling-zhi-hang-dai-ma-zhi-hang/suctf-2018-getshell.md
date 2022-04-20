@@ -91,7 +91,7 @@ payload
 
 再执行`env`命令就可以看到flag
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 黑名单如下
 

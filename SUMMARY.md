@@ -31,6 +31,7 @@
 * [\[网鼎杯 2018\]Comment](sql-zhu-ru/wang-ding-bei-2018comment.md)
 * [\[SWPU2019\]Web1](sql-zhu-ru/swpu2019-web1.md)
 * [\[GYCTF2020\]Blacklist](sql-zhu-ru/gyctf2020-blacklist.md)
+* [\[SWPU2019\]Web4](sql-zhu-ru/swpu2019-web4.md)
 
 ## 命令执行/代码执行
 
@@ -87,10 +88,12 @@
 * [\[ACTF2020 新生赛\]Upload](wen-jian-shang-chuan/actf2020-xin-sheng-sai-upload.md)
 * [\[XNUCA2019Qualifier\]EasyPHP](wen-jian-shang-chuan/xnuca2019qualifier-easyphp.md)
 * [\[羊城杯2020\]easyphp](wen-jian-shang-chuan/yang-cheng-bei-2020easyphp.md)
+* [\[SUCTF 2019\]EasyWeb](wen-jian-shang-chuan/suctf-2019-easyweb.md)
 
 ## PHP
 
 * [PHP特性](php/php-te-xing/README.md)
+  * [\[WMCTF2020\]Make PHP Great Again](php/php-te-xing/wmctf2020-make-php-great-again.md)
   * [\[HarekazeCTF2019\]encode\_and\_encode](php/php-te-xing/harekazectf2019-encode\_and\_encode.md)
   * [\[安洵杯 2019\]easy\_web](php/php-te-xing/an-xun-bei-2019easyweb.md)
   * [\[Zer0pts2020\]Can you guess it?](php/php-te-xing/zer0pts2020-can-you-guess-it.md)
@@ -116,30 +119,30 @@
   * [\[SWPUCTF2018\] SimplePHP](php/php-fan-xu-lie-hua/swpuctf2018-simplephp.md)
   * [\[安洵杯 2019\]easy\_serialize\_php](php/php-fan-xu-lie-hua/an-xun-bei-2019easyserializephp.md)
   * [\[EIS 2019\]EzPOP](php/php-fan-xu-lie-hua/eis-2019-ezpop.md)
+  * [\[2020 新春红包题\]1](php/php-fan-xu-lie-hua/2020-xin-chun-hong-bao-ti-1.md)
   * [\[GYCTF2020\]Easyphp](php/php-fan-xu-lie-hua/gyctf2020-easyphp.md)
   * [\[MRCTF2020\]Ezpop](php/php-fan-xu-lie-hua/mrctf2020-ezpop.md)
   * [bestphp's revenge](php/php-fan-xu-lie-hua/bestphps-revenge.md)
   * [\[ZJCTF 2019\]NiZhuanSiWei](php/php-fan-xu-lie-hua/zjctf-2019-nizhuansiwei.md)
   * [\[极客大挑战 2019\]PHP](php/php-fan-xu-lie-hua/ji-ke-da-tiao-zhan-2019php.md)
+  * [\[SUCTF 2019\]Upload Labs 2](php/php-fan-xu-lie-hua/suctf-2019-upload-labs-2.md)
+  * [\[CISCN2019 华北赛区 Day1 Web1\]Dropbox](php/php-fan-xu-lie-hua/ciscn2019-hua-bei-sai-qu-day1-web1dropbox.md)
 * [ThinkPHP](php/thinkphp/README.md)
   * [\[GYCTF2020\]EasyThinking](php/thinkphp/gyctf2020-easythinking.md)
   * [\[BJDCTF 2nd\]old-hack](php/thinkphp/bjdctf-2nd-old-hack.md)
   * [\[RoarCTF 2019\]Simple Upload](php/thinkphp/roarctf-2019-simple-upload.md)
 * [PHP综合](php/php-zong-he/README.md)
-  * [\[强网杯 2019\]高明的黑客](php/php-zong-he/qiang-wang-bei-2019-gao-ming-de-hei-ke.md)
-  * [\[SUCTF 2019\]Upload Labs 2](php/php-zong-he/suctf-2019-upload-labs-2.md)
+  * [\[网鼎杯 2020 总决赛\]Game Exp](php/php-zong-he/wang-ding-bei-2020-zong-jue-sai-game-exp.md)
+  * [\[HITCON 2017\]Baby^h Master PHP](php/php-zong-he/hitcon-2017-baby-h-master-php.md)
+  * [\[HFCTF2020\]BabyUpload](php/php-zong-he/hfctf2020-babyupload.md)
   * [\[NPUCTF2020\]ezinclude](php/php-zong-he/npuctf2020-ezinclude.md)
-  * [\[SUCTF 2019\]EasyWeb](php/php-zong-he/suctf-2019-easyweb.md)
-  * [\[CISCN2019 华北赛区 Day1 Web1\]Dropbox](php/php-zong-he/ciscn2019-hua-bei-sai-qu-day1-web1dropbox.md)
   * [\[MRCTF2020\]套娃](php/php-zong-he/mrctf2020-tao-wa.md)
   * [\[BUUCTF 2018\]Online Tool](php/php-zong-he/buuctf-2018-online-tool.md)
   * [\[网鼎杯 2020 朱雀组\]Nmap](php/php-zong-he/wang-ding-bei-2020-zhu-que-zu-nmap.md)
   * [\[网鼎杯 2020 朱雀组\]phpweb](php/php-zong-he/wang-ding-bei-2020-zhu-que-zu-phpweb.md)
   * [\[网鼎杯 2018\]Fakebook](php/php-zong-he/wang-ding-bei-2018fakebook.md)
   * [\[强网杯 2019\] UPLOAD](php/php-zong-he/qiang-wang-bei-2019-upload.md)
-  * [\[SWPU2019\]Web4](php/php-zong-he/swpu2019-web4.md)
   * [\[CISCN2019 总决赛 Day2 Web1\]Easyweb](php/php-zong-he/ciscn2019-zong-jue-sai-day2-web1easyweb.md)
-  * [\[2020 新春红包题\]1](php/php-zong-he/2020-xin-chun-hong-bao-ti-1.md)
   * [\[GKCTF 2021\]easycms](php/php-zong-he/gkctf-2021-easycms.md)
   * [\[GXYCTF2019\]BabysqliV3.0](php/php-zong-he/gxyctf2019-babysqliv3.0.md)
   * [\[N1CTF 2018\]eating\_cms](php/php-zong-he/n1ctf-2018-eating\_cms.md)
@@ -152,12 +155,13 @@
   * [\[DDCTF 2019\]homebrew event loop](python/luo-ji-lou-dong/ddctf-2019-homebrew-event-loop.md)
   * [\[CISCN2019 华北赛区 Day1 Web2\]ikun](python/luo-ji-lou-dong/ciscn2019-hua-bei-sai-qu-day1-web2ikun.md)
 * [Flask](python/flask/README.md)
+  * [\[CISCN2019 总决赛 Day1 Web3\]Flask Message Board(\*)](python/flask/ciscn2019-zong-jue-sai-day1-web3flask-message-board.md)
   * [\[HCTF 2018\]admin](python/flask/hctf-2018-admin.md)
   * [\[De1CTF 2019\]SSRF Me](python/flask/de1ctf-2019-ssrf-me.md)
   * [\[CISCN2019 华东南赛区\]Web4](python/flask/ciscn2019-hua-dong-nan-sai-qu-web4.md)
   * [\[CISCN2019 华东南赛区\]Double Secret](python/flask/ciscn2019-hua-dong-nan-sai-qu-double-secret.md)
-* [综合](python/zong-he/README.md)
-  * [\[网鼎杯 2020 白虎组\]PicDown](python/zong-he/wang-ding-bei-2020-bai-hu-zu-picdown.md)
+  * [\[网鼎杯 2020 白虎组\]PicDown](python/flask/wang-ding-bei-2020-bai-hu-zu-picdown.md)
+* [综合](python/zong-he.md)
 
 ## Java
 
@@ -165,6 +169,8 @@
 
 ## JavaScript
 
+* [\[HITCON 2016\]Leaking](javascript/hitcon-2016-leaking.md)
+* [\[FireshellCTF2020\]ScreenShooter](javascript/fireshellctf2020-screenshooter.md)
 * [\[HFCTF2020\]EasyLogin](javascript/hfctf2020-easylogin.md)
 
 ## 未分类
@@ -178,6 +184,7 @@
   * [\[MRCTF2020\]PYWebsite](wei-fen-lei/http-wen-ti/mrctf2020-pywebsite.md)
   * [\[BSidesCF 2019\]Kookie](wei-fen-lei/http-wen-ti/bsidescf-2019-kookie.md)
   * [\[watevrCTF-2019\]Cookie Store](wei-fen-lei/http-wen-ti/watevrctf-2019-cookie-store.md)
+* [\[Windows\]\[HITCON 2019\]Buggy\_Net](wei-fen-lei/windows-hitcon-2019-buggy\_net.md)
 * [\[BSidesCF 2019\]Futurella](wei-fen-lei/bsidescf-2019-futurella.md)
 * [\[极客大挑战 2019\]Knife](wei-fen-lei/ji-ke-da-tiao-zhan-2019knife.md)
 * [\[极客大挑战 2019\]Havefun](wei-fen-lei/ji-ke-da-tiao-zhan-2019havefun.md)
@@ -186,3 +193,4 @@
 * [\[FireshellCTF2020\]Caas](fei-chang-gui-web/fireshellctf2020-caas.md)
 * [\[BJDCTF2020\]EasySearch](wei-que-ding/bjdctf2020-easysearch.md)
 * [\[SCTF2019\]Flag Shop](wei-fen-lei/sctf2019-flag-shop.md)
+* [\[强网杯 2019\]高明的黑客](wei-fen-lei/qiang-wang-bei-2019-gao-ming-de-hei-ke.md)
