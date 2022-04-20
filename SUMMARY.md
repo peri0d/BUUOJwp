@@ -45,6 +45,7 @@
 * [\[ACTF2020 新生赛\]Exec](ming-ling-zhi-hang-dai-ma-zhi-hang/actf2020-xin-sheng-sai-exec.md)
 * [\[HITCON 2017\]SSRFme](ming-ling-zhi-hang-dai-ma-zhi-hang/hitcon-2017-ssrfme.md)
 * [\[GXYCTF2019\]Ping Ping Ping](ming-ling-zhi-hang-dai-ma-zhi-hang/gxyctf2019-ping-ping-ping.md)
+* [\[SUCTF 2018\]GetShell](ming-ling-zhi-hang-dai-ma-zhi-hang/suctf-2018-getshell.md)
 
 ## XXE
 
@@ -86,7 +87,6 @@
 * [\[ACTF2020 新生赛\]Upload](wen-jian-shang-chuan/actf2020-xin-sheng-sai-upload.md)
 * [\[XNUCA2019Qualifier\]EasyPHP](wen-jian-shang-chuan/xnuca2019qualifier-easyphp.md)
 * [\[羊城杯2020\]easyphp](wen-jian-shang-chuan/yang-cheng-bei-2020easyphp.md)
-* [\[SUCTF 2018\]GetShell](wen-jian-shang-chuan/suctf-2018-getshell.md)
 
 ## PHP
 
