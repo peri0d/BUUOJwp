@@ -147,7 +147,6 @@
 
 ## Python
 
-* [\[SCTF2019\]Flag Shop](python/sctf2019-flag-shop.md)
 * [逻辑漏洞](python/luo-ji-lou-dong/README.md)
   * [\[DDCTF 2019\]homebrew event loop](python/luo-ji-lou-dong/ddctf-2019-homebrew-event-loop.md)
   * [\[CISCN2019 华北赛区 Day1 Web2\]ikun](python/luo-ji-lou-dong/ciscn2019-hua-bei-sai-qu-day1-web2ikun.md)
@@ -185,3 +184,4 @@
 * [\[b01lers2020\]Welcome to Earth](fei-chang-gui-web/b01lers2020-welcome-to-earth.md)
 * [\[FireshellCTF2020\]Caas](fei-chang-gui-web/fireshellctf2020-caas.md)
 * [\[BJDCTF2020\]EasySearch](wei-que-ding/bjdctf2020-easysearch.md)
+* [\[SCTF2019\]Flag Shop](wei-fen-lei/sctf2019-flag-shop.md)
