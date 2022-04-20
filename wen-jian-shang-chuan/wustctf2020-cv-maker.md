@@ -16,6 +16,6 @@
 
 `exif_imagetype`函数会读取图片的第一个字节并检查。到这里初步判断是文件上传，然后在返回包看到PHP是5.5版本。
 
-![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (17) (1) (1).png>)

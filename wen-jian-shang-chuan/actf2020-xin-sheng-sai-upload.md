@@ -12,7 +12,7 @@
 
 ![](<../.gitbook/assets/image (29) (1).png>)
 
-![](<../.gitbook/assets/image (27) (1) (1).png>)
+![](<../.gitbook/assets/image (27) (1) (1) (1).png>)
 
 删除check再上传
 

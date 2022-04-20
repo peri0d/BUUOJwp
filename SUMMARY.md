@@ -86,6 +86,7 @@
 * [\[ACTF2020 新生赛\]Upload](wen-jian-shang-chuan/actf2020-xin-sheng-sai-upload.md)
 * [\[XNUCA2019Qualifier\]EasyPHP](wen-jian-shang-chuan/xnuca2019qualifier-easyphp.md)
 * [\[羊城杯2020\]easyphp](wen-jian-shang-chuan/yang-cheng-bei-2020easyphp.md)
+* [\[SUCTF 2018\]GetShell](wen-jian-shang-chuan/suctf-2018-getshell.md)
 
 ## PHP
 
