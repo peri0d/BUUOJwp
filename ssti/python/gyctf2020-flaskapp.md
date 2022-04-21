@@ -116,8 +116,8 @@ print(rv)
 
 输入 PIN 值
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
-![](<../../.gitbook/assets/image (34) (1).png>)
+![](<../../.gitbook/assets/image (34) (1) (1).png>)
 
 这里执行 `os.system('ls /')` 返回为 `0`，是因为这个命令虽然执行了，但是没有获取执行的结果，即 os.system 仅仅在一个子终端运行系统命令，而不能获取命令执行后的返回信息

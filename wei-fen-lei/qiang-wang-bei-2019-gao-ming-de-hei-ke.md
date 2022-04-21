@@ -12,7 +12,7 @@
 
 www.tar.gz下载源码，使用notepad++在src目录中查找system，还是有很多
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29).png>)
 
 只能用脚本多线程跑
 
@@ -64,7 +64,7 @@ for i in l:
 
 得到结果xk0SzyKwfzw.php
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 再写一个`get_flag`函数，复制粘贴前面的代码，改一下地址和shell
 
@@ -94,4 +94,4 @@ def get_flag(file):
 get_flag('xk0SzyKwfzw.php')
 ```
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33).png>)
