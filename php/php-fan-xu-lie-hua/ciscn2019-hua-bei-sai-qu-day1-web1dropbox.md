@@ -340,7 +340,7 @@ $phar->stopBuffering();
 
 上传，然后在delete.php处触发phar
 
-![](<../../.gitbook/assets/image (8) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1) (1).png>)
 
 ## 小结
 
