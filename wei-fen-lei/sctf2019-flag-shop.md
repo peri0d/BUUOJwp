@@ -221,7 +221,7 @@ prefix.
 
 得到payload：`GET /work?name=%3c%25%3d%24'%25%3e&do=%3c%25%3d%24'%25%3e%20is%20working&SECRET=`
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 得到密钥
 
