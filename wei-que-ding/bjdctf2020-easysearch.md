@@ -51,7 +51,7 @@
 
 password的md5值前6位要是6d0bc1，脚本爆破出来是2020666，在返回头给了文件地址
 
-![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 shtml存在一个Apache SSI 远程命令执行漏洞，在登录界面使用如下payload
 
