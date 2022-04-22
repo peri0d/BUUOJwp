@@ -58,6 +58,7 @@
 
 ## XSS
 
+* [\[CISCN2019 华东北赛区\]Web2](xss/ciscn2019-hua-dong-bei-sai-qu-web2.md)
 * [\[GWCTF 2019\]mypassword](xss/gwctf-2019-mypassword.md)
 
 ## XPath注入
