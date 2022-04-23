@@ -156,7 +156,7 @@ $phar->stopBuffering();
 
 使用上面的exp生成phar，改名为1.gif，再上传。在vps监听端口，在 fuc.php 中输入`php://filter/resource=phar://upload/cc551ab005b2e60fbdc88de809b2c4b1/b1467d0a5330091b554e2d892f7e8308.gif`，就可以反弹shell了
 
-![](<../../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (34) (1) (1) (1).png>)
 

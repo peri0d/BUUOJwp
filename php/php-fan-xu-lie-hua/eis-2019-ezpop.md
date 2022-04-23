@@ -18,7 +18,7 @@
 
 确定是反序列化，然后找`__destruct()`作为入口，可以锁定`class A`，然后`$this->autosave`为`false`，然后不断向上调用
 
-![](<../../.gitbook/assets/image (11) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1).png>)
 
 `getForStorage()`那一大块可以写成一段代码，这段代码意思举个例子解释，比如`array("0"=>array("path"=>"a"))`，处理之后就是`array("0"=>"a")`，感觉有点多此一举。再json\_encode一下，变成一个字符串。在`getForStorage()`后执行的是 `$this->store->set()`，由此跳转到`class B`
 
