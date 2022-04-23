@@ -119,6 +119,7 @@
   * [\[ACTF2020 新生赛\]BackupFile](php/php-te-xing/actf2020-xin-sheng-sai-backupfile.md)
   * [\[极客大挑战 2019\]BuyFlag](php/php-te-xing/ji-ke-da-tiao-zhan-2019buyflag.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
+  * [\[HarekazeCTF2019\]Easy Notes](php/php-fan-xu-lie-hua/harekazectf2019-easy-notes.md)
   * [bestphp's revenge](php/php-fan-xu-lie-hua/bestphps-revenge.md)
   * [\[SUCTF 2019\]Upload Labs 2](php/php-fan-xu-lie-hua/suctf-2019-upload-labs-2.md)
   * [\[SWPUCTF2018\] SimplePHP](php/php-fan-xu-lie-hua/swpuctf2018-simplephp.md)

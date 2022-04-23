@@ -144,7 +144,7 @@ print("<svg><script>eval&#x28;&#x22;" + output + "&#x22;&#x29;</script></svg>")
 http://web.node3.buuoj.cn:81/post/8933fc518918c6156409c3c2fe884a5f.html
 ```
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 修改cookie再去访问admin.php，发现是个查询的功能
 

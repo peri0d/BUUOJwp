@@ -30,7 +30,7 @@ payload：`b u p t=23333%0a`
 
 来到下一层`secrettw.php` ，F12看到一堆JSFuck编码，放到控制台执行，给了提示`post me Merak`
 
-![](<../../.gitbook/assets/image (5) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (5) (1) (1) (1) (1).png>)
 
 POST Merak可以得到源码
 
