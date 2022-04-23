@@ -6,7 +6,7 @@
 
 直接访问发现从`/`跳转到了`/die`，抓包发现主页存在路径`/chase`
 
-![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
 
 访问后又有其他路径，接着访问有`/shoot`目录，然后是`/door`目录
 

@@ -64,7 +64,7 @@ var_dump($f[2] === IMAGETYPE_PNG);
 
 结果如下
 
-![](<../.gitbook/assets/image (10) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (21) (1).png>)
 

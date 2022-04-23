@@ -10,9 +10,9 @@
 
 其实是给了提示的，在请求头中加`XFF`，并且是smarty框架，smarty很经典的考点就是SSTI
 
-![](<../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png>)
 
 burp抓包改XFF存在回显
 

@@ -72,11 +72,12 @@
   * [\[BJDCTF2020\]The mystery of ip](ssti/php/bjdctf2020-the-mystery-of-ip.md)
   * [\[BJDCTF2020\]Cookie is so stable](ssti/php/bjdctf2020-cookie-is-so-stable.md)
 * [Python](ssti/python/README.md)
-  * [\[GYCTF2020\]FlaskApp](ssti/python/gyctf2020-flaskapp.md)
+  * [\[FBCTF2019\]Event](ssti/python/fbctf2019-event.md)
   * [\[RootersCTF2019\]I\_<3\_Flask](ssti/python/rootersctf2019-i\_less-than-3\_flask.md)
   * [\[CSCCTF 2019 Qual\]FlaskLight](ssti/python/cscctf-2019-qual-flasklight.md)
-  * [\[护网杯 2018\]easy\_tornado](ssti/python/hu-wang-bei-2018easytornado.md)
+  * [\[GYCTF2020\]FlaskApp](ssti/python/gyctf2020-flaskapp.md)
   * [\[WesternCTF2018\]shrine](ssti/python/westernctf2018-shrine.md)
+  * [\[护网杯 2018\]easy\_tornado](ssti/python/hu-wang-bei-2018easytornado.md)
 
 ## 文件上传
 

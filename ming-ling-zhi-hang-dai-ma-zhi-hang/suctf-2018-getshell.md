@@ -23,7 +23,7 @@ if($contents=file_get_contents($_FILES["file"]["tmp_name"])){
 
 读取上传文件开头第五个字符后的内容，然后进行黑名单判断。但是不知道黑名单是什么，需要试一下，测试的字符放后面了，放burpsuite里面爆破一下，记得在设置payload时把`payload encoding`取消打钩
 
-![](<../.gitbook/assets/image (27).png>)
+![](<../.gitbook/assets/image (27) (1).png>)
 
 可以看到，上传的文件直接保存成php，所有的数字字母都被过滤。但是PHP中笔记关键的`[]()$~;`都没被过滤，这就回到了无字符RCE。
 
