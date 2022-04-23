@@ -13,7 +13,7 @@ F12在`/static/app.js`中看到提示koa框架，百度一下找到[koa的框架
 
 尝试直接访问app.js可以得到koa项目入口
 
-![](<../.gitbook/assets/image (20) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (20) (1) (1) (1) (1).png>)
 
 在`/static/app.js`中可以看到访问的都是api，所以这里的处理逻辑应该都是api，尝试出来代码位置是`/controllers/api.js`，代码放最后。可以看到它有一个获取token的过程
 

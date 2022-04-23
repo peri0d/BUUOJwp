@@ -59,7 +59,7 @@ if (preg_match("/ls|bash|tac|nl|more|less|head|wget|tail|vi|cat|od|grep|sed|bzmo
 
 MD5是强制转换为string再比较，只能使用fastcoll进行碰撞
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20) (1).png>)
 
 `fastcoll_v1.0.0.5.exe -p a.txt -o 1.txt 2.txt`
 
