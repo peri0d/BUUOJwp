@@ -12,7 +12,7 @@
 
 www.tar.gz下载源码，使用notepad++在src目录中查找system，还是有很多
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29) (1).png>)
 
 只能用脚本多线程跑
 
