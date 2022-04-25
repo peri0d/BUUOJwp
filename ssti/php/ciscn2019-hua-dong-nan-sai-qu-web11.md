@@ -16,7 +16,7 @@
 
 burp抓包改XFF存在回显
 
-![](<../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png>)
 
 然后尝试SSTI
 

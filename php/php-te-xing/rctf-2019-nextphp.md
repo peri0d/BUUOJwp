@@ -23,7 +23,7 @@ if (isset($_GET['a'])) {
 
 `?a=phpinfo();`看到phpinfo中设置了disable\_functions
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 `?a=var_dump(scandir('/'));`提示没有权限，`?a=var_dump(scandir('.'));`看到两个文件，index.php和preload.php。再读取preload.php
 
