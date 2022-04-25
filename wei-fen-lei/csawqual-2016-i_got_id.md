@@ -82,5 +82,5 @@ payload：`POST /cgi-bin/file.pl?cat%20%2fflag%20|`，文件上传和上面相�
    * `ARGV`：遍历数组变量`@ARGV`中所有文件名的特殊文件句柄
 5. 在Perl中，直接在url给出参数就相当于命令行传参
 6. [https://tsublogs.wordpress.com/2016/09/18/606/](https://tsublogs.wordpress.com/2016/09/18/606/)
-7.
+7. [https://blog.csdn.net/wssmiss/article/details/105620355](https://blog.csdn.net/wssmiss/article/details/105620355)
 
