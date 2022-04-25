@@ -23,7 +23,7 @@
 
 ![](<../.gitbook/assets/image (35) (1).png>)
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 扫描出来upload目录，那文件保存在`upload/123.jpg`，接下来是如何让服务器解析，先试试各种后缀。上传`.phtml`发现成功，访问就可以getshell
 

@@ -94,4 +94,4 @@ def get_flag(file):
 get_flag('xk0SzyKwfzw.php')
 ```
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33) (1).png>)

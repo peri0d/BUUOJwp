@@ -14,7 +14,7 @@ You must be answer the correct password!!!
 
 抓包发现cookie有个user字段是0，改成1，然后提示要password
 
-![](<../../.gitbook/assets/image (33) (1) (1).png>)
+![](<../../.gitbook/assets/image (33) (1) (1) (1).png>)
 
 在注释找到了password的代码
 

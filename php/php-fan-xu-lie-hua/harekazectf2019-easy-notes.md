@@ -40,7 +40,7 @@
 
 看到有个导出功能，它会将添加的 note 导出为 zip，这个文件存放的位置在 `TEMP_DIR` ，和 `session` 信息保存在同一个位置，那么是不是可以考虑伪造 session
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 session 文件以 `sess_` 开头，且只含有 `a-z`，`A-Z`，`0-9`，`-`
 
