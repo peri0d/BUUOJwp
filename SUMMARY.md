@@ -32,6 +32,7 @@
 * [\[SWPU2019\]Web1](sql-zhu-ru/swpu2019-web1.md)
 * [\[GYCTF2020\]Blacklist](sql-zhu-ru/gyctf2020-blacklist.md)
 * [\[SWPU2019\]Web4](sql-zhu-ru/swpu2019-web4.md)
+* [\[HarekazeCTF2019\]Sqlite Voting](sql-zhu-ru/harekazectf2019-sqlite-voting.md)
 
 ## 命令执行/代码执行
 
@@ -97,7 +98,7 @@
 ## PHP
 
 * [Laravel](php/laravel/README.md)
-  * [\[CISCN2019 总决赛 Day1 Web4\]Laravel1](php/laravel/ciscn2019-zong-jue-sai-day1-web4laravel1.md)
+  * [未完成\[CISCN2019 总决赛 Day1 Web4\]Laravel1](php/laravel/wei-wan-cheng-ciscn2019-zong-jue-sai-day1-web4laravel1.md)
 * [PHP特性](php/php-te-xing/README.md)
   * [\[RCTF 2019\]Nextphp](php/php-te-xing/rctf-2019-nextphp.md)
   * [\[WMCTF2020\]Make PHP Great Again](php/php-te-xing/wmctf2020-make-php-great-again.md)
