@@ -4,7 +4,9 @@
 
 ## 考点
 
-
+* LFI
+* 任意文件下载
+* Flask伪造session
 
 ## wp
 
@@ -24,7 +26,7 @@ flask-unsign解码一下，得到`{'balance': 1336, 'purchases': []}`，看来�
 
 尝试任意文件下载，发现/download?image=../../etc/passwd可以下载文件
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (35).png>)
 
 访问/download?image=../../proc/self/cmdline，得到运行目录app/app.py
 

