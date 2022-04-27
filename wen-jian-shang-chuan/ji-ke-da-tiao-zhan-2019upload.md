@@ -11,13 +11,13 @@
 
 提交PHP文件
 
-![](<../.gitbook/assets/image (4) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 提交图片马
 
 ![](<../.gitbook/assets/image (6).png>)
 
-![](<../.gitbook/assets/image (23).png>)
+![](<../.gitbook/assets/image (23) (1).png>)
 
 过滤后缀和`<?`，重新构造图片马
 

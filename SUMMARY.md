@@ -74,6 +74,7 @@
   * [\[BJDCTF2020\]The mystery of ip](ssti/php/bjdctf2020-the-mystery-of-ip.md)
   * [\[BJDCTF2020\]Cookie is so stable](ssti/php/bjdctf2020-cookie-is-so-stable.md)
 * [Python](ssti/python/README.md)
+  * [\[PASECA2019\]honey\_shop](ssti/python/paseca2019-honey\_shop.md)
   * [\[pasecactf\_2019\]flask\_ssti](ssti/python/pasecactf\_2019-flask\_ssti.md)
   * [\[FBCTF2019\]Event](ssti/python/fbctf2019-event.md)
   * [\[RootersCTF2019\]I\_<3\_Flask](ssti/python/rootersctf2019-i\_less-than-3\_flask.md)
