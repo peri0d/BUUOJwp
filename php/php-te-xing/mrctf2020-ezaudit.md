@@ -54,7 +54,7 @@ print(res)
 
 用php\_mt\_seed计算随机数种子，得到结果`1775196155`
 
-![](<../../.gitbook/assets/image (22) (1) (1).png>)
+![](<../../.gitbook/assets/image (22) (1) (1) (1).png>)
 
 在返回头可以看到PHP版本为5.6.40，在该版本下用得到的随机数种子运行private\_key()即可
 
@@ -87,4 +87,4 @@ echo private_key();
 
 再用万能密码登录即可
 
-![](<../../.gitbook/assets/image (24) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (24) (1) (1) (1) (1).png>)

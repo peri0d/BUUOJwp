@@ -21,7 +21,7 @@ index.gk这个后缀不知道什么东西，有两个js文件index.js和three.mi
 
 扫描发现存在/uploads/目录，有个Preview文件，下载下来看看，没发现什么东西
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 下载链接格式如下，`http://90baaf07-a12e-437c-9470-dadb233172f2.node4.buuoj.cn:81/preview?f=favicon.ico`，尝试任意文件下载
 

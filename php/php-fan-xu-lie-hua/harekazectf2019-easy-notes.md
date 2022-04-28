@@ -28,7 +28,7 @@
 
 还要看一下初始化文件`init.php`，定义`session`存储位置
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (22) (1).png>)
 
 进入 `page/flag.php` 看一下给出 flag 的条件，要满足 `is_admin()` 函数
 

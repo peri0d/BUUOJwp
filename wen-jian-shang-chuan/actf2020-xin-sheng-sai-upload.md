@@ -29,7 +29,7 @@ GIF89a
 
 换一下后缀试一下，换成phtml
 
-![](<../.gitbook/assets/image (8) (1) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 访问成功解析，再传shell即可。
 

@@ -10,7 +10,7 @@
 
 打开就是登录界面，抓包，是XML
 
-![](<../.gitbook/assets/image (34) (1) (1).png>)
+![](<../.gitbook/assets/image (34) (1) (1) (1).png>)
 
 会回显username，直接进行XXE注入
 

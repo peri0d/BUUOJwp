@@ -274,4 +274,4 @@ payload：
 
 再去访问profile.php查看图片的内容即可
 
-![](<../../.gitbook/assets/image (22) (1).png>)
+![](<../../.gitbook/assets/image (22) (1) (1).png>)
