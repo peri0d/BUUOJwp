@@ -9,6 +9,7 @@
 * 绕过`{{}}`
 * 绕过`.`
 * 绕过黑名单
+* `__getitem__()`绕过`[]`的过滤
 
 ## wp
 
@@ -43,6 +44,8 @@ Parse error: syntax error, unexpected T_STRING, expecting '{' in \var\WWW\html\t
 `{%print()%}`绕过`{{}}`的过滤
 
 `|attr()`绕过`.`的过滤
+
+`__getitem__()`绕过`[]`的过滤
 
 `\u编码`绕过对字符串的过滤
 
