@@ -21,7 +21,7 @@
 
 第三个页面会回显上传文件的内容
 
-![](<../.gitbook/assets/image (31).png>)
+![](<../.gitbook/assets/image (31) (1).png>)
 
 这里要对Perl很熟悉才能继续，回显上传文件内容，代码大致如下
 

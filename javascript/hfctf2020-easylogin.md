@@ -27,7 +27,7 @@ const token = ctx.header.authorization || ctx.request.body.authorization || ctx.
 
 去[`https://jwt.io/`](https://jwt.io)可以看到解码后的内容
 
-![](<../.gitbook/assets/image (18) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1).png>)
 
 把`alg`改成`none`，JWT中当`alg`为`none`，`secret`为空时，后端将不执行签名验证。
 
