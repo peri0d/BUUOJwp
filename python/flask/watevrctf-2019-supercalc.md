@@ -11,7 +11,7 @@
 
 输入`9*9`发现会回显
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 返回包会设置新的cookie
 
@@ -34,7 +34,7 @@ flask-unsign.exe --decode --cookie .eJyrVsrILC7JL6pUsoquVkrOT0lVslKyVNBSsFSq1SEo
 
 输入`1/0#{{7*7}}`可以看到回显的结果
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 输入输入`1/0#{{config}}`获取config
 

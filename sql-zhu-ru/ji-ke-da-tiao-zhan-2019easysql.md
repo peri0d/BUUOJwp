@@ -8,4 +8,4 @@ F12发现是向check.php使用GET提交username和password
 
 尝试万能密码，访问`check.php?username=admin' or '1'='1'%23&password=123`，给了flag
 
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1).png>)

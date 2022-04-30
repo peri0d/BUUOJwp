@@ -166,6 +166,7 @@
   * [\[DDCTF 2019\]homebrew event loop](python/luo-ji-lou-dong/ddctf-2019-homebrew-event-loop.md)
   * [\[CISCN2019 华北赛区 Day1 Web2\]ikun](python/luo-ji-lou-dong/ciscn2019-hua-bei-sai-qu-day1-web2ikun.md)
 * [Flask](python/flask/README.md)
+  * [\[SWPU2019\]Web3](python/flask/swpu2019-web3.md)
   * [\[watevrCTF-2019\]Supercalc](python/flask/watevrctf-2019-supercalc.md)
   * [\[CISCN2019 总决赛 Day1 Web3\]Flask Message Board(\*)](python/flask/ciscn2019-zong-jue-sai-day1-web3flask-message-board.md)
   * [\[HCTF 2018\]admin](python/flask/hctf-2018-admin.md)
