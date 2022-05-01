@@ -13,7 +13,7 @@
 
 robots.txt发现存在/fAke\_f1agggg.php，访问在返回头给了提示，fl4g.php
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (26) (1).png>)
 
 访问后给了代码
 

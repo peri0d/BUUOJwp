@@ -17,7 +17,7 @@ index.gk这个后缀不知道什么东西，有两个js文件index.js和three.mi
 
 看了一下响应头，服务器是openresty，它是一个基于 NGINX 的可伸缩的 Web 平台，可以使用 Lua 脚本语言调动 Nginx 支持的各种 C 以及 Lua 模块。
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
 
 扫描发现存在/uploads/目录，有个Preview文件，下载下来看看，没发现什么东西
 

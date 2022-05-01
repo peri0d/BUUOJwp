@@ -180,7 +180,7 @@
 
 ## Java
 
-* [virink\_2019\_files\_share](java/virink\_2019\_files\_share.md)
+* [\[网鼎杯 2020 青龙组\]filejava](java/wang-ding-bei-2020-qing-long-zu-filejava.md)
 * [\[RoarCTF 2019\]Easy Java](java/roarctf-2019-easy-java.md)
 
 ## JavaScript
@@ -201,6 +201,7 @@
   * [\[MRCTF2020\]PYWebsite](wei-fen-lei/http-wen-ti/mrctf2020-pywebsite.md)
   * [\[BSidesCF 2019\]Kookie](wei-fen-lei/http-wen-ti/bsidescf-2019-kookie.md)
   * [\[watevrCTF-2019\]Cookie Store](wei-fen-lei/http-wen-ti/watevrctf-2019-cookie-store.md)
+* [\[RootersCTF2019\]ImgXweb](wei-fen-lei/rootersctf2019-imgxweb.md)
 * [\[BSidesCF 2019\]Pick Tac Toe](wei-fen-lei/bsidescf-2019-pick-tac-toe.md)
 * [\[CSAWQual 2016\]i\_got\_id](wei-fen-lei/csawqual-2016-i\_got\_id.md)
 * [\[Windows\]\[HITCON 2019\]Buggy\_Net](wei-fen-lei/windows-hitcon-2019-buggy\_net.md)
@@ -213,3 +214,4 @@
 * [\[BJDCTF2020\]EasySearch](wei-que-ding/bjdctf2020-easysearch.md)
 * [\[SCTF2019\]Flag Shop](wei-fen-lei/sctf2019-flag-shop.md)
 * [\[强网杯 2019\]高明的黑客](wei-fen-lei/qiang-wang-bei-2019-gao-ming-de-hei-ke.md)
+* [virink\_2019\_files\_share](wei-fen-lei/virink\_2019\_files\_share.md)

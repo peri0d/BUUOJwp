@@ -29,7 +29,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIn0.40on__HQ8B2-wM1
 
 回到个人中心，可以看到提示
 
-![](<../../.gitbook/assets/image (12) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
 
 ```
 >>> s='\\u8fd9\\u7f51\\u7ad9\\u4e0d\\u4ec5\\u53ef\\u4ee5\\u4ee5\\u8585\\u7f8a\\u6bdb\\uff0c\\u6211\\u8fd8\\u7559\\u4e86\\u4e2a\\u540e\\u95e8\\uff0c\\u5c31\\u85cf\\u5728\\u006c\\u0076\\u0036\\u91cc'
@@ -139,7 +139,7 @@ c__builtin__%0Aeval%0Ap0%0A%28S%22open%28%27/flag.txt%27%2C%27r%27%29.read%28%29
 
 结果
 
-![](<../../.gitbook/assets/image (12) (1) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 ## 小结
 

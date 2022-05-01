@@ -148,7 +148,7 @@ http://web.node3.buuoj.cn:81/post/8933fc518918c6156409c3c2fe884a5f.html
 
 修改cookie再去访问admin.php，发现是个查询的功能
 
-![](<../.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (28) (1).png>)
 
 尝试SQL注入，输入`id=3-1`，得到`id=2`的结果，是数字型注入
 

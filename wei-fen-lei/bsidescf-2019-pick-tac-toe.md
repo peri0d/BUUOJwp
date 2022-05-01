@@ -21,13 +21,13 @@ F12看下代码，九个格子用了不同的变量定义
 ul就是第一个格子，电脑下在了中心就是c这个变量\
 
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 
 
 如果在第二次下棋，传入电脑下过的位置，就会覆盖掉电脑的棋子
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (33).png>)
 
 ![](<../.gitbook/assets/image (29).png>)
 

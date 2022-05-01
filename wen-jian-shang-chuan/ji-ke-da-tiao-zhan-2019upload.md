@@ -17,17 +17,17 @@
 
 ![](<../.gitbook/assets/image (6) (1).png>)
 
-![](<../.gitbook/assets/image (23) (1).png>)
+![](<../.gitbook/assets/image (23) (1) (1).png>)
 
 过滤后缀和`<?`，重新构造图片马
 
-![](<../.gitbook/assets/image (35) (1) (1).png>)
+![](<../.gitbook/assets/image (35) (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (7) (1) (1).png>)
 
 扫描出来upload目录，那文件保存在`upload/123.jpg`，接下来是如何让服务器解析，先试试各种后缀。上传`.phtml`发现成功，访问就可以getshell
 
-![](<../.gitbook/assets/image (26) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1).png>)
 
 ## 小结
 

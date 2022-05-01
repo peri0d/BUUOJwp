@@ -84,7 +84,7 @@ app bin boot dev etc flag_1s_Hera home lib lib64 media mnt opt proc root run sbi
 {% endraw %}
 ```
 
-![](<../../.gitbook/assets/image (34) (1).png>)
+![](<../../.gitbook/assets/image (34) (1) (1).png>)
 
 app.py
 
