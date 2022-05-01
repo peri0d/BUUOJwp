@@ -65,7 +65,7 @@ if(!isset($_GET['c'])){
 
 ![](<../.gitbook/assets/image (3) (1).png>)
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (32) (1).png>)
 
 最后就构造出来了构造出来了 `_GET`，是`base_convert(37907361743,10,36)(dechex(1598506324));`
 

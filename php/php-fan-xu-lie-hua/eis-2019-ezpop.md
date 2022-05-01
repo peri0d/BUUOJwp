@@ -14,7 +14,7 @@
 
 给了源码，一点一点看。首先定义两个类，然后GET的src参数，上传目录`uploads/`，最后反序列化`data`
 
-![](<../../.gitbook/assets/image (20) (1) (1).png>)
+![](<../../.gitbook/assets/image (20) (1) (1) (1).png>)
 
 确定是反序列化，然后找`__destruct()`作为入口，可以锁定`class A`，然后`$this->autosave`为`false`，然后不断向上调用
 
@@ -147,7 +147,7 @@ $a->complete = 2;
 echo urlencode(serialize($a));
 ```
 
-![](<../../.gitbook/assets/image (32) (1) (1).png>)
+![](<../../.gitbook/assets/image (32) (1) (1) (1).png>)
 
 ## 小结
 

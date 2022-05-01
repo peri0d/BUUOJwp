@@ -11,7 +11,7 @@
 
 输入一个name会回显，这里就是SSTI了
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (29) (1).png>)
 
 看给的代码，只是一部分代码
 

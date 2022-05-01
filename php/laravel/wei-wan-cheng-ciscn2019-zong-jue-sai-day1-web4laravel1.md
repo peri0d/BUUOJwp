@@ -1,4 +1,4 @@
-# \[CISCN2019 总决赛 Day1 Web4]Laravel1
+# 未完成\[CISCN2019 总决赛 Day1 Web4]Laravel1
 
 ## \[CISCN2019 总决赛 Day1 Web4]Laravel1
 
@@ -32,8 +32,6 @@ class IndexController extends Controller
 ```
 
 下载源码，是个反序列化漏洞，在`composer.json`看到版本是5.8，还用了`symfony`，版本是4.2
-
-
 
 exp
 
@@ -87,7 +85,7 @@ namespace {
 
 可以得到flag
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20) (1).png>)
 
 ## 小结
 

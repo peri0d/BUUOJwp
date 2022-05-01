@@ -64,8 +64,8 @@ var_dump($f[2] === IMAGETYPE_PNG);
 
 结果如下
 
-![](<../.gitbook/assets/image (10) (1) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (21) (1) (1).png>)
+![](<../.gitbook/assets/image (21) (1) (1) (1).png>)
 
 直接上传这个文件就可以获取 flag 了

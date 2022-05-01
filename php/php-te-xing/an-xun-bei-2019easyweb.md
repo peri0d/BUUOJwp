@@ -59,7 +59,7 @@ if (preg_match("/ls|bash|tac|nl|more|less|head|wget|tail|vi|cat|od|grep|sed|bzmo
 
 MD5是强制转换为string再比较，只能使用fastcoll进行碰撞
 
-![](<../../.gitbook/assets/image (20) (1).png>)
+![](<../../.gitbook/assets/image (20) (1) (1).png>)
 
 `fastcoll_v1.0.0.5.exe -p a.txt -o 1.txt 2.txt`
 
@@ -69,7 +69,7 @@ a=dada%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%0
 
 然后绕命令执行，虽然禁用了ls，但是dir还可以使用
 
-![](<../../.gitbook/assets/image (10) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
 
 空格不能直接敲，要用用%20代替，
 

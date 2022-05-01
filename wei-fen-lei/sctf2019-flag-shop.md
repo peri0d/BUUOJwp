@@ -20,7 +20,7 @@
 
 把cookie放在[`jwt.io`](https://jwt.io)看一下
 
-![](<../.gitbook/assets/image (10) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1).png>)
 
 需要密钥才能修改，尝试jwt-crack破解未果
 

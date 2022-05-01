@@ -56,7 +56,7 @@ for i in range(1,999999):
 
 给的钱不够，应该是个逻辑漏洞，抓包看看，在结算的时候，有个折扣的参数，这里是打了8折
 
-![](<../../.gitbook/assets/image (9) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 把price和discount都改成很低，看到返回了一个地址：`/b1g_m4mber`
 
@@ -135,7 +135,7 @@ c__builtin__%0Aeval%0Ap0%0A%28S%22open%28%27/flag.txt%27%2C%27r%27%29.read%28%29
 
 提交payload
 
-![](<../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png>)
 
 结果
 
