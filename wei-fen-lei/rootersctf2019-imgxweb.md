@@ -19,7 +19,7 @@
 
 然后去jwt.io验证一下，把user改成admin
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (32) (1).png>)
 
 然后得到flag图片
 

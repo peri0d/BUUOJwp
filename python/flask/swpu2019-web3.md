@@ -22,7 +22,7 @@
 
 只能想其他办法获取`secret_key`，发现在404页面的返回头存在`Swpuctf_csrf_token`，为`U0VDUkVUX0tFWTprZXlxcXF3d3dlZWUhQCMkJV4mKg==`
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 解码后为`SECRET_KEY:keyqqqwwweee!@#$%^&*`，然后重新加密session，内容是`{'id': b'1', 'is_login': True, 'password': '111', 'username': 'admin'}`
 

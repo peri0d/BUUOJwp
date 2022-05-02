@@ -33,6 +33,7 @@
 * [\[GYCTF2020\]Blacklist](sql-zhu-ru/gyctf2020-blacklist.md)
 * [\[SWPU2019\]Web4](sql-zhu-ru/swpu2019-web4.md)
 * [\[HarekazeCTF2019\]Sqlite Voting](sql-zhu-ru/harekazectf2019-sqlite-voting.md)
+* [\[XDCTF 2015\]filemanager](sql-zhu-ru/xdctf-2015-filemanager.md)
 
 ## 命令执行/代码执行
 

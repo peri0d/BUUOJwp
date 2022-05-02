@@ -11,7 +11,7 @@
 
 输入`9*9`发现会回显
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 返回包会设置新的cookie
 

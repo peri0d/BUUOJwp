@@ -117,7 +117,7 @@ vps上的dtd文件如下，再监听端口
 
 然后重新打包为xlsx文件，这里就直接右键->7z打开压缩包，再右键编辑
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (21) (1).png>)
 
 保存直接上传即可
 

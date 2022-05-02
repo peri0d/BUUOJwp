@@ -19,7 +19,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhYWEifQ.bJejEdbt0h9U-vvn
 
 在[jwt.io](https://jwt.io)上看一下，提示需要密钥
 
-![](<../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 可以使用[`jwtcrack`](https://github.com/brendan-rius/c-jwt-cracker)破解密钥，结果是1Kun，username改成admin，重新生成JWT
 

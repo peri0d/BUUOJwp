@@ -4,6 +4,6 @@
 
 ## wp
 
-![](<../.gitbook/assets/image (32) (1) (1).png>)
+![](<../.gitbook/assets/image (32) (1) (1) (1).png>)
 
 直接getshell

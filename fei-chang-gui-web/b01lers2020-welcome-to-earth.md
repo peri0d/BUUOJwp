@@ -16,7 +16,7 @@
 
 访问`/door`目录是给了一个js文件
 
-![](<../.gitbook/assets/image (13) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1).png>)
 
 再访问js文件才能得到下一个目录，`/open`目录也是同理
 

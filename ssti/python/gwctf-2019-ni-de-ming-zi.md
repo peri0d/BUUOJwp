@@ -15,7 +15,7 @@
 
 输入字符串会回显，大概率SSTI
 
-![](<../../.gitbook/assets/image (21) (1).png>)
+![](<../../.gitbook/assets/image (21) (1) (1).png>)
 
 输入`{{7*7}}`给了错误提示
 
