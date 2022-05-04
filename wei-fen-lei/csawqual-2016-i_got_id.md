@@ -51,7 +51,7 @@ while ( <$file> ) { print "$_"; } }
 
 payload
 
-![](<../.gitbook/assets/image (7) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1).png>)
 
 修改`/etc/passwd`为`/flag`就可以看到结果
 

@@ -60,7 +60,7 @@ for i in range(1,999999):
 
 把price和discount都改成很低，看到返回了一个地址：`/b1g_m4mber`
 
-![](<../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png>)
 
 直接访问可以看到提示，给了源码
 

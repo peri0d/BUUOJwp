@@ -18,7 +18,7 @@
 
 点击upload提示`Permission denied!`，要进行flask session伪造，先试试SSTI，用户名输入`{{7*7}}`原样返回
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 只能想其他办法获取`secret_key`，发现在404页面的返回头存在`Swpuctf_csrf_token`，为`U0VDUkVUX0tFWTprZXlxcXF3d3dlZWUhQCMkJV4mKg==`
 

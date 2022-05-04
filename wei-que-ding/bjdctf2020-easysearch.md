@@ -63,7 +63,7 @@ username=<!--#exec cmd="cat ../*" -->&password=2020666
 
 再返回返回的`Url_is_here`就可以了
 
-![](<../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## 小结
 

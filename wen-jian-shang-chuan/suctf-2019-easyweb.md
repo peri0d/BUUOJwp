@@ -82,7 +82,7 @@ paylaod: `_=${%ff%ff%ff%ff^%a0%b8%ba%ab}{%ff}();&%ff=phpinfo` 相当于 `_=${_GE
 
 不确定中间件不确定PHP版本，看一下phpinfo，得到信息<mark style="color:orange;">`PHP7.2`</mark>和<mark style="color:orange;">`apache2`</mark>，REMOTE\_ADDR是10.244.80.46
 
-![](<../.gitbook/assets/image (7) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (1) (1) (1).png>)
 
 这样思路就明确了，上传`.htaccess`让服务器把图片文件解析成木马，但有几个问题
 
