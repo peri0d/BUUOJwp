@@ -2,7 +2,6 @@
 
 * [README](README.md)
 * [summary](summary.md)
-* [\[FBCTF2019\]Products Manager](fbctf2019-products-manager.md)
 
 ## SQL注入
 
@@ -35,6 +34,7 @@
 * [\[SWPU2019\]Web4](sql-zhu-ru/swpu2019-web4.md)
 * [\[HarekazeCTF2019\]Sqlite Voting](sql-zhu-ru/harekazectf2019-sqlite-voting.md)
 * [\[XDCTF 2015\]filemanager](sql-zhu-ru/xdctf-2015-filemanager.md)
+* [\[FBCTF2019\]Products Manager](sql-zhu-ru/fbctf2019-products-manager.md)
 
 ## 命令执行/代码执行
 

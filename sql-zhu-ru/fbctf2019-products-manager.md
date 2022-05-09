@@ -88,7 +88,7 @@ INSERT INTO products VALUES('oculus-rift', sha256(....), ....);
 
 在插入时若数据长度超过了预先设定的限制，数据库会对字符串进行截断，只保留限定的长度。
 
-本题payload，在burp中操作好点
+本题payload如下，在burp中操作好点
 
 ```
 add.php
@@ -99,4 +99,24 @@ description:1111
 view.php
 name:facebook
 secret:aaaaBBBB1234
+```
+
+首先，插入的name大于规定的64位，会截断插入
+
+| name                                                      | secret       | description        |
+| --------------------------------------------------------- | ------------ | ------------------ |
+| <mark style="color:red;">`facebook`</mark>                | \*\*\*\*\*\* | flag{\*\*\*\*\*\*} |
+| <mark style="color:orange;">`facebook`</mark>             | aaaaBBBB1234 | 1111               |
+
+然后执行check\_name\_secret时，传入<mark style="color:red;">`facebook`</mark>和`aaaaBBBB1234`，那么执行的语句就是`SELECT name FROM products WHERE name =`` `<mark style="color:red;">`facebook`</mark>` ``AND secret = aaaaBBBB1234`
+
+它就会触发MySQL字符串比较的机制，在<mark style="color:red;">`facebook`</mark>末尾添加空格使它和<mark style="color:orange;">`facebook`</mark>            长度相同，然后再进行where比较，这样where比较是肯定通过的，check\_name\_secret返回TRUE
+
+然后就会执行get\_product($name)获取<mark style="color:red;">`facebook`</mark>的信息，这样就造成了水平越权
+
+```php
+if (check_name_secret($name, hash('sha256', $secret)) === false) {
+    return "Incorrect name or secret, please try again";
+}
+$product = get_product($name);
 ```
