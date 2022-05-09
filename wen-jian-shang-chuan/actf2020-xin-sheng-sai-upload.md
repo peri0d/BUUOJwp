@@ -25,7 +25,7 @@ GIF89a
 <script language='php'>phpinfo();</script>
 ```
 
-![](<../.gitbook/assets/image (28) (1) (1).png>)
+![](<../.gitbook/assets/image (28) (1) (1) (1).png>)
 
 换一下后缀试一下，换成phtml
 

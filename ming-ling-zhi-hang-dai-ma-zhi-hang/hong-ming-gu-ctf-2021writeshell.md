@@ -76,7 +76,7 @@ switch($_GET["action"] ?? "") {
 ?action=upload&data=<?=system("ls%09/")?>
 ```
 
-![](<../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1) (1) (1) (1).png>)
 
 ## 小结
 

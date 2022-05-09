@@ -22,7 +22,7 @@ flask-unsign解码一下，得到`{'balance': 1336, 'purchases': []}`，看来�
 
 试了一下，整个页面除了购买外，只有图片可以点
 
-![](<../../.gitbook/assets/image (23) (1).png>)
+![](<../../.gitbook/assets/image (23) (1) (1).png>)
 
 尝试任意文件下载，发现/download?image=../../etc/passwd可以下载文件
 

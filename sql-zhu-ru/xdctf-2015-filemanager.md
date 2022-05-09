@@ -207,5 +207,5 @@ $newname = UPLOAD_DIR . $req["newname"] . $result["extension"];
 
 然后再进行重命名，oldname=shell.php.txt\&newname=shell.php，在执行rename函数就可以把shell.php.txt变成shell.php了
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (25) (1).png>)
 

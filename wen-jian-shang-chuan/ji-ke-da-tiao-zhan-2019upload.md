@@ -17,7 +17,7 @@
 
 ![](<../.gitbook/assets/image (6) (1).png>)
 
-![](<../.gitbook/assets/image (23) (1) (1).png>)
+![](<../.gitbook/assets/image (23) (1) (1) (1).png>)
 
 过滤后缀和`<?`，重新构造图片马
 
