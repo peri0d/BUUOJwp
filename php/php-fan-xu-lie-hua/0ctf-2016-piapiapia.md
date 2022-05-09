@@ -270,8 +270,8 @@ echo filter($s);
 
 payload：
 
-![](<../../.gitbook/assets/image (17) (1).png>)
+![](<../../.gitbook/assets/image (17) (1) (1).png>)
 
 再去访问profile.php查看图片的内容即可
 
-![](<../../.gitbook/assets/image (22) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (22) (1) (1) (1) (1).png>)

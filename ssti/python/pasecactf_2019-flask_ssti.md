@@ -23,7 +23,7 @@ app.config['flag'] = encode('', 'GQIS5EmzfZA1Ci8NslaoMxPXqrvFB7hYOkbg9y20W3', 'x
 
 把flag用key和key2异或再写入到config中，那就先读取config
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 在最后面看到flag
 

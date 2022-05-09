@@ -21,7 +21,7 @@
 
 在 https://beeceptor.com/ 上生成一个临时域名，让这个题目访问，可以看到访问的请求头
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)
 
 ```
   "user-agent": "Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1",

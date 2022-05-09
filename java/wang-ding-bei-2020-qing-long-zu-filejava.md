@@ -13,7 +13,7 @@
 
 文件上传功能，上传之后有个文件下载功能
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (24) (1).png>)
 
 ![](<../.gitbook/assets/image (12).png>)
 
@@ -23,7 +23,7 @@
 
 再读取`../../../../../../../../../proc/self/environ`
 
-![](<../.gitbook/assets/image (34).png>)
+![](<../.gitbook/assets/image (34) (1).png>)
 
 可以发现Tomcat的目录是`/usr/local/tomcat/`，可以读取Tomcat的`web.xml`，`../../../../../../../../../usr/local/tomcat/conf/web.xml`，它定义了系统的Servlet规范
 

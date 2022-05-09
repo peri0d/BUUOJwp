@@ -10,7 +10,7 @@
 
 ## wp
 
-![](<../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png>)
 
 两个按钮，点一下，页面跳转到index.php?category=woofers
 
