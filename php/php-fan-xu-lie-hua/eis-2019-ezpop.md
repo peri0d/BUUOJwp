@@ -62,7 +62,7 @@ $a->complete = "tmp4";
 
 然后看`class B`的set函数，接收的三个参数分别是`$name`，`$value`，`$expire`，分别与`$a->key`，`json_encode([$a->cache, "2"])`，`$a->expire`相关联。然后把`$expire`转化为整型，用`$this->options['prefix']`拼接`$name`，处理`$filename`，这里感觉也没啥用，对`$filename`和`$expire`处不处理并没有多大影响，更像是从哪个项目里复制出来的。
 
-![](<../../.gitbook/assets/image (12) (1) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 然后看一下`$value`的处理，它的值应该是类似于这种`[[{"path":"a"}],2]`，或者是这种`[["a"],2]`，把它作为参数传给`$this->serialize()`，在这个函数里面可以执行任意函数，但是没有函数的参数是像`$value`那种，所以这里最好是保持空过，`$serialize`就可以是`trim`或者`strval`之类的函数
 

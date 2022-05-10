@@ -15,7 +15,7 @@
 
 ![](<../.gitbook/assets/image (24) (1).png>)
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
 
 有文件下载，尝试下载`/proc/self/cmdline`，多次测试发现下载链接是`../../../../../../../../../proc/self/cmdline`
 
