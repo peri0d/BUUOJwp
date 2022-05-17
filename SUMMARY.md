@@ -35,6 +35,7 @@
 * [\[HarekazeCTF2019\]Sqlite Voting](sql-zhu-ru/harekazectf2019-sqlite-voting.md)
 * [\[XDCTF 2015\]filemanager](sql-zhu-ru/xdctf-2015-filemanager.md)
 * [\[FBCTF2019\]Products Manager](sql-zhu-ru/fbctf2019-products-manager.md)
+* [\[PwnThyBytes 2019\]Baby\_SQL](sql-zhu-ru/pwnthybytes-2019-baby\_sql.md)
 
 ## 命令执行/代码执行
 
