@@ -18,7 +18,7 @@
 
 &#x20;work是GET请求`/work?name=bot&do=bot%20is%20working`，随机增加金坷垃，然后请求`/shop`获取主页，最后请求`/api/info`，获取用户uid和金坷垃
 
-把cookie放在[`jwt.io`](https://jwt.io)看一下
+把cookie放在[`jwt.io`](https://jwt.io/)看一下
 
 ![](<../.gitbook/assets/image (10) (1) (1).png>)
 

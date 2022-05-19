@@ -17,7 +17,7 @@
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhYWEifQ.bJejEdbt0h9U-vvnfoUAF7JFOPy0o6LqHQnITMhYL2I
 ```
 
-在[jwt.io](https://jwt.io)上看一下，提示需要密钥
+在[jwt.io](https://jwt.io/)上看一下，提示需要密钥
 
 ![](<../../.gitbook/assets/image (13) (1) (1) (1).png>)
 

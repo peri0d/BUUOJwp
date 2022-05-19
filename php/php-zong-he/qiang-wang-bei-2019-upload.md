@@ -39,7 +39,7 @@ https://www.zhaoj.in/read-5873.html
 
 ![](https://wcgimages.oss-cn-shenzhen.aliyuncs.com/myctf/buuctf/qwb\_upload\_2.png)
 
-选择上传图片，这个图片就是合成的图片马，从 [阿里巴巴矢量图库](https://www.iconfont.cn) 下载一个 png 图片，然后蚁剑生成一个 shell，用 hex 编辑器直接将 shell 内容放在图片后面即可。这里使用阿里的图库是因为网上的 png 图片可能 hex 格式不规范，导致后面改名之后会报 parse error
+选择上传图片，这个图片就是合成的图片马，从 [阿里巴巴矢量图库](https://www.iconfont.cn/) 下载一个 png 图片，然后蚁剑生成一个 shell，用 hex 编辑器直接将 shell 内容放在图片后面即可。这里使用阿里的图库是因为网上的 png 图片可能 hex 格式不规范，导致后面改名之后会报 parse error
 
 上传图片之后，会在 upload 目录下生成一个 md5(REMOTE\_ADDR) 文件，而且文件名也会被 md5 加密，这时 cookie\['user'] 如图
 

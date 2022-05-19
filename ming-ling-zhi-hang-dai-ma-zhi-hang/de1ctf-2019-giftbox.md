@@ -36,7 +36,7 @@ Besides, there are some hidden commands, try to find them!
 
 应该是有注入，尝试一下发现存在布尔盲注
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (22) (1).png>)
 
 重放提示totp时间戳错误
 

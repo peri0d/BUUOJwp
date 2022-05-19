@@ -25,7 +25,7 @@ const token = ctx.header.authorization || ctx.request.body.authorization || ctx.
 
 ![](<../.gitbook/assets/image (15) (1) (1).png>)
 
-去[`https://jwt.io/`](https://jwt.io)可以看到解码后的内容
+去[`https://jwt.io/`](https://jwt.io/)可以看到解码后的内容
 
 ![](<../.gitbook/assets/image (18) (1) (1) (1) (1) (1).png>)
 
