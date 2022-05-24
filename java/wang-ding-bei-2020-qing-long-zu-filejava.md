@@ -95,7 +95,7 @@ DownloadServlet是下载filename传入的文件，它不能是空且不包含fla
 
 新建`excel-test.xlsx`文件，然后解压
 
-![](<../.gitbook/assets/image (37).png>)
+![](<../.gitbook/assets/image (37) (1).png>)
 
 修改`[Content_Types].xml`为如下内容
 
