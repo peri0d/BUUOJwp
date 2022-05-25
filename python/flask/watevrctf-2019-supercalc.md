@@ -28,7 +28,7 @@ flask-unsign.exe --decode --cookie .eJyrVsrILC7JL6pUsoquVkrOT0lVslKyVNBSsFSq1SEo
 
 计算器的功能那就输入`1/0`主动构造错误输入
 
-![](<../../.gitbook/assets/image (22) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (22) (1) (1) (1) (1).png>)
 
 发现它是把输入直接当代码处理的，这里可以fuzz一下看看哪些字符串没过滤
 

