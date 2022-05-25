@@ -10,7 +10,7 @@
 
 访问后又有其他路径，接着访问有`/shoot`目录，然后是`/door`目录
 
-![](<../.gitbook/assets/image (5) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png>)
 
 到这可以猜到大概意思是要不断访问出现的路径，其格式大概是这样`window.location='/shoot/'`
 

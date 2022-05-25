@@ -44,7 +44,7 @@ pickle.loads(binascii.a2b_base64(s))
 
 题目提示够买flag需要1000块，感觉修改字典再序列化
 
-![](<../../.gitbook/assets/image (31).png>)
+![](<../../.gitbook/assets/image (31) (1).png>)
 
 ```python
 t = {'money': 1000, 'history': [], 'anti_tamper_hmac': 'aa1ba4de55048cf20e0a7a63b7f8eb62'}

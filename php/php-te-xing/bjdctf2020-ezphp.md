@@ -80,7 +80,7 @@ preg_match('/fil|cat|more|tail|tac|less|head|nl|tailf|ass|eval|sort|shell|ob|sta
 
 `?deb%75=aq%75a_is_c%75te%0a&file=a`
 
-![](<../../.gitbook/assets/image (5) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (5) (1) (1) (1) (1).png>)
 
 
 

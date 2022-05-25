@@ -21,7 +21,7 @@
 
 第三个页面会回显上传文件的内容
 
-![](<../.gitbook/assets/image (31) (1).png>)
+![](<../.gitbook/assets/image (31) (1) (1).png>)
 
 这里要对Perl很熟悉才能继续，回显上传文件内容，代码大致如下
 
@@ -43,7 +43,7 @@ while ( <$file> ) { print "$_"; } }
 
 这里也可以通过`/cgi-bin/forms.pl`判断是使用`param()`函数获取传入的参数
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 然后通过`<$file>`读取文件句柄，使用`$_`获取文件每一行的数据
 

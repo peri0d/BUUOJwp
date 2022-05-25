@@ -11,7 +11,7 @@
 
 抓包发现隐藏的链接Archive\_room.php，访问发现新的链接action.php，接着抓包
 
-![](<../../.gitbook/assets/image (31) (1) (1).png>)
+![](<../../.gitbook/assets/image (31) (1) (1) (1).png>)
 
 访问secr3t.php
 

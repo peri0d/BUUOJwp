@@ -5,6 +5,7 @@
 
 ## SQL注入
 
+* [\[BSidesCF 2019\]Sequel](sql-zhu-ru/bsidescf-2019-sequel.md)
 * [\[RCTF2015\]EasySQL](sql-zhu-ru/rctf2015-easysql.md)
 * [\[RootersCTF2019\]babyWeb](sql-zhu-ru/rootersctf2019-babyweb.md)
 * [\[SUCTF 2018\]MultiSQL](sql-zhu-ru/suctf-2018-multisql.md)
