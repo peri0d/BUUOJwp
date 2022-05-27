@@ -26,7 +26,7 @@ Set-Cookie: Hash=fa25e54758d5d5c1927781a6ede89f8a; expires=Fri, 25-Feb-2022 05:5
 
 访问flflflflag.php，发现是404，再抓包
 
-![](<../../.gitbook/assets/image (30) (1).png>)
+![](<../../.gitbook/assets/image (30) (1) (1).png>)
 
 是一个文件包含，直接尝试PHP伪协议`php://filter/read=convert.base64-encode/resource=index.php`
 

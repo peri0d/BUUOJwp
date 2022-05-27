@@ -33,7 +33,7 @@ index.gk这个后缀不知道什么东西，有两个js文件index.js和three.mi
 
 `/preview?f=....//....//....//....//....//....//....//etccc//passwd`可以看到`/etc/passwd`
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (30) (1).png>)
 
 payload：
 

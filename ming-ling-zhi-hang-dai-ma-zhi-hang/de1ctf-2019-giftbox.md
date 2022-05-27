@@ -28,7 +28,7 @@ Besides, there are some hidden commands, try to find them!
 
 执行命令的时候抓包，看到了请求的地址`shell.php?a=login admin admin&totp=19541572`，提示用户密码错误
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 使用其他用户登录，提示用户名不存在
 
@@ -153,7 +153,7 @@ targeting b {$a()}
 launch
 ```
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33) (1).png>)
 
 重新写个脚本
 

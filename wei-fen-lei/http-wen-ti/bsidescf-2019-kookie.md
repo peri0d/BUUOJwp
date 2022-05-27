@@ -13,4 +13,4 @@ We found the account cookie / monster
 
 添加cookie头，`Cookie: username=admin`
 
-![](<../../.gitbook/assets/image (33) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (33) (1) (1) (1) (1) (1).png>)

