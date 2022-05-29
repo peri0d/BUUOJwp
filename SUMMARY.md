@@ -37,6 +37,7 @@
 * [\[XDCTF 2015\]filemanager](sql-zhu-ru/xdctf-2015-filemanager.md)
 * [\[FBCTF2019\]Products Manager](sql-zhu-ru/fbctf2019-products-manager.md)
 * [\[PwnThyBytes 2019\]Baby\_SQL](sql-zhu-ru/pwnthybytes-2019-baby\_sql.md)
+* [\[Zer0pts2020\]phpNantokaAdmin](sql-zhu-ru/zer0pts2020-phpnantokaadmin.md)
 
 ## 命令执行/代码执行
 
@@ -104,7 +105,6 @@
 
 ## PHP
 
-* [\[Zer0pts2020\]phpNantokaAdmin](php/zer0pts2020-phpnantokaadmin.md)
 * [Laravel](php/laravel/README.md)
   * [未完成\[CISCN2019 总决赛 Day1 Web4\]Laravel1](php/laravel/wei-wan-cheng-ciscn2019-zong-jue-sai-day1-web4laravel1.md)
 * [PHP特性](php/php-te-xing/README.md)

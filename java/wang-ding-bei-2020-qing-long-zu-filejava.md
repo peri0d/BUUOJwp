@@ -13,7 +13,7 @@
 
 文件上传功能，上传之后有个文件下载功能
 
-![](<../.gitbook/assets/image (24) (1).png>)
+![](<../.gitbook/assets/image (24) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (12) (1).png>)
 

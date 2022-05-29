@@ -64,7 +64,7 @@ for i in range(1,999999):
 
 直接访问可以看到提示，给了源码
 
-![](<../../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png>)
 
 `static/asd1f654e683wq/www.zip`下载源码，直接找路由吧，在`sshop/views/__init__.py`文件下
 

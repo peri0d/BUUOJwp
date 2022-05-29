@@ -28,7 +28,7 @@ burp抓包改XFF存在回显
 
 是Smarty SSTI
 
-![](<../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Smarty支持使用`{php}{/php}`标签来执行被包裹其中的php指令，最常规的思路自然是先测试该标签。但是在<mark style="color:red;">Smarty3中已经废弃{php}标签</mark>。在Smarty 3.1中，`{php}`仅在SmartyBC中可用。
 

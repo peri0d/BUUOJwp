@@ -19,7 +19,7 @@
 
 提示加载失败，把文件换成`/etc/passwd`就成功加载了。再去读`/etc/hosts`
 
-![](<../.gitbook/assets/image (24) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (24) (1) (1) (1) (1).png>)
 
 再去读`/proc/net/arp`
 

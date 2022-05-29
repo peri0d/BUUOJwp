@@ -12,7 +12,7 @@
 
 提示先登录，随便输账号密码，比如aaaa/aaaa，提示要上传压缩包
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24) (1).png>)
 
 F12看到session是`eyJ1c2VybmFtZSI6ImFhYWEifQ.FVpCHQ.ekVxiCec35C4f6Dm2G2qW-HES7U`
 

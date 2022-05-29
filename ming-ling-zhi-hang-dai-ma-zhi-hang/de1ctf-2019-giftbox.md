@@ -140,7 +140,7 @@ while True:
 f.close()
 ```
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 提示`Setting target: $1 = "1";`，基本可以确定后端是`eval("$1='2';")`这样
 

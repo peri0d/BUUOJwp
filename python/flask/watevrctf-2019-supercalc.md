@@ -15,7 +15,7 @@
 
 返回包会设置新的cookie
 
-![](<../../.gitbook/assets/image (24) (1) (1).png>)
+![](<../../.gitbook/assets/image (24) (1) (1) (1).png>)
 
 解密cookie
 

