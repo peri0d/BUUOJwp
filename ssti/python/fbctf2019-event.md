@@ -20,7 +20,7 @@ events_sesh_cookie=.eJwlzjsOwjAMANC7eO4QO4nj9DJV_BOsLZ0QdweJAzzpveHIM64H7K_zjg2O
 
 `user`不知道是什么加密，用`flask-unsign`只得到了`aaaa`，这是我的登录名
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 `events_sesh_cookie`使用`flask-unsign`看到内容如下
 

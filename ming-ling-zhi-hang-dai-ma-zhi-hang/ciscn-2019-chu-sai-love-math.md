@@ -63,7 +63,7 @@ if(!isset($_GET['c'])){
 
 例如，`hex2bin("5f474554")` 就是 `_GET`
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (32) (1) (1).png>)
 

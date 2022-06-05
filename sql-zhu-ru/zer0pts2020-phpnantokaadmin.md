@@ -31,7 +31,7 @@ values[]=1&values[]=2&values[]=3
 
 然后请求/?page=index
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33) (1).png>)
 
 那么后台的语句可能如下
 

