@@ -14,7 +14,7 @@
 
 随便输入用户名和密码可以登录，然后回显用户名，这里可能有SSTI
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 点击upload提示`Permission denied!`，要进行flask session伪造，先试试SSTI，用户名输入`{{7*7}}`原样返回
 

@@ -34,7 +34,7 @@
 curl -X OPTIONS "http://ac3d3754-ce97-47cb-a140-de19ded4b2e1.node4.buuoj.cn:81/circle/one/" --output 1.pdf
 ```
 
-``
+![](<../.gitbook/assets/image (8).png>)
 
 `/two/`使用`PUT`请求
 
