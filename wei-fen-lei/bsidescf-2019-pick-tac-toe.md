@@ -29,6 +29,6 @@ ul就是第一个格子，电脑下在了中心就是c这个变量\
 
 ![](<../.gitbook/assets/image (33) (1) (1).png>)
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29) (1).png>)
 
 再下最后一个就可以了

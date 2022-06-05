@@ -73,7 +73,7 @@ print(binascii.b2a_base64(pickle.dumps(s)))
 
 修改session刷新页面即可反弹shell
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (19) (1).png>)
 
 或者使用[`RequestBin`](http://requestbin.cn)接收数据
 

@@ -88,7 +88,7 @@ print(len(set(res+'^'+"%ff"*len(target))))
 
 用数字也是同样的道理，一开始一直报错，但是把数字用`trim`转换一下就可以了。然后用自增找到数字
 
-![](<../.gitbook/assets/image (14) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1) (1) (1).png>)
 
 ```
 p:A^1

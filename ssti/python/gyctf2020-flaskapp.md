@@ -116,7 +116,7 @@ print(rv)
 
 输入 PIN 值
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (34) (1) (1) (1) (1) (1) (1).png>)
 

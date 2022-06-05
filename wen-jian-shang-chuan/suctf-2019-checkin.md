@@ -11,7 +11,7 @@
 
 随便上传一个php文件试试
 
-![](<../.gitbook/assets/image (19) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (19) (1) (1) (1) (1) (1).png>)
 
 上传一个空的gif文件（就是新建空白txt再把后缀改成gif）判断有没有检查其他东西，会提示`exif_imagetype:not image!`，加上文件头`GIF89a`，就成功了。
 
@@ -34,7 +34,7 @@
 
 php.ini是php默认的配置文件，其中包括了很多php的配置，这些配置中，又分为几种：PHP\_INI\_SYSTEM、PHP\_INI\_PERDIR、PHP\_INI\_ALL、PHP\_INI\_USER
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1).png>)
 
 `.user.ini`实际上就是一个可以由用户“自定义”的php.ini，我们能够自定义的设置是模式为`PHP_INI_PERDIR` 、 `PHP_INI_USER`的设置。
 

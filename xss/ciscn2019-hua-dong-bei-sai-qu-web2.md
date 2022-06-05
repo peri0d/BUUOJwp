@@ -62,7 +62,7 @@ for i in s:
 * `script-src unsafe-inline` 允许执行页面内嵌的标签和事件监听函数
 * `script-src unsafe-eval` 允许将字符串当作代码执行，比如使用eval、setTimeout、setInterval和Function等函数
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 到XSS平台新建个项目，然后访问script脚本，得到代码
 
@@ -172,7 +172,7 @@ http://web.node3.buuoj.cn:81/post/8933fc518918c6156409c3c2fe884a5f.html
 
 可以得到flag
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 ## 小结
 
