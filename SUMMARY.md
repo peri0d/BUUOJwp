@@ -189,11 +189,14 @@
 
 ## Java
 
+* [\[NPUCTF2020\]web🐕](java/npuctf2020-web.md)
 * [\[网鼎杯 2020 青龙组\]filejava](java/wang-ding-bei-2020-qing-long-zu-filejava.md)
 * [\[RoarCTF 2019\]Easy Java](java/roarctf-2019-easy-java.md)
 
 ## JavaScript
 
+* [\[网鼎杯 2020 青龙组\]notes](javascript/wang-ding-bei-2020-qing-long-zu-notes.md)
+* [\[NPUCTF2020\]验证🐎](javascript/npuctf2020-yan-zheng.md)
 * [\[HITCON 2016\]Leaking](javascript/hitcon-2016-leaking.md)
 * [\[FireshellCTF2020\]ScreenShooter](javascript/fireshellctf2020-screenshooter.md)
 * [\[HFCTF2020\]EasyLogin](javascript/hfctf2020-easylogin.md)
