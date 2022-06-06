@@ -147,6 +147,7 @@
   * [\[MRCTF2020\]Ezpop](php/php-fan-xu-lie-hua/mrctf2020-ezpop.md)
   * [\[ZJCTF 2019\]NiZhuanSiWei](php/php-fan-xu-lie-hua/zjctf-2019-nizhuansiwei.md)
 * [ThinkPHP](php/thinkphp/README.md)
+  * [\[安洵杯 2019\]iamthinking](php/thinkphp/an-xun-bei-2019iamthinking.md)
   * [\[GYCTF2020\]EasyThinking](php/thinkphp/gyctf2020-easythinking.md)
   * [\[BJDCTF 2nd\]old-hack](php/thinkphp/bjdctf-2nd-old-hack.md)
   * [\[RoarCTF 2019\]Simple Upload](php/thinkphp/roarctf-2019-simple-upload.md)
@@ -189,15 +190,19 @@
 
 ## Java
 
+* [\[网鼎杯 2020 朱雀组\]Think Java](java/wang-ding-bei-2020-zhu-que-zu-think-java.md)
 * [\[NPUCTF2020\]web🐕](java/npuctf2020-web.md)
 * [\[网鼎杯 2020 青龙组\]filejava](java/wang-ding-bei-2020-qing-long-zu-filejava.md)
 * [\[RoarCTF 2019\]Easy Java](java/roarctf-2019-easy-java.md)
 
 ## JavaScript
 
+* [\[GYCTF2020\]Ez\_Express](javascript/gyctf2020-ez\_express.md)
 * [\[网鼎杯 2020 青龙组\]notes](javascript/wang-ding-bei-2020-qing-long-zu-notes.md)
 * [\[NPUCTF2020\]验证🐎](javascript/npuctf2020-yan-zheng.md)
+* [\[GYCTF2020\]Node Game](javascript/gyctf2020-node-game.md)
 * [\[HITCON 2016\]Leaking](javascript/hitcon-2016-leaking.md)
+* [\[HFCTF2020\]JustEscape](javascript/hfctf2020-justescape.md)
 * [\[FireshellCTF2020\]ScreenShooter](javascript/fireshellctf2020-screenshooter.md)
 * [\[HFCTF2020\]EasyLogin](javascript/hfctf2020-easylogin.md)
 
