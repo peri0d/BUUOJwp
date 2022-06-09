@@ -129,6 +129,7 @@
   * [\[网鼎杯 2020 半决赛\]AliceWebsite](php/php-te-xing/wang-ding-bei-2020-ban-jue-sai-alicewebsite.md)
   * [\[ACTF2020 新生赛\]BackupFile](php/php-te-xing/actf2020-xin-sheng-sai-backupfile.md)
   * [\[极客大挑战 2019\]BuyFlag](php/php-te-xing/ji-ke-da-tiao-zhan-2019buyflag.md)
+  * [\[羊城杯 2020\]Blackcat](php/php-te-xing/yang-cheng-bei-2020blackcat.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
   * [\[MRCTF2020\]Ezpop\_Revenge](php/php-fan-xu-lie-hua/mrctf2020-ezpop\_revenge.md)
   * [\[HarekazeCTF2019\]Easy Notes](php/php-fan-xu-lie-hua/harekazectf2019-easy-notes.md)
@@ -168,6 +169,7 @@
   * [\[N1CTF 2018\]eating\_cms](php/php-zong-he/n1ctf-2018-eating\_cms.md)
   * [\[安洵杯 2019\]不是文件上传](php/php-zong-he/an-xun-bei-2019-bu-shi-wen-jian-shang-chuan.md)
   * [\[极客大挑战 2020\]Greatphp](php/php-zong-he/ji-ke-da-tiao-zhan-2020greatphp.md)
+  * [\[极客大挑战 2020\]Roamphp2-Myblog](php/php-zong-he/ji-ke-da-tiao-zhan-2020roamphp2myblog.md)
 
 ## Python
 

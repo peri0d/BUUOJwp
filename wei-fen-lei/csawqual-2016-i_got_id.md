@@ -17,7 +17,7 @@
 
 &#x20;
 
-![](<../.gitbook/assets/image (33) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (33) (1) (1) (1) (1) (1).png>)
 
 第三个页面会回显上传文件的内容
 

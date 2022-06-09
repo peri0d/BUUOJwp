@@ -153,7 +153,7 @@ targeting b {$a()}
 launch
 ```
 
-![](<../.gitbook/assets/image (33) (1) (1).png>)
+![](<../.gitbook/assets/image (33) (1) (1) (1).png>)
 
 重新写个脚本
 

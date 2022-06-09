@@ -94,7 +94,7 @@ curl -X GET "http://ac3d3754-ce97-47cb-a140-de19ded4b2e1.node4.buuoj.cn:81/com/s
 
 `GET`请求`?search=1`没有结果，再把请求内容放在POST请求体中看一下
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33) (1).png>)
 
 改成`search=flag`可以得到结果`_good_in_s`
 
