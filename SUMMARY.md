@@ -38,6 +38,7 @@
 * [\[FBCTF2019\]Products Manager](sql-zhu-ru/fbctf2019-products-manager.md)
 * [\[PwnThyBytes 2019\]Baby\_SQL](sql-zhu-ru/pwnthybytes-2019-baby\_sql.md)
 * [\[Zer0pts2020\]phpNantokaAdmin](sql-zhu-ru/zer0pts2020-phpnantokaadmin.md)
+* [\[NPUCTF2020\]ezlogin](sql-zhu-ru/npuctf2020-ezlogin.md)
 
 ## 命令执行/代码执行
 
@@ -70,10 +71,6 @@
 * [\[CISCN2019 华东北赛区\]Web2](xss/ciscn2019-hua-dong-bei-sai-qu-web2.md)
 * [\[GWCTF 2019\]mypassword](xss/gwctf-2019-mypassword.md)
 
-## XPath注入
-
-* [\[NPUCTF2020\]ezlogin](xpath-zhu-ru/npuctf2020-ezlogin.md)
-
 ## SSTI
 
 * [PHP](ssti/php/README.md)
@@ -105,7 +102,6 @@
 
 ## PHP
 
-* [\[羊城杯 2020\]Easyphp2](php/yang-cheng-bei-2020easyphp2.md)
 * [Laravel](php/laravel/README.md)
   * [未完成\[CISCN2019 总决赛 Day1 Web4\]Laravel1](php/laravel/wei-wan-cheng-ciscn2019-zong-jue-sai-day1-web4laravel1.md)
 * [PHP特性](php/php-te-xing/README.md)
@@ -131,6 +127,7 @@
   * [\[ACTF2020 新生赛\]BackupFile](php/php-te-xing/actf2020-xin-sheng-sai-backupfile.md)
   * [\[极客大挑战 2019\]BuyFlag](php/php-te-xing/ji-ke-da-tiao-zhan-2019buyflag.md)
   * [\[羊城杯 2020\]Blackcat](php/php-te-xing/yang-cheng-bei-2020blackcat.md)
+  * [\[羊城杯 2020\]Easyphp2](php/php-te-xing/yang-cheng-bei-2020easyphp2.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
   * [\[MRCTF2020\]Ezpop\_Revenge](php/php-fan-xu-lie-hua/mrctf2020-ezpop\_revenge.md)
   * [\[HarekazeCTF2019\]Easy Notes](php/php-fan-xu-lie-hua/harekazectf2019-easy-notes.md)
