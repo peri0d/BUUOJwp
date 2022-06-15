@@ -12,7 +12,7 @@
 
 F12看下代码，九个格子用了不同的变量定义
 
-![](<../.gitbook/assets/image (25) (1) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1) (1).png>)
 
 抓包看看，是传入不同的value实现下棋的功能
 

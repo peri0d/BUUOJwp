@@ -14,7 +14,7 @@
 
 比如`U+137C`，到最下面找UTF-8编码即可
 
-![](<../../.gitbook/assets/image (25) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
 
 payload：`id=4&price=%E1%8D%BC`
 

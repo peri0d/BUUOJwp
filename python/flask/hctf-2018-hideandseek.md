@@ -185,7 +185,7 @@ eyJ1c2VybmFtZSI6ImFkbWluIn0.Yni6fA.z7e5HN3WUPwOIVRa5fyltNYuG_4
 
 这里的随机数考点和[\[CISCN2019 华东南赛区\]Web4](ciscn2019-hua-dong-nan-sai-qu-web4.md)一样。
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25) (1).png>)
 
 ## 小结
 

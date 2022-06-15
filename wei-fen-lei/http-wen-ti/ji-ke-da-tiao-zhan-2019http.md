@@ -10,7 +10,7 @@
 
 抓包发现隐藏链接Secret.php
 
-![](<../../.gitbook/assets/image (25) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (25) (1) (1) (1) (1) (1).png>)
 
 直接访问，提示`It doesn't come from 'https://Sycsecret.buuoj.cn'`
 

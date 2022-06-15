@@ -78,6 +78,7 @@
   * [\[BJDCTF2020\]The mystery of ip](ssti/php/bjdctf2020-the-mystery-of-ip.md)
   * [\[BJDCTF2020\]Cookie is so stable](ssti/php/bjdctf2020-cookie-is-so-stable.md)
 * [Python](ssti/python/README.md)
+  * [\[HFCTF 2021 Final\]easyflask](ssti/python/hfctf-2021-final-easyflask.md)
   * [\[GWCTF 2019\]你的名字](ssti/python/gwctf-2019-ni-de-ming-zi.md)
   * [\[pasecactf\_2019\]flask\_ssti](ssti/python/pasecactf\_2019-flask\_ssti.md)
   * [\[FBCTF2019\]Event](ssti/python/fbctf2019-event.md)
