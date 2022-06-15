@@ -90,3 +90,34 @@ payload
 访问shell即可
 
 ![](<../.gitbook/assets/image (10).png>)
+
+`star1.php`代码如下，可以直接触发`__toString()`
+
+{% code title="star1.php" %}
+```php
+<?php
+    require_once('ser.php');
+    error_reporting(0);
+    $str = 'url error<br>';
+    $filter1= '/^http:\/\/127\.0\.0\.1\//i';
+    $filter2 = '/.?f.?l.?a.?g.?/i';
+    $url=$_GET['path']; 
+    $c=$_GET['c']; 
+    if(!preg_match($filter1, $url)){
+        die($str);
+    }
+    if (preg_match($filter2, $url)) {
+        die("??");
+    }
+    $text = @file_get_contents($url, false);
+    print($text);
+
+    if(isset($c)){
+        echo $x = unserialize($c);
+    }
+    else{
+        echo "your hat is too black!";
+    }
+?>
+```
+{% endcode %}
