@@ -78,7 +78,6 @@
   * [\[BJDCTF2020\]The mystery of ip](ssti/php/bjdctf2020-the-mystery-of-ip.md)
   * [\[BJDCTF2020\]Cookie is so stable](ssti/php/bjdctf2020-cookie-is-so-stable.md)
 * [Python](ssti/python/README.md)
-  * [\[HFCTF 2021 Final\]easyflask](ssti/python/hfctf-2021-final-easyflask.md)
   * [\[GWCTF 2019\]你的名字](ssti/python/gwctf-2019-ni-de-ming-zi.md)
   * [\[pasecactf\_2019\]flask\_ssti](ssti/python/pasecactf\_2019-flask\_ssti.md)
   * [\[FBCTF2019\]Event](ssti/python/fbctf2019-event.md)
@@ -187,6 +186,7 @@
   * [\[CISCN2019 华东南赛区\]Double Secret](python/flask/ciscn2019-hua-dong-nan-sai-qu-double-secret.md)
   * [\[网鼎杯 2020 白虎组\]PicDown](python/flask/wang-ding-bei-2020-bai-hu-zu-picdown.md)
   * [\[PASECA2019\]honey\_shop](python/flask/paseca2019-honey\_shop.md)
+  * [\[HFCTF 2021 Final\]easyflask](python/flask/hfctf-2021-final-easyflask.md)
 * [反序列化](python/fan-xu-lie-hua/README.md)
   * [\[watevrCTF-2019\]Pickle Store](python/fan-xu-lie-hua/watevrctf-2019-pickle-store.md)
 
