@@ -30,7 +30,7 @@ events_sesh_cookie=.eJwlzjsOwjAMANC7eO4QO4nj9DJV_BOsLZ0QdweJAzzpveHIM64H7K_zjg2O
 
 三个输入都可控，三个位置都试试SSTI，fuzz了一下发现`__init__,__class__,__dict__`有回显
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 `__class__.__mro__[3].__subclasses__()`提示302，使用`__class__.__init__.__globals__['app']`不行，再用`__class__.__init__.__globals__[app]`也不行，不知道是不是过滤了关键字，
 
