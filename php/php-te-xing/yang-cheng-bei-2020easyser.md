@@ -14,7 +14,7 @@ robots.txt提示访问star1.php
 
 是一个URL访问的功能
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8).png>)
 
 提示`用个不安全的协议从我家才能进ser.php`
 
@@ -89,7 +89,7 @@ payload
 
 访问shell即可
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10).png>)
 
 `star1.php`代码如下，可以直接触发`__toString()`
 

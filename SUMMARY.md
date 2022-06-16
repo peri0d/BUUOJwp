@@ -102,7 +102,6 @@
 
 ## PHP
 
-* [\[羊城杯 2020\]EasySer](php/yang-cheng-bei-2020easyser.md)
 * [Laravel](php/laravel/README.md)
   * [未完成\[CISCN2019 总决赛 Day1 Web4\]Laravel1](php/laravel/wei-wan-cheng-ciscn2019-zong-jue-sai-day1-web4laravel1.md)
 * [PHP特性](php/php-te-xing/README.md)
@@ -129,6 +128,8 @@
   * [\[极客大挑战 2019\]BuyFlag](php/php-te-xing/ji-ke-da-tiao-zhan-2019buyflag.md)
   * [\[羊城杯 2020\]Blackcat](php/php-te-xing/yang-cheng-bei-2020blackcat.md)
   * [\[羊城杯 2020\]Easyphp2](php/php-te-xing/yang-cheng-bei-2020easyphp2.md)
+  * [\[羊城杯 2020\]EasySer](php/php-te-xing/yang-cheng-bei-2020easyser.md)
+  * [\[蓝帽杯 2021\]One Pointer PHP](php/php-te-xing/lan-mao-bei-2021one-pointer-php.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
   * [\[MRCTF2020\]Ezpop\_Revenge](php/php-fan-xu-lie-hua/mrctf2020-ezpop\_revenge.md)
   * [\[HarekazeCTF2019\]Easy Notes](php/php-fan-xu-lie-hua/harekazectf2019-easy-notes.md)

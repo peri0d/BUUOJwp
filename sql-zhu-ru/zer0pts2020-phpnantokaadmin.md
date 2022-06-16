@@ -138,7 +138,7 @@ table_name=aaaa+as+select+[flag_2a2d04c3][&columns%5B0%5D%5Bname%5D=]from+flag_b
 
 相当于`CREATE TABLE aaaa as select [flag_2a2d04c3] from flag_bf1811da;`
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 
 

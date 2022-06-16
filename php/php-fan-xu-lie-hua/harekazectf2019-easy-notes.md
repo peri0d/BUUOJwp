@@ -24,7 +24,7 @@
 
 
 
-![](<../../.gitbook/assets/image (11) (1) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 还要看一下初始化文件`init.php`，定义`session`存储位置
 

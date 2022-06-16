@@ -19,7 +19,7 @@
 
 有文件下载，尝试下载`/proc/self/cmdline`，多次测试发现下载链接是`../../../../../../../../../proc/self/cmdline`
 
-![](<../.gitbook/assets/image (26).png>)
+![](<../.gitbook/assets/image (26) (1).png>)
 
 再读取`../../../../../../../../../proc/self/environ`
 
