@@ -19,11 +19,11 @@
 
 提示加载失败，把文件换成`/etc/passwd`就成功加载了。再去读`/etc/hosts`
 
-![](<../.gitbook/assets/image (24) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (24) (1) (1) (1) (1) (1).png>)
 
 再去读`/proc/net/arp`
 
-![](<../.gitbook/assets/image (19) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (19) (1) (1) (1) (1).png>)
 
 看到内网有存活的主机，尝试访问，提示失败
 

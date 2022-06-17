@@ -10,7 +10,7 @@
 
 随便输入，登录，提示signature和rack.session不是考察点，并且要把is\_admin改成1
 
-![](<../.gitbook/assets/image (22) (1).png>)
+![](<../.gitbook/assets/image (22) (1) (1).png>)
 
 登录时请求的URL为`/?action=login&first_name=aaaa&last_name=bbbb`
 

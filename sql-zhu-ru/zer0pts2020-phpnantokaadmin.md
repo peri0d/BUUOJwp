@@ -128,7 +128,7 @@ table_name=aaaa+as+select+[sql][&columns%5B0%5D%5Bname%5D=]from+sqlite_master;&c
 
 相当于`CREATE TABLE aaaa as select [sql] from sqlite_master;`
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (24) (1).png>)
 
 payload
 

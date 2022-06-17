@@ -10,11 +10,11 @@
 
 提示`Cant GET /`，使用POST，提示一些文本，大意是要从五个元素中发现信息
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29) (1).png>)
 
 没看出啥，在右键查看页面源代码
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 五个提示如下
 

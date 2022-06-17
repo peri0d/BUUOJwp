@@ -129,7 +129,6 @@
   * [\[羊城杯 2020\]Blackcat](php/php-te-xing/yang-cheng-bei-2020blackcat.md)
   * [\[羊城杯 2020\]Easyphp2](php/php-te-xing/yang-cheng-bei-2020easyphp2.md)
   * [\[羊城杯 2020\]EasySer](php/php-te-xing/yang-cheng-bei-2020easyser.md)
-  * [\[蓝帽杯 2021\]One Pointer PHP](php/php-te-xing/lan-mao-bei-2021one-pointer-php.md)
 * [PHP反序列化](php/php-fan-xu-lie-hua/README.md)
   * [\[MRCTF2020\]Ezpop\_Revenge](php/php-fan-xu-lie-hua/mrctf2020-ezpop\_revenge.md)
   * [\[HarekazeCTF2019\]Easy Notes](php/php-fan-xu-lie-hua/harekazectf2019-easy-notes.md)
@@ -170,6 +169,7 @@
   * [\[安洵杯 2019\]不是文件上传](php/php-zong-he/an-xun-bei-2019-bu-shi-wen-jian-shang-chuan.md)
   * [\[极客大挑战 2020\]Greatphp](php/php-zong-he/ji-ke-da-tiao-zhan-2020greatphp.md)
   * [\[极客大挑战 2020\]Roamphp2-Myblog](php/php-zong-he/ji-ke-da-tiao-zhan-2020roamphp2myblog.md)
+  * [\[蓝帽杯 2021\]One Pointer PHP](php/php-zong-he/lan-mao-bei-2021one-pointer-php.md)
 
 ## Python
 

@@ -157,7 +157,7 @@ guest,sequeladmin
 guest,f5ec3af19f0d3679e7d5a148f4ac323d
 ```
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (22) (1).png>)
 
 ## 小结
 

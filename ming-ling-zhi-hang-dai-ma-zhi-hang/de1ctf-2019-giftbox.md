@@ -36,11 +36,11 @@ Besides, there are some hidden commands, try to find them!
 
 应该是有注入，尝试一下发现存在布尔盲注
 
-![](<../.gitbook/assets/image (22) (1) (1).png>)
+![](<../.gitbook/assets/image (22) (1) (1) (1).png>)
 
 重放提示totp时间戳错误
 
-![](<../.gitbook/assets/image (34).png>)
+![](<../.gitbook/assets/image (34) (1).png>)
 
 F12看一下有没有泄露信息，发现两个js文件，main.js和totp.main.js
 

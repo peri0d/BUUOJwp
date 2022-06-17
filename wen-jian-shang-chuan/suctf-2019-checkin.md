@@ -11,7 +11,7 @@
 
 随便上传一个php文件试试
 
-![](<../.gitbook/assets/image (19) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (19) (1) (1) (1) (1) (1) (1).png>)
 
 上传一个空的gif文件（就是新建空白txt再把后缀改成gif）判断有没有检查其他东西，会提示`exif_imagetype:not image!`，加上文件头`GIF89a`，就成功了。
 

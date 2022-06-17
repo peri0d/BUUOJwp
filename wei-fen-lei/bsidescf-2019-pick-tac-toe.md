@@ -16,12 +16,12 @@ F12看下代码，九个格子用了不同的变量定义
 
 抓包看看，是传入不同的value实现下棋的功能
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (1).png>)
 
 ul就是第一个格子，电脑下在了中心就是c这个变量\
 
 
-![](<../.gitbook/assets/image (22) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (22) (1) (1) (1) (1).png>)
 
 
 
@@ -29,6 +29,6 @@ ul就是第一个格子，电脑下在了中心就是c这个变量\
 
 ![](<../.gitbook/assets/image (33) (1) (1) (1) (1).png>)
 
-![](<../.gitbook/assets/image (29) (1).png>)
+![](<../.gitbook/assets/image (29) (1) (1).png>)
 
 再下最后一个就可以了
