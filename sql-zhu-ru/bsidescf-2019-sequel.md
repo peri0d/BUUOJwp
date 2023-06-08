@@ -14,7 +14,7 @@
 
 弱口令爆破，guest/guest，登录后提示数据库
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (2).png>)
 
 抓包发现cookie是`1337_AUTH=eyJ1c2VybmFtZSI6Imd1ZXN0IiwicGFzc3dvcmQiOiJndWVzdCJ9`
 

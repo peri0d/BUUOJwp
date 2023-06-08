@@ -238,3 +238,4 @@
 * [\[SCTF2019\]Flag Shop](wei-fen-lei/sctf2019-flag-shop.md)
 * [\[强网杯 2019\]高明的黑客](wei-fen-lei/qiang-wang-bei-2019-gao-ming-de-hei-ke.md)
 * [virink\_2019\_files\_share](wei-fen-lei/virink\_2019\_files\_share.md)
+* [\[BJDCTF2020\]EzPHP](wei-fen-lei/bjdctf2020-ezphp.md)

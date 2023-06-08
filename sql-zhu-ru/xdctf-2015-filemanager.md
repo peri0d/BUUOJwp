@@ -173,19 +173,19 @@ $newname = UPLOAD_DIR . $req["newname"] . $result["extension"];
 4. 再重命名shell.php为shell.php.txt
 5. 再重命名shell.php.txt为shell.php
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (2).png>)
 
 ![](<../.gitbook/assets/image (21).png>)
 
 一开始上传shell.txt数据库如下
 
-<table><thead><tr><th data-type="number">fid</th><th align="center">filename</th><th align="center">oldname</th><th align="center">view</th><th align="center">extension</th></tr></thead><tbody><tr><td>1</td><td align="center">shell</td><td align="center"></td><td align="center">0</td><td align="center">.txt</td></tr></tbody></table>
+<table><thead><tr><th width="150" data-type="number">fid</th><th width="150" align="center">filename</th><th width="150" align="center">oldname</th><th width="150" align="center">view</th><th align="center">extension</th></tr></thead><tbody><tr><td>1</td><td align="center">shell</td><td align="center"></td><td align="center">0</td><td align="center">.txt</td></tr></tbody></table>
 
 再上传`shell.txt',extension='' where fid=1#.txt`数据库如下
 
 
 
-<table><thead><tr><th data-type="number">fid</th><th align="center">filename</th><th align="center">oldname</th><th align="center">view</th><th align="center">extension</th></tr></thead><tbody><tr><td>1</td><td align="center">shell</td><td align="center"></td><td align="center">0</td><td align="center">.txt</td></tr><tr><td>2</td><td align="center">shell.txt',extension='' where fid=1#</td><td align="center"></td><td align="center"></td><td align="center">.txt</td></tr></tbody></table>
+<table><thead><tr><th width="150" data-type="number">fid</th><th width="150" align="center">filename</th><th width="150" align="center">oldname</th><th width="150" align="center">view</th><th align="center">extension</th></tr></thead><tbody><tr><td>1</td><td align="center">shell</td><td align="center"></td><td align="center">0</td><td align="center">.txt</td></tr><tr><td>2</td><td align="center">shell.txt',extension='' where fid=1#</td><td align="center"></td><td align="center"></td><td align="center">.txt</td></tr></tbody></table>
 
 此时upload目录下只有两个文件，`shell.txt`和`shell.txt',extension='' where fid=1#.txt`
 
@@ -197,13 +197,13 @@ $newname = UPLOAD_DIR . $req["newname"] . $result["extension"];
 
 再进行rename，把`shell.txt',extension=''%20where%20fid=1#.txt`重命名为`newname+extension`，也就是`shell.php.txt`，现在upload目录有两个文件，`shell.php.txt`和`shell.txt`
 
-<table><thead><tr><th data-type="number">fid</th><th align="center">filename</th><th align="center">oldname</th><th align="center">view</th><th align="center">extension</th></tr></thead><tbody><tr><td>1</td><td align="center">shell.php</td><td align="center">shell.txt</td><td align="center">0</td><td align="center"></td></tr><tr><td>2</td><td align="center">shell.txt',extension='' where fid=1#</td><td align="center"></td><td align="center">0</td><td align="center">.txt</td></tr></tbody></table>
+<table><thead><tr><th width="150" data-type="number">fid</th><th width="150" align="center">filename</th><th width="150" align="center">oldname</th><th width="150" align="center">view</th><th align="center">extension</th></tr></thead><tbody><tr><td>1</td><td align="center">shell.php</td><td align="center">shell.txt</td><td align="center">0</td><td align="center"></td></tr><tr><td>2</td><td align="center">shell.txt',extension='' where fid=1#</td><td align="center"></td><td align="center">0</td><td align="center">.txt</td></tr></tbody></table>
 
 再进行重命名，oldname=shell.php\&newname=shell.php.txt，这样upload目录还是有两个文件，`shell.php.txt`和`shell.txt`
 
 
 
-<table><thead><tr><th data-type="number">fid</th><th align="center">filename</th><th align="center">oldname</th><th align="center">view</th><th align="center">extension</th></tr></thead><tbody><tr><td>1</td><td align="center">shell.php.txt</td><td align="center">shell.php</td><td align="center">0</td><td align="center"></td></tr><tr><td>2</td><td align="center">shell.txt',extension='' where fid=1#</td><td align="center"></td><td align="center">0</td><td align="center">.txt</td></tr></tbody></table>
+<table><thead><tr><th width="150" data-type="number">fid</th><th width="150" align="center">filename</th><th width="150" align="center">oldname</th><th width="150" align="center">view</th><th align="center">extension</th></tr></thead><tbody><tr><td>1</td><td align="center">shell.php.txt</td><td align="center">shell.php</td><td align="center">0</td><td align="center"></td></tr><tr><td>2</td><td align="center">shell.txt',extension='' where fid=1#</td><td align="center"></td><td align="center">0</td><td align="center">.txt</td></tr></tbody></table>
 
 然后再进行重命名，oldname=shell.php.txt\&newname=shell.php，在执行rename函数就可以把shell.php.txt变成shell.php了
 

@@ -90,4 +90,4 @@ s = Evil()
 print(binascii.b2a_base64(pickle.dumps(s)))
 ```
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (18) (2).png>)

@@ -17,10 +17,10 @@
 3. 测试一下有没有注入。`?inject=1'%23`，返回正常，字符型注入
 4.  过滤了这么多关键词，尝试堆叠注入。`?inject=1';show databases;%23`，看到了所有的数据库
 
-    ![](https://wcgimages.oss-cn-shenzhen.aliyuncs.com/myctf/buuctf/qwb\_supersql\_1.png)
+    <img src="https://wcgimages.oss-cn-shenzhen.aliyuncs.com/myctf/buuctf/qwb_supersql_1.png" alt="" data-size="original">
 5.  再看一下所有的表。`?inject=1';show tables;%23`，1919810931114514 表和 words 表
 
-    ![](https://wcgimages.oss-cn-shenzhen.aliyuncs.com/myctf/buuctf/qwb\_supersql\_2.png)
+    <img src="https://wcgimages.oss-cn-shenzhen.aliyuncs.com/myctf/buuctf/qwb_supersql_2.png" alt="" data-size="original">
 6. flag 在全数字的表里，默认查询的是 words 表
 
 ```

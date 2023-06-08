@@ -48,7 +48,7 @@ INSERT INTO test (dummy1,dummy2,testa)
 
 但是`testa`那个字段输入字母也会成功插入
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 然后找信息，啥都没找到，直接用BUU给的代码吧
 
