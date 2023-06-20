@@ -22,7 +22,7 @@
 
 注册用户名 `aaaa"` ，在修改密码时有个报错的回显
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (2).png>)
 
 可以判断注册的语句如下
 

@@ -43,7 +43,7 @@ while ( <$file> ) { print "$_"; } }
 
 这里也可以通过`/cgi-bin/forms.pl`判断是使用`param()`函数获取传入的参数
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 然后通过`<$file>`读取文件句柄，使用`$_`获取文件每一行的数据
 

