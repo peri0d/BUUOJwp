@@ -173,7 +173,7 @@ gopher://0.0.0.0:6379/_%252a2%250d%250a%25244%250d%250aauth%250d%250a%25244%250d
 
 下载[redis-ssrf](https://github.com/xmsec/redis-ssrf)，修改[ssrf-redis.py](https://github.com/xmsec/redis-ssrf/blob/master/ssrf-redis.py)
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 下载[redis-rogue-server](https://github.com/Dliv3/redis-rogue-server) &#x20;
 
@@ -193,4 +193,5 @@ gopher://0.0.0.0:6379/_%252a2%250d%250a%25244%250d%250aauth%250d%250a%25244%250d
 
 1. [\[网鼎杯 2020 玄武组\]SSRFMe](https://liotree.github.io/2020/07/10/%E7%BD%91%E9%BC%8E%E6%9D%AF-2020-%E7%8E%84%E6%AD%A6%E7%BB%84-SSRFMe/)1
 2. [\[网鼎杯 2020 玄武组\]SSRFMe](https://www.cnblogs.com/karsa/p/14123995.htm)2
+3. 感谢我[Boogipop](https://boogipop.com/)
 

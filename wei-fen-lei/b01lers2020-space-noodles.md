@@ -53,7 +53,7 @@ Put the dots???
 curl -X DELETE "http://ac3d3754-ce97-47cb-a140-de19ded4b2e1.node4.buuoj.cn:81/square/" --output 2.png
 ```
 
-![](<../.gitbook/assets/image (2) (2) (1).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 结果
 
