@@ -173,7 +173,7 @@ upload_file();
 
 上传路径为 `/upload/md5(filename+ip+.jpg)`
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (2).png>)
 
 flag 的位置在 `Show` 类的 `_show()` 函数也可以看到提示，file.php 页面的注释中也有
 
