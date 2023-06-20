@@ -173,7 +173,7 @@ $newname = UPLOAD_DIR . $req["newname"] . $result["extension"];
 4. 再重命名shell.php为shell.php.txt
 5. 再重命名shell.php.txt为shell.php
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 ![](<../.gitbook/assets/image (21).png>)
 
