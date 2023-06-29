@@ -174,6 +174,7 @@
   * [\[极客大挑战 2020\]Roamphp2-Myblog](php/php-zong-he/ji-ke-da-tiao-zhan-2020roamphp2myblog.md)
   * [\[蓝帽杯 2021\]One Pointer PHP](php/php-zong-he/lan-mao-bei-2021one-pointer-php.md)
   * [\[BJDCTF2020\]EzPHP](php/php-zong-he/bjdctf2020-ezphp.md)
+  * [\[CISCN2021 Quals\]upload](php/php-zong-he/ciscn2021-quals-upload.md)
 
 ## Python
 
